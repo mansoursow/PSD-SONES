@@ -1,0 +1,4261 @@
+{
+ "caj": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – CELLULE AFFAIRES JURIDIQUES",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Coordonnateur de la Cellule Affaires Juridiques"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer la solidité du cadre juridique et contractuel de la SONES, analyser la gestion du risque juridique et foncier, faire le bilan de l'exécution des contrats majeurs (Concession, Affermage, PPP), et définir les leviers d'ingénierie juridique pour accompagner la transformation en Holding polyvalente et la création de filiales."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION DE LA SONES ET CADRE INSTITUTIONNEL ET JURIDIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation et cadre légal",
+      "text": "Pouvez-vous nous présenter la SONES sur le plan juridique, son cadre créateur (loi n° 95-10, décrets statutaires n° 2003-417 et n° 2010-1158), ainsi que les implications des récents textes du secteur parapublic (loi d'orientation n° 2022-08 et décret n° 2025-671 fixant les statuts-types) ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Structure du capital et gouvernance",
+      "text": "Quelle est la répartition actuelle du capital social (99,93 % État, 0,07 % communes) et comment la Cellule veille-t-elle au respect des obligations statutaires de l'Assemblée Générale et du Conseil d'Administration ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Schéma tripartite",
+      "text": "Comment qualifiez-vous l'équilibre juridique et la répartition des responsabilités entre l'État (Autorité délégante), la SONES (Concessionnaire) et la SEN'EAU (Fermier) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage organisationnel",
+      "text": "Comment la Cellule Affaires Juridiques est-elle structurée interne et comment interagit-elle avec la Direction Générale, les directions techniques (DTP, DTDA, DCE) et la Cellule Passation des Marchés ?",
+      "children": [],
+      "id": "s1q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "SÉCURISATION ET GESTION DES CONTRATS MAJEURS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Contrat d'Affermage et Contrat de Concession",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le bilan juridique de l'exécution du contrat d'affermage signé avec SEN'EAU depuis 2020 ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment la Cellule encadre-t-elle la négociation des avenants (notamment sur le Prix Exploitant - Pe) et l'exercice du droit de contrôle sur le fermier ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Partenariats Public-Privé (PPP)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel retour d'expérience tirez-vous du processus juridique de renégociation du contrat PPP pour l'usine de dessalement de la Grande Côte avec ACWA Power, à la suite des avis de l'ARCOP et de l'UNAPPP ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles dispositions contractuelles clés doivent être systématisées pour les futurs projets en PPP (ex. Producteurs Indépendants d'Eau - PIE, grands transferts d'eau) ?",
+        "points": [],
+        "id": "s2q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Conventions d'incorporation et révision des périmètres",
+      "text": "Quelles sont les procédures juridiques appliquées lors de l'incorporation de nouveaux ouvrages ou centres régionaux dans le périmètre affermé ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "DIAGNOSTIC STRATÉGIQUE (SWOT JURIDIQUE ET REGLEMENTAIRE)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Forces internes",
+      "text": "Quels sont les atouts majeurs de la SONES en matière de maîtrise du droit public, du droit des contrats, du droit OHADA et de la conformité au Code des marchés publics ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et vulnérabilités",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles sont les contraintes juridiques internes qui ralentissent le traitement de certains dossiers ou la finalisation d'accords contractuels ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment le système de suivi des contrats et de conservation des actes juridiques/titres de propriété est-il géré ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels apports et opportunités la mise en place de la Haute Autorité de Régulation du Secteur de l'Eau (HARSE / ARSE) et la révision du Code de l'Eau apportent-elles pour la sécurisation du secteur ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "De quelles opportunités juridiques la SONES peut-elle saisir la révision de la fiscalité appliquée au secteur (ex. exemption de la CEL/CELVA sur les ouvrages hydrauliques) ?",
+        "points": [],
+        "id": "s3q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Menaces juridiques et contentieux",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les risques juridiques majeurs pesant sur l'entreprise (recours des soumissionnaires, contestations d'impenses, litiges avec des prestataires ou défaillances de partenaires) ?",
+        "points": [],
+        "id": "s3q4c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les risques liés au non-apurement des dettes croisées et des créances publiques sur les structures autonomes ?",
+        "points": [],
+        "id": "s3q4c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q4",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "SÉCURISATION FONCIÈRE, LIBÉRATION DES EMPRISES ET CONTENTIEUX",
+    "items": [
+     {
+      "type": "q",
+      "label": "Sécurisation du patrimoine foncier",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le niveau de régulation foncière des assiettes et emprises abritant les ouvrages de la SONES (titres fonciers, baux, délibérations) ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les contraintes majeures pour sécuriser les sites menacés d'occupation illégale ?",
+        "points": [],
+        "id": "s4q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Libération des emprises et indemnisation des PAP",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la Cellule juridique encadre-t-elle les procédures d'expropriation pour cause d'utilité publique (DUP) et le travail avec les Commissions Départementales de Recensement et d'Évaluation des Impenses (CDREI) ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le bilan des indemnisations des Populations Affectées par les Projets (PAP) sur les grands chantiers (KMS3, Mamelles, liaisons réseau) ?",
+        "points": [],
+        "id": "s4q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Gestion du contentieux",
+      "text": "Quel est l'état actuel des instances judiciaires et arbitrales en cours (contentieux foncier, commercial, social ou administratif) ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "TRANSFORMATION INSTITUTIONNELLE (HOLDING ET FILIALISATION)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Ingénierie juridique du projet de Holding",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le schéma juridique envisagé pour conduire la transformation de la SONES en Holding polyvalente ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment s'articulent la loi d'orientation du secteur parapublic (loi n° 2022-08) et l'Acte Uniforme OHADA sur le droit des sociétés commerciales pour la création des filiales ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Gouvernance et filialisation",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels types de structures juridiques préconisez-vous pour la filialisation par domaine d'intervention (ex. filiale eau minérale, filiale de valorisation du patrimoine foncier, filiale d'ingénierie/expertise) ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment seront structurés la prise de participation au capital des sociétés de projet en PPP et les pactes d'actionnaires ?",
+        "points": [],
+        "id": "s5q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTION AU PSD 2026–2030 ET CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Sécurisation juridique du PSD 2026–2030",
+      "text": "Quelles garanties et clauses d'encadrement la Cellule juridique préconise-t-elle d'intégrer dans le Plan d'Actions Prioritaires ?",
+      "children": [],
+      "id": "s6q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Rédaction du Contrat de Performance État–SONES",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels engagements juridiquement contraignants l'État doit-il souscrire dans le futur Contrat de Performance 2026–2030 (signature d'une nouvelle convention de dettes croisées, paiement des factures de l'Administration, ajustements tarifaires) ?",
+        "points": [],
+        "id": "s6q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels indicateurs juridiques de performance (KPIs) proposez-vous pour le suivi du contrat (taux de régularisation foncière des sites, délai de traitement des contentieux, conformité contractuelle) ?",
+        "points": [],
+        "id": "s6q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "caicp": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – CELLULE AUDIT INTERNE ET CONTRÔLE PERMANENT",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Coordonnateur de la Cellule Audit Interne et Contrôle Permanent (M. Abdoulaye Ba NGER)"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer la maturité du système de contrôle interne, analyser la cartographie des risques et le niveau de conformité, examiner l'exécution des programmes d'audit interne, évaluer la prise en compte des recommandations des audits externes et définir le dispositif de maîtrise des risques pour le PSD et le futur groupe Holding polyvalent."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION DE LA SONES, RÔLE ET POSITIONNEMENT DE LA CELLULE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation institutionnelle et modèle tripartite",
+      "text": "Pouvez-vous nous présenter la SONES sous l'angle de la gouvernance, de son cadre statutaire (loi n° 95-10 et décrets statutaires), de la structure de son capital (99,93 % État, 0,07 % communes) et du schéma institutionnel État / SONES / SEN'EAU ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage organisationnel",
+      "text": "Comment la Cellule Audit Interne et Contrôle Permanent (CAICP) est-elle rattachée au sein de l'organigramme de la Direction Générale et de quelle autonomie opérationnelle dispose-t-elle par rapport au Conseil d'Administration et au Comité d'Audit ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Missions clés de la CAICP",
+      "text": "Quels sont les attributs fondamentaux de la Cellule (évaluation de la régularité, appréciation de la maîtrise des risques, contrôle permanent, suivi des recommandations et assistance à la gouvernance) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "DISPOSITIF DE CONTRÔLE INTERNE, MANUEL DE PROCÉDURES ET CONFORMITÉ",
+    "items": [
+     {
+      "type": "q",
+      "label": "Dispositif de contrôle interne",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est l'état d'avancement du déploiement du contrôle interne au sein de la SONES en application de la loi d'orientation n° 2022-08 du 19 avril 2022 relative au secteur parapublic ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment est structuré le référentiel de contrôle interne dans les différentes directions métiers et supports ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Manuel des procédures",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le niveau d'actualisation du Manuel de procédures administratives, financières et comptables de la SONES ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment la Cellule s'assure-t-elle de son appropriation effective par le personnel et de sa mise en conformité à la suite des réorganisations internes ?",
+        "points": [],
+        "id": "s2q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Éthique, transparence et conformité",
+      "text": "Comment la CAICP traduit-elle les exigences de transparence, de redevabilité et de lutte contre la fraude/corruption inscrites dans les orientations stratégiques nationales (principes du « Jub Jubbal Jubanti ») ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "CARTOGRAPHIE DES RISQUES ET SYNERGIE AVEC LE SMQ",
+    "items": [
+     {
+      "type": "q",
+      "label": "Cartographie globale des risques",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelle est la méthodologie d'élaboration et la fréquence de mise à jour de la cartographie des risques de la SONES ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les risques majeurs identifiés dans la cartographie actuelle (risques financiers, opérationnels, juridiques, technologiques, environnementaux et réputationnels) ?",
+        "points": [],
+        "id": "s3q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Articulation avec le Système de Management de la Qualité (SMQ)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment s'articulent les travaux de la CAICP avec le responsable QSE et les audits internes ISO 9001 V 2015 ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment les constats d'audit QSE et les revues de processus alimentent-ils la cartographie globale des risques de la société ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "DIAGNOSTIC STRATÉGIQUE (SWOT AUDIT INTERNE ET MAÎTRISE DES RISQUES)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Forces internes",
+      "text": "Quels sont les atouts du système d'audit interne (indépendance des vérifications, compétences de l'équipe, existence d'outils cartographiques et renouvellement de la certification ISO 9001 V 2015) ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et vulnérabilités internes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les facteurs de fragilité internes dans la conduite des missions (effectifs limités, contraintes d'archivage ou délais de remontée des pièces justificatives) ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels goulets d'étranglement ralentissent parfois la mise en œuvre effective des plans d'actions correctives ?",
+        "points": [],
+        "id": "s4q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels leviers le renforcement du cadre réglementaire du secteur parapublic offre-t-il pour imposer des normes de gouvernance plus strictes ?",
+        "points": [],
+        "id": "s4q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment exploiter la mise en place de la Haute Autorité de Régulation du Secteur de l'Eau (HARSE) pour consolider l'impartialité des contrôles ?",
+        "points": [],
+        "id": "s4q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Menaces externes et suivi des audits de tiers",
+      "text": "",
+      "children": [
+       {
+        "label": "Suivi des audits du Fermier (SEN'EAU)",
+        "text": "Quel est le rôle de la CAICP dans l'exploitation des résultats des audits majeurs commandités par la SONES (audit de la facturation par Grant Thornton, audit d'investigation technique/financière par Mazars, audit de maintenance AMODIAC) ?",
+        "points": [],
+        "id": "s4q4c1",
+        "answer": true
+       },
+       {
+        "label": "Audits réglementaires",
+        "text": "Comment la Cellule prend-elle en charge les recommandations des missions de la Cour des Comptes, de l'ARCOP ou des audits des bailleurs de fonds ?",
+        "points": [],
+        "id": "s4q4c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q4",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "AUDITS RÉCURRENTS ET SUIVI DES RECOMMANDATIONS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Exécution du plan d'audit interne",
+      "text": "Quel est le taux de réalisation annuel des missions inscrites au programme d'audit (audits de régularité, audits financiers, audits d'optimisation des ressources) ?",
+      "children": [],
+      "id": "s5q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Dispositif de suivi des recommandations",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le taux d'exécution des recommandations issues des audits internes et externes (actions exécutées, partiellement réalisées, non effectuées) ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Existe-t-il un outil informatisé ou un tableau de bord de suivi partagé avec le Secrétariat Général et la Direction Générale ?",
+        "points": [],
+        "id": "s5q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "VISION À 5 ANS, HOLDING POLYVALENTE ET CONTRIBUTION AU PSD 2026–2030 & CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Anticipation des risques de la transformation en Holding (OS 10)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les risques de gouvernance et de contrôle interne induits par la transformation de la SONES en Holding polyvalente et la création de filiales (eau minérale, valorisation foncière, ingénierie) ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment adapter le dispositif d'audit interne pour assurer le contrôle consolidé des futures filiales ?",
+        "points": [],
+        "id": "s6q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Plan de gestion des risques adossé au PSD (OS 5)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la CAICP va-t-elle contribuer à l'élaboration du plan de gestion des risques adossé au Plan d'Actions Prioritaires (PAP 2026–2030) ?",
+        "points": [],
+        "id": "s6q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles mesures d'atténuation préconisez-vous pour sécuriser l'exécution physique et financière des investissements stratégiques ?",
+        "points": [],
+        "id": "s6q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de gouvernance pour le Contrat de Performance",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs clés de performance (KPI) la CAICP propose-t-elle d'inscrire dans le Contrat de Performance 2026–2030 État–SONES (taux de réalisation du plan d'audit, taux de mise en œuvre des recommandations, niveau de maturité du contrôle interne) ?",
+        "points": [],
+        "id": "s6q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q3",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "ccp": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – CELLULE COMMUNICATION ET PARTENARIATS",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Coordonnateur de la Cellule Communication et Partenariats"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Analyser le positionnement stratégique de la communication institutionnelle et sociale, évaluer les campagnes de sensibilisation et de partenariat, analyser le diagnostic SWOT de l'image de la SONES, et définir la feuille de route pour le plan de communication, de vulgarisation et de conduite du changement du PSD."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION DE LA SONES, RÔLE ET FONCTIONNEMENT DE LA CELLULE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation de la SONES et image institutionnelle",
+      "text": "Comment présentez-vous la SONES, sa mission de société de patrimoine, sa structure d'actionnariat (99,93 % État, 0,07 % collectivités) et son image auprès du grand public et des usagers ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage organisationnel",
+      "text": "Comment la Cellule Communication et Partenariats s'insère-t-elle dans l'organigramme de la Direction Générale et comment interagit-elle avec les directions métiers (DPES, DTP, DTDA, DCE) et les Unités de Gestion de Projets (KMS3, Mamelles) ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Périmètre d'action et gouvernance tripartite",
+      "text": "Comment la communication de la SONES se positionne-t-elle au sein du schéma tripartite pour clarifier auprès des populations les rôles respectifs de l'État (délégant), de la SONES (patrimoine/investissements) et de la SEN'EAU (fermier/exploitation) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "BILAN DES ACTIVITÉS, MOYENS BUDGÉTAIRES ET RÉORIENTATION",
+    "items": [
+     {
+      "type": "q",
+      "label": "Gestion des crédits budgétaires",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Pouvez-vous dresser le bilan de l'utilisation du budget de la communication (ex. 365 millions FCFA en 2025 contre 320 millions FCFA en 2024) ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment se répartissent les investissements entre les Annonces, Insertions et Publicités (215 millions FCFA en 2025) et la Sensibilisation/Relations Publiques (150 millions FCFA) ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Production interne et nouveaux supports",
+      "text": "Quel est le bilan des capacités internes de production audiovisuelle (caméras, drones, réalisation de films, spots et bannières) et des projets d'innovation visuelle (relooking de la charte graphique, refonte du site internet et création de l'application mobile SONES) ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Note de réorientation de la communication",
+      "text": "Suite aux nouvelles orientations des autorités nationales et de la tutelle (MHA), comment s'est concrétisée la Note de Réorientation de la Communication et la mutualisation des moyens au sein du ministère ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Accompagnement social des grands projets",
+      "text": "Quelles ont été les actions phares menées sur le terrain pour faciliter l'ancrage social des projets (ex. réunions de facilitation pour le projet des Mamelles à Ouakam, cérémonies de lancement du programme de 39 000 branchements sociaux à Kolda, usine de Khor à Saint-Louis, Diender, Touba) ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "DIAGNOSTIC STRATÉGIQUE (SWOT COMMUNICATION & PARTENARIATS)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Forces internes",
+      "text": "Quels sont les atouts majeurs de la SONES en matière de communication (réactivité de l'équipe interne, diversité des canaux de diffusion, partenariat avec la presse et les médias en ligne) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et contraintes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles sont les difficultés internes d'exécution (ex. contraintes de passation de marchés pour les supports physiques, retards d'exécution du marketing social ou pause dans certaines campagnes) ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment surmonter le déficit de communication de proximité dans certaines zones régionales excentrées ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels leviers offrent les partenariats institutionnels et internationaux (ex. Association Africaine de l'Eau et de l'Assainissement - AAEA, partenariats RSE, parrainages d'événements) ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment exploiter la dynamique de la gouvernance participative et des Concertations nationales sur l'Eau pour renforcer l'adhésion citoyenne ?",
+        "points": [],
+        "id": "s3q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Menaces et communication de crise",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la SONES gère-t-elle les risques réputationnels liés aux bruits médiatiques, aux interruptions de service ou aux mécontentements des usagers face au fermier ?",
+        "points": [],
+        "id": "s3q4c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels dispositifs de veille et de gestion de crise (ex. formations de cadres à la communication de crise) sont en place pour anticiper les désinformations sur les réseaux sociaux ?",
+        "points": [],
+        "id": "s3q4c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q4",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "VISION GLOBALE À 5 ANS ET ALIGNEMENT SUR SÉNÉGAL 2050",
+    "items": [
+     {
+      "type": "q",
+      "label": "Vision globale à 5 ans (horizon 2030)",
+      "text": "Comment voyez-vous l'évolution de la stratégie de communication de la SONES à l'horizon 2030 dans le cadre de sa transformation en Holding polyvalente ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Accompagnement de la filialisation",
+      "text": "Quel plan de communication interne et externe prévoyez-vous pour accompagner la création des nouvelles filiales (eau minérale, valorisation du patrimoine foncier, exportation de l'expertise) ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Articulation avec la Vision Sénégal 2050",
+      "text": "Comment la communication de la SONES compte-t-elle promouvoir les principes de l'Agenda National de Transformation (Sénégal 2050) (équité sociale, souveraineté hydraulique, promotion du contenu local et transparence) ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "ORIENTATIONS TECHNOLOGIQUES ET DIGITALISATION",
+    "items": [
+     {
+      "type": "q",
+      "label": "Feuille de route digitale",
+      "text": "Quelle est la stratégie d'optimisation de la présence de la SONES sur les plateformes numériques (Facebook, LinkedIn, X/Twitter, YouTube, canaux WhatsApp) ?",
+      "children": [],
+      "id": "s5q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Outils digitaux de relation usagers",
+      "text": "Comment la nouvelle application mobile et la refonte du site web permettront-elles d'améliorer l'information en temps réel sur les travaux, les chantiers et la qualité de l'eau ?",
+      "children": [],
+      "id": "s5q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Communication interne dématérialisée",
+      "text": "Quels outils technologiques (écrans numériques, plateformes internes) sont déployés pour renforcer l'information et la cohésion des collaborateurs ?",
+      "children": [],
+      "id": "s5q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTION AU PSD 2026–2030 ET CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Plan de communication et de vulgarisation du PSD (OS 8)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la Cellule envisage-t-elle d'orchestrer le plan de vulgarisation du PSD 2026–2030 auprès des agents, des ministères de tutelle (MHA, MFB), des partenaires financiers et du grand public ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont vos attentes concernant la production des supports synthétiques (brochure illustrée, résumé exécutif de 2-4 pages, diaporamas de restitution) ?",
+        "points": [],
+        "id": "s6q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Plan de conduite du changement (OS 7)",
+      "text": "Comment la communication interne sera-t-elle mobilisée pour favoriser l'appropriation de la nouvelle vision stratégique par le personnel et les partenaires sociaux ?",
+      "children": [],
+      "id": "s6q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de performance (KPIs)",
+      "text": "Quels indicateurs clés proposez-vous d'inscrire dans le Contrat de Performance 2026–2030 pour mesurer l'efficacité de la communication (taux de notoriété, niveau d'engagement sur les réseaux, satisfaction des parties prenantes) ?",
+      "children": [],
+      "id": "s6q3",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "qse": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – CHARGÉ QUALITÉ, SÉCURITÉ ET ENVIRONNEMENT (QSE)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chargé / Responsable QSE"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer la maturité du Système de Management de la Qualité (SMQ ISO 9001 V 2015), analyser la prise en compte des normes de sécurité et de sauvegarde environnementale et sociale (EIES, PGES, PAR) dans les projets d'infrastructures, diagnostiquer l'implication du QSE dans la cartographie des risques et les processus métiers, et définir l'intégration du SMQ dans le futur dispositif de pilotage du PSD et du groupe Holding polyvalent."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION INSTITUTIONNELLE, RÔLE ET ANCRAGE DU PÔLE QSE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation institutionnelle et modèle tripartite",
+      "text": "Pouvez-vous nous présenter la SONES sous l'angle de la démarche qualité, son cadre légal (loi n° 95-10), la structure de son capital (99,93 % État, 0,07 % communes) et le fonctionnement du schéma État / SONES / SEN'EAU concernant les exigences de qualité du service public de l'eau ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage organisationnel",
+      "text": "Comment le Chargé QSE est-il positionné au sein de l'organigramme (rattachement au Secrétariat Général / Direction Générale) et comment s'articulent ses relations de travail avec le Secrétaire Général, le Coordonnateur Technique, la CAICP et les pilotes de processus métiers ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Missions principales du Pôle QSE",
+      "text": "Quels sont les attributs clés du service (animation du SMQ, déploiement des audits internes QSE, suivi des indicateurs de processus, mise à jour des procédures, veille environnementale et sécurité au travail) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "PILOTAGE DU SYSTÈME DE MANAGEMENT DE LA QUALITÉ (SMQ - ISO 9001 V 2015)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Maintien et renouvellement de la certification ISO 9001 V 2015",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le bilan de l'audit de renouvellement du certificat réalisé en août 2025 par le Bureau Veritas Sénégal (aucune non-conformité relevée) ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les facteurs clés de succès ayant permis de maintenir la certification sur l'ensemble du périmètre de la SONES ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Animation des 11 processus du SMQ",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment s'organise le suivi mensuel des indicateurs des 11 processus que compte le système de management de la SONES ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le taux d'exécution des audits internes QSE et quelles sont les difficultés rencontrées concernant la disponibilité des pilotes de processus ?",
+        "points": [],
+        "id": "s2q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Mise à jour documentaire et réorganisation",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la documentation QSE (Politique QSE, fiches descriptives de processus, procédures obligatoires, liste des pilotes/co-pilotes/auditeurs) a-t-elle été réactualisée à la suite des réorganisations internes ?",
+        "points": [],
+        "id": "s2q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s2q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Instance de revue et plans d'actions",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le bilan des arbitrages issus de la dernière Revue de Direction Qualité (notamment la tenue des réunions qualité et l'exécution du plan d'actions global QSE) ?",
+        "points": [],
+        "id": "s2q4c1",
+        "answer": true
+       }
+      ],
+      "id": "s2q4",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "DIAGNOSTIC STRATÉGIQUE (SWOT QSE & DÉMARCHE QUALITÉ)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Forces internes",
+      "text": "Quels sont les acquis solides du SMQ de la SONES (culture d'audit interne, dynamique d'amélioration continue, conformité avérée à la norme ISO 9001 V 2015, adhésion du top management) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et contraintes internes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les maillons faibles dans l'animation au quotidien de la démarche QSE (retards dans le renseignement des tableaux de bord, besoin d'implication accrue des pilotes dans le suivi des projets) ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "De quels moyens le service dispose-t-il pour assurer la sensibilisation et la formation continue du personnel aux exigences QSE ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la démarche QSE peut-elle servir de levier pour renforcer la légitimité de la SONES auprès des Bailleurs de Fonds (AFD, BAD, BEI, BID, JICA) et des tutelles (MHA, MFB) ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels avantages offre l'intégration des normes environnementales et de sécurité internationales dans l'attractivité des futurs Partenariats Public-Privé (PPP) ?",
+        "points": [],
+        "id": "s3q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Menaces externes et risques environnementaux",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les risques pesant sur la qualité de l'eau brute et la ressource (eaux du Lac de Guiers, prolifération de cyanobactéries, intrusion saline, déferrisation/défluoruration) ?",
+        "points": [],
+        "id": "s3q4c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment le QSE appréhende-t-il les aléas environnementaux et sociaux lors de la libération des emprises de chantiers (gestion des griefs des PAP, procédures EIES/PGES) ?",
+        "points": [],
+        "id": "s3q4c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q4",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "SÉCURITÉ, SANTÉ AU TRAVAIL ET MANAGEMENT ENVIRONNEMENTAL ET SOCIAL (EIES / PGES / RSE)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Sauvegardes environnementales et sociales dans les projets",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le rôle du Chargé QSE dans la supervision des Études d'Impact Environnemental et Social (EIES), des Plans de Gestion Environnementale et Sociale (PGES) et des Plans d'Actions de Réinstallation (PAR) sur les grands projets (KMS3, Dessalement des Mamelles, transfert de Malem-Hodar) ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment sont surmontées les contraintes administratives liées aux réunions de pré-validation par le Comité technique et aux audiences publiques de la DEEC ?",
+        "points": [],
+        "id": "s4q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Hygiène, Santé et Sécurité au Travail (SST)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels dispositifs et procédures de sécurité sont appliqués pour protéger le personnel et les prestataires sur les sites d'exploitation, usines de traitement et chantiers de pose de conduites ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le bilan du suivi de l'Assurance Maladie et des visites médicales annuelles du personnel ?",
+        "points": [],
+        "id": "s4q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Responsabilité Sociétale d'Entreprise (RSE)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la démarche QSE s'articule-t-elle avec les programmes RSE de la SONES (aménagement de périmètres maraîchers, réalisation d'infrastructures communautaires, appui aux populations riveraines de projets) ?",
+        "points": [],
+        "id": "s4q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "VISION À 5 ANS, TRANSFORMATION EN HOLDING ET ANCRAGE \"SÉNÉGAL 2050\"",
+    "items": [
+     {
+      "type": "q",
+      "label": "Vision globale à 5 ans (horizon 2030)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment voyez-vous l'évolution de la fonction QSE dans le cadre de la transformation de la SONES en Holding polyvalente ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment étendre le périmètre de certification ISO aux futures filiales (eau minérale, valorisation du patrimoine foncier, ingénierie) ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Alignement sur la Vision Sénégal 2050 et la LPSD 2025–2029",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "De quelle manière la politique QSE intègre-t-elle les orientations de l'Agenda National de Transformation (souveraineté environnementale, résilience climatique, durabilité des ressources en eau, gouvernance \"Jub Jubbal Jubanti\") ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTION AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Intégration du SMQ dans le suivi-évaluation du PSD (OS 6)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Conformément aux Termes de Référence du PSD, comment le dispositif de suivi-évaluation du plan stratégique sera-t-il directement adossé et intégré au Système de Management de la Qualité (SMQ) de la SONES pour garantir sa pérennité ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Plan de gestion des risques et du changement (OS 5 & OS 7)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelle sera la contribution du QSE dans l'élaboration de la cartographie globale des risques adossée au Plan d'Actions Prioritaires ?",
+        "points": [],
+        "id": "s6q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment la démarche qualité sera-t-elle mobilisée pour accompagner le plan de conduite du changement interne ?",
+        "points": [],
+        "id": "s6q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de performance (KPIs QSE) pour le Contrat de Performance",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs clés proposez-vous d'inscrire dans le futur Contrat de Performance 2026–2030 (taux de conformité aux audits QSE, niveau d'exécution des PGES, taux de résolution des non-conformités, renouvellement des certifications ISO) ?",
+        "points": [],
+        "id": "s6q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q3",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "ccgb": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – CELLULE CONTRÔLE DE GESTION ET BUDGET",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Coordonnateur de la Cellule Contrôle de Gestion et Budget (M. Ousmane DIENG)"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer la maturité du pilotage budgétaire et financier, analyser la trajectoire des recettes et des dépenses, examiner le modèle financier et la soutenabilité du Prix Patrimoine, diagnostiquer la performance analytique et définir les mécanismes de cadrage financier du PSD et de la future Holding polyvalente."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION DE LA SONES, RÔLE ET POSITIONNEMENT DE LA CELLULE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation institutionnelle et modèle tripartite",
+      "text": "Pouvez-vous nous présenter la SONES sous l'angle de la gestion financière de la concession, son cadre créateur (loi n° 95-10), la structure de son capital (99,93 % État, 0,07 % communes) et le fonctionnement tripartite État / SONES / SEN'EAU ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage organisationnel et missions",
+      "text": "Comment la Cellule Contrôle de Gestion et Budget (CCGB) s'insère-t-elle dans le dispositif de gouvernance aux côtés de la Direction Générale, de la DFC et de la DPES ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Missions clés de la CCGB",
+      "text": "Quels sont les attributs fondamentaux de la Cellule dans la chaîne de valeur de l'entreprise (élaboration du budget, cadrage des investissements, arbitrage des charges de fonctionnement, reporting mensuel/trimestriel et suivi des indicateurs contractuels) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "PROCESSUS BUDGÉTAIRE, ÉLABORATION ET SUIVI DE L'EXÉCUTION",
+    "items": [
+     {
+      "type": "q",
+      "label": "Chaîne d'élaboration budgétaire",
+      "text": "Comment est structuré le calendrier d'élaboration du budget annuel (lettre de cadrage, arbitrage des directions métiers, validation par le CODIR et approbation par le Conseil d'Administration) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Articulation Budget / Plan d'Investissement",
+      "text": "Comment s'opère la déclinaison opérationnelle entre le Plan Prévisionnel d'Investissement (PPI 2017–2047), le Programme Quinquennal d'Investissement (PQI 2026–2030) et le budget annuel d'investissement (Fonds Propres vs Bailleurs) ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Suivi et re-prévision budgétaire",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le rythme de révision des budgets en cours d'année (ex. basculement du budget initial 2025 de 76,68 milliards FCFA à un budget actualisé de 52,70 milliards FCFA) ?",
+        "points": [],
+        "id": "s2q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les critères retenus pour les arbitrages et la régulation des crédits en cas de baisse des encaissements de redevance ?",
+        "points": [],
+        "id": "s2q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Analyse des écarts",
+      "text": "Quels sont les principaux facteurs de variation constatés historiquement entre les prévisions et les réalisations (délais de décaissement des bailleurs, lenteurs des procédures de passation, réallocations sur fonds propres) ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "DIAGNOSTIC STRATÉGIQUE (SWOT CONTRÔLE DE GESTION ET PERFORMANCE FINANCIÈRE)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Forces internes",
+      "text": "Quels sont les atouts du système de contrôle de gestion de la SONES (maîtrise de la chaîne budgétaire, qualité de la production des rapports de gestion, respect des ratios prudentiels d'endettement) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et contraintes internes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les goulets d'étranglement internes qui affectent le suivi budgétaire en temps réel (délais de remontée des données des directions techniques, lourdeurs de visa) ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelle est la capacité d'autofinancement réelle de la SONES sur fonds propres face aux exigences de renouvellement des infrastructures (estimée à seulement ~9 % du PPI) ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les leviers d'optimisation financière offerts par la mise en place de la Haute Autorité de Régulation (HARSE) et l'actualisation du modèle financier ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "De quelles opportunités de rationalisation budgétaire dispose la SONES avec les financements concessionnels et les PPP ?",
+        "points": [],
+        "id": "s3q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Menaces sur l'équilibre financier du secteur",
+      "text": "",
+      "children": [
+       {
+        "label": "Pression du Prix Exploitant (Pe) sur le Prix Patrimoine",
+        "text": "Comment la hausse continue du Prix Exploitant (lié aux intrants et à l'électricité) dégrade-t-elle la redevance nette de la SONES (Prix Patrimoine autour de 86,2 FCFA/m³) ?",
+        "points": [],
+        "id": "s3q4c1",
+        "answer": true
+       },
+       {
+        "label": "Créances publiques et impayés",
+        "text": "Quelle est la situation d'endettement croisé avec l'État et l'impact du niveau d'impayés sur l'Administration centrale, les universités et les collectivités (avoisinant 25 à 30 milliards FCFA) ?",
+        "points": [],
+        "id": "s3q4c2",
+        "answer": true
+       },
+       {
+        "label": "Ratios financiers contractuels",
+        "text": "Comment la CCGB sécurise-t-elle le respect des ratios exigés par les bailleurs (Ratio de couverture du service de la dette CAF/Remboursement > 1,1 et Ratio d'endettement < 2) ?",
+        "points": [],
+        "id": "s3q4c3",
+        "answer": true
+       }
+      ],
+      "id": "s3q4",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "MODÈLE FINANCIER, ÉQUILIBRE DU SECTEUR ET STRUCTURE DES COÛTS/RECETTES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Structure des Recettes",
+      "text": "",
+      "children": [
+       {
+        "label": "Redevance d'eau potable",
+        "text": "Analyse des volumes produits (objectif 300 millions m³), du taux de rendement contractuel (85 %) et du taux de recouvrement contractuel (98 %).",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       },
+       {
+        "label": "Vente d'eau dessalée",
+        "text": "Modalités de comptabilisation et d'équilibrage des ventes d'eau issue des unités de dessalement (Mamelles, Gorée).",
+        "points": [],
+        "id": "s4q1c2",
+        "answer": true
+       },
+       {
+        "label": "Produits accessoires et divers",
+        "text": "Évolution des loyers d'infrastructures, ventes de DAO, pénalités de retard et produits financiers (placements en DAT, titres SONATEL/BRM).",
+        "points": [],
+        "id": "s4q1c3",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Structure des Dépenses",
+      "text": "",
+      "children": [
+       {
+        "label": "Charges de fonctionnement",
+        "text": "Maîtrise des achats d'eau, des consommables, des prestations de contrôle/audit, des frais de personnel et des charges de sous-traitance.",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       },
+       {
+        "label": "Budget d'investissement",
+        "text": "Arbitrage entre le budget de croissance/renouvellement, les études stratégiques, le patrimoine et les projets majeurs (KMS3, Dessalement des Mamelles, GTE).",
+        "points": [],
+        "id": "s4q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "COMPTABILITÉ ANALYTIQUE, SI DÉCISIONNEL ET TABLEAUX DE BORD",
+    "items": [
+     {
+      "type": "q",
+      "label": "Comptabilité analytique",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est l'état de déploiement et d'exploitation de la comptabilité analytique au sein de la SONES pour analyser les coûts par centre de responsabilité, par ouvrage et par pôle territorial ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le niveau de visibilité de la SONES sur la comptabilité analytique transmise par l'exploitant (SEN'EAU) ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Systèmes d'information et outils décisionnels",
+      "text": "",
+      "children": [
+       {
+        "label": "ERP / Progiciel de Gestion Intégré",
+        "text": "Où en est le projet d'acquisition et de mise en œuvre de l'ERP en cohérence avec le Schéma Directeur des Systèmes d'Information (SDSI) ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       },
+       {
+        "label": "Systèmes spécialisés",
+        "text": "Quels sont les outils utilisés pour le suivi budgétaire, la gestion de la dette et la trésorerie (ex. XRT Cash, MS Project) ?",
+        "points": [],
+        "id": "s5q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Tableaux de bord stratégiques",
+      "text": "Comment les indicateurs de performance financiers et opérationnels sont-ils consolidés et restitués à la Direction Générale pour le pilotage stratégique ?",
+      "children": [],
+      "id": "s5q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "VISION À 5 ANS, HOLDING ET CONTRIBUTION AU PSD 2026–2030 & CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Cadrage financier du PSD 2026–2030 (OS 5)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la CCGB compte-t-elle modéliser l'impact financier du Plan d'Actions Prioritaires (PAP 2026–2030) et évaluer sa rentabilité globale ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les hypothèses prévisionnelles de croissance de la redevance et de maîtrise des charges retenues pour la période 2026–2030 ?",
+        "points": [],
+        "id": "s6q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Accompagnement financier de la Holding et des Filiales (OS 7)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment le contrôle de gestion anticipe-t-il la transformation de la SONES en Holding polyvalente ?",
+        "points": [],
+        "id": "s6q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels mécanismes de suivi financier, de consolidation et de remontée des dividendes prévoyez-vous pour les nouvelles filiales (eau minérale, valorisation foncière, ingénierie) ?",
+        "points": [],
+        "id": "s6q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Dispositif de suivi-évaluation du PSD (OS 6)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la CCGB compte-t-elle s'articuler avec le Service Programmation et Suivi-Évaluation (CPSE) pour alimenter le tableau de bord de pilotage du PSD au format Excel ou applicatif ?",
+        "points": [],
+        "id": "s6q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels indicateurs de performance financière (KPIs) proposez-vous d'inscrire dans le futur Contrat de Performance État–SONES (taux d'exécution budgétaire, marge brute, niveau de trésorerie, couverture de la dette)",
+        "points": [],
+        "id": "s6q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q3",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "ct": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE & TECHNIQUE – COORDONNATEUR TECHNIQUE",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Coordonnateur Technique de la SONES"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du Plan Stratégique de Développement (PSD) 2026–2030 et du Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif global",
+    "v": "Recueillir la vision prospective de l'intervenant sur le rôle, l'évolution, la transformation technologique et organisationnelle de la SONES à l'horizon 2030, tout en évaluant la performance des infrastructures et la maîtrise d'ouvrage des grands projets."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 0",
+    "title": "VISION GLOBALE, IDENTITÉ ET PROSPECTIVE DE LA SONES (CAP 2030)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation et raison d’être",
+      "text": "Selon vous, comment définiriez-vous aujourd'hui l'ADN, le but fondamental et le mode de fonctionnement global de la SONES au cœur du service public de l'eau potable ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "La SONES à 5 ans (Horizon 2030)",
+      "text": "Quelle est votre vision prospective de la SONES à l'horizon 2030 ? Comment imaginez-vous cette entreprise dans cinq ans pour relever les défis croissants de la demande et de la durabilité ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Vision technologique d'avenir",
+      "text": "Sur le plan strictement technologique, comment voyez-vous l'évolution de la SONES d'ici 2030 (place de l'intelligence artificielle, de la digitalisation avancée, de la gestion intelligente des réseaux et de l'efficacité énergétique) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Diagnostic et axes d'amélioration",
+      "text": "Quels sont, selon votre perspective technique, les principaux points de blocage actuels et les axes d'amélioration prioritaires sur lesquels le PSD 2026–2030 doit impérativement capitaliser ?",
+      "children": [],
+      "id": "s1q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage dans la Vision Sénégal 2050",
+      "text": "Comment la planification technique de la SONES doit-elle s'articuler et s'aligner concrètement avec la Vision Sénégal 2050 (notamment à travers la logique des pôles territoriaux, l'équité spatiale et l'optimisation des ressources) ?",
+      "children": [],
+      "id": "s1q5",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 1",
+    "title": "RÔLE, COORDINATION TECHNIQUE ET GOUVERNANCE DES PROJETS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Périmètre de coordination",
+      "text": "En tant que Coordonnateur Technique, comment s'articule votre rôle de supervision et de synergie entre les directions opérationnelles (DTP, DTDA, DCE, DPES) et les Unités de Gestion de Projets dédiées (KMS3, Dessalement des Mamelles) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Capacité de maîtrise d'ouvrage",
+      "text": "Comment évaluez-vous la capacité actuelle d'ingénierie et de suivi de chantier de la SONES face à l'accroissement massif des programmes d'investissement (PPI/PQI) ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Coordination interinstitutionnelle",
+      "text": "Quelles sont les principales contraintes d'interface rencontrées sur le terrain avec les autres concessionnaires de réseaux (AGEROUTE, SENELEC, ONAS, opérateurs de télécoms) lors de l'exécution des grands travaux en milieu urbain dense ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "BILAN ET PERSPECTIVES DES GRANDS PROJETS D'INFRASTRUCTURES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Projet KMS 3",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le bilan d'exploitation de l'usine de Keur Momar SARR 3 (débit nominal atteint de 204 000 m³/j) et l'état de finalisation des levées de réserves (vibrations des pompes, communication par fibre optique entre KMS3, Mékhé 2 et réservoirs de Thiès) ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est l'état d'avancement des réseaux de distribution associés et des réservoirs de stockage (Diass, Malika, Fandène) ?",
+        "points": [],
+        "id": "s3q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Usine de dessalement d'eau de mer des Mamelles",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Où en est l'avancement physique de l'usine (zone 100/200/400) et quelles sont les contraintes spécifiques liées au renouvellement des conduites adossées dans l'agglomération dalo-dakaroise ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Projet de dessalement de la Grande Côte (PPP)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Suite à la décision de restructuration et de renégociation contractuelle, quelle est la feuille de route technique retenue pour ce projet majeur en Partenariat Public-Privé ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Projet AEP de Touba et Grand Transfert d'Eau (GTE)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la SONES s'organise-t-elle pour assurer le mandat de maîtrise d'ouvrage déléguée confié pour le projet AEP de Touba ?",
+        "points": [],
+        "id": "s3q4c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le calendrier d'instruction technique des études d'aménagement en aval du Grand Transfert d'Eau (GTE) à partir du Lac de Guiers ?",
+        "points": [],
+        "id": "s3q4c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q4",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Sécurisation des villes de l'intérieur",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les progrès et les points d'attention techniques sur les projets de renforcement et d'amélioration de la qualité de l'eau (déferrisation, défluoruration, transfert d'eau douce) à Saint-Louis, Kolda, Kaolack, Fatick, Mbacké, Foundiougne et Gorée ?",
+        "points": [],
+        "id": "s3q5c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q5",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "CONTRÔLE DE L'EXPLOITATION, PERFORMANCE ET QUALITÉ DU SERVICE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Performance du Fermier (SEN'EAU)",
+      "text": "",
+      "children": [
+       {
+        "label": "Rendement du réseau et Eaux Non Facturées (ENF)",
+        "text": "Le rendement de réseau s'établissant à 76,3 % en 2024 contre une cible contractuelle de 84,1 %, quelles sont les causes techniques identifiées et le plan d'actions d'urgence pour résorber les pertes ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       },
+       {
+        "label": "Continuité de service et pressions",
+        "text": "Comment analysez-vous les baisses de pression et manques d'eau persistants dans certains centres (Dakar, Thiès, Saly, Ziguinchor, Kédougou) ?",
+        "points": [],
+        "id": "s4q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Suivi de la qualité de l'eau",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les résultats du contrôle de la qualité physico-chimique (dilution du fer à Pout, traitement du fluor/chlorures) et bactériologique de l'eau distribuée ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le niveau d'avancement du projet de mise en place d'un Laboratoire national de référence pour le contrôle de la qualité de l'eau ?",
+        "points": [],
+        "id": "s4q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Maintenance du patrimoine affermé",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les principaux enseignements tirés de l'audit technique de maintenance (AMODIAC) concernant l'état de la protection cathodique des conduites d'adduction du Lac de Guiers (ALG 1 et ALG 2) et le renouvellement des équipements électromécaniques ?",
+        "points": [],
+        "id": "s4q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "DIGITALISATION, SIG, TÉLÉGESTION ET TRANSITION ÉNERGÉTIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Digitalisation et SIG Métier",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la SONES compte-t-elle surmonter les insuffisances constatées dans la base SIG transmise par l'exploitant (âge des canalisations, géoréférencement des compteurs et des fuites) ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est l'état d'avancement de l'étude de macro-sectorisation et sectorisation détaillée dans la zone Dakar–Thiès–Mbour (DMT) ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Télégestion, SCADA et Compteurs Intelligents",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelle est la stratégie d'extension de la télégestion (SCADA) sur l'ensemble des ouvrages stratégiques de production et de stockage ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le programme de déploiement des compteurs intelligents pour optimiser le comptage et lutter contre les pertes non techniques ?",
+        "points": [],
+        "id": "s5q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Transition énergétique et Décarbonation",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Face à l'impact des coûts énergétiques sur l'exploitation, quelle est la feuille de route pour le développement du mix énergétique et la solarisation des stations de pompage/traitement (ex. projets photovoltaïques à Keur Momar Sarr et Méouane) ?",
+        "points": [],
+        "id": "s5q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "ANCRAGE TERRITORIAL ET TRANSFORMATION EN HOLDING POLYVALENTE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Déclinaison territoriale (Vision Sénégal 2050)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la planification technique va-t-elle s'adapter concrètement à la logique des pôles territoriaux et des Unisations de Gestion et de Planification (UGP) de la Vision Sénégal 2050 ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Transformation en Holding et Filialisation",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Sur le plan strictement technique et stratégique, comment envisagez-vous la création et la structuration des filiales métier (ex. filiale d'ingénierie/expertise technique, filiale d'eau minérale, filiale de valorisation des actifs) dans le cadre du nouveau modèle de la SONES ?",
+        "points": [],
+        "id": "s6q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Valorisation de l'expertise",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "De quelle manière la SONES peut-elle structurer et commercialiser son expertise technique de plus de 30 ans à l'échelle nationale et sous-régionale pour générer de nouvelles sources de revenus ?",
+        "points": [],
+        "id": "s6q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "ENGAGEMENTS TECHNIQUES DANS LE CONTRAT DE PERFORMANCE (2026–2030)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Cibles d'indicateurs (KPIs)",
+      "text": "Quels sont les objectifs chiffrés réalistes mais ambitieux que la Coordination Technique propose d'inscrire dans le nouveau Contrat de Performance 2026–2030 concernant :",
+      "children": [
+       {
+        "label": null,
+        "text": "Le volume annuel d'eau produit.",
+        "points": [],
+        "id": "s7q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Le rendement global des réseaux de distribution.",
+        "points": [],
+        "id": "s7q1c2",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Le taux de conformité de la qualité de l'eau (physico-chimique et bactériologique).",
+        "points": [],
+        "id": "s7q1c3",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Le rythme de réalisation des branchements sociaux et d'extensions de réseau.",
+        "points": [],
+        "id": "s7q1c4",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "La réduction du temps de résolution des anomalies sur les ouvrages.",
+        "points": [],
+        "id": "s7q1c5",
+        "answer": true
+       }
+      ],
+      "id": "s7q1",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "dg": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – DIRECTION GÉNÉRALE",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Directeur Général de la SONES"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 & Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif de l'entretien",
+    "v": "Recueillir la vision prospective du Top Management, identifier les orientations stratégiques prioritaires, analyser les contraintes majeures et préciser les ambitions de transformation de la SONES."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION GÉNÉRALE, BUTS ET PÉRIMÈTRE D'ACTION",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation institutionnelle",
+      "text": "Pouvez-vous nous présenter la SONES, son cadre créateur (loi n° 95-10 et décrets statutaires) ainsi que la structure de son capital (détenu à 99,93 % par l'État et 0,07 % par 8 communes) ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Objectifs et buts fondamentaux",
+      "text": "Quels sont les buts stratégiques et les missions clés assignés à la SONES en tant que société de patrimoine (gestion et sécurisation du patrimoine, planification et réalisation des investissements, recherche de financements, contrôle de l'exploitation) ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Fonctionnement et modèle tripartite",
+      "text": "Comment évaluez-vous le fonctionnement quotidien du schéma institutionnel réunissant l'État (autorité délégante), la SONES (concessionnaire) et la SEN'EAU (fermier) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Périmètre d'action",
+      "text": "Quel est l'ancrage territorial et le périmètre d'action de la SONES (périmètre affermé urbain et périurbain) ? Comment anticipez-vous son extension avec l'incorporation de nouveaux centres et l'alignement sur les pôles économiques régionaux ?",
+      "children": [],
+      "id": "s1q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "MODÈLE ÉCONOMIQUE ET SOURCES DE REVENUS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Structure des recettes",
+      "text": "Pouvez-vous nous détailler les différentes sources de revenus qui composent la structure des recettes de la SONES ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true,
+      "points": [
+       "La redevance d'eau potable (déterminée par le Prix Patrimoine, la production et les taux de recouvrement/rendement).",
+       "La vente d'eau dessalée.",
+       "Les produits accessoires (notamment les loyers des bâtiments et infrastructures mis à disposition).",
+       "Les produits divers (ventes de dossiers d'appels d'offres, pénalités de retard sur chantier, indemnisations d'assurance).",
+       "Les produits financiers (revenus des placements en DAT, dividendes et titres de participation)."
+      ]
+     },
+     {
+      "type": "q",
+      "label": "Soutenabilité financière et redevance",
+      "text": "Comment la SONES fait-elle face aux tensions sur la redevance générée par la hausse du Prix Exploitant (Pe) et l'inflation sur les intrants ? Quelle est la stratégie pour préserver la marge brute et le Prix Patrimoine ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Recouvrement et créances publiques",
+      "text": "Quelle est la situation actuelle du recouvrement des créances sur l'Administration centrale, les universités et les structures autonomes ? Quels sont les arbitrages attendus concernant les subventions d'équilibre ou de nouvelles conventions de dettes croisées avec l'État ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "VISION GLOBALE DE LA SONES À 5 ANS (2026–2030)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Vision prospective à l'horizon 2030",
+      "text": "De manière globale, quelle est votre vision de la SONES dans 5 ans ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Transformation en Holding polyvalente",
+      "text": "Quelles sont les étapes clés pour conduire le projet de transformation institutionnelle de la SONES en Holding polyvalente ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Axe de diversification",
+      "text": "Comment comptez-vous concrétiser les nouvelles opportunités de croissance :",
+      "children": [
+       {
+        "label": null,
+        "text": "La conquête du marché de l'eau minéralisée ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "La valorisation commerciale et immobilière du patrimoine foncier ?",
+        "points": [],
+        "id": "s3q3c2",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "La prise de participation au capital de sociétés de projet en PPP ?",
+        "points": [],
+        "id": "s3q3c3",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "La valorisation et l'exportation de l'expertise technique de la SONES ?",
+        "points": [],
+        "id": "s3q3c4",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Y a-t-il d’autres projet que la SONES veut porter ?",
+        "points": [],
+        "id": "s3q3c5",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Ancrage national",
+      "text": "Comment cette vision à 5 ans s'articule-t-elle avec les orientations de la Vision Sénégal 2050 et de la Lettre de Politique Sectorielle de Développement (LPSD 2025–2029) du MHA ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "AXES D'AMÉLIORATION ET LEVIERS DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Axes d'amélioration prioritaires",
+      "text": "Quels sont les axes d'amélioration internes et opérationnels que vous jugez prioritaires pour les 5 prochaines années (maîtrise des charges de fonctionnement, renforcement du droit de contrôle sur l'exploitant, optimisation de la gestion patrimoniale) ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Régulation et réformes",
+      "text": "Comment la SONES prépare-t-elle son adaptation à la mise en place de la Haute Autorité de Régulation du Secteur de l'Eau (HARSE) et aux exigences du nouveau Code de l'Eau ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Conduite du changement",
+      "text": "Quels dispositifs managériaux et sociaux prévoyez-vous pour accompagner le personnel durant la réorganisation liée à la filialisation ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "ORIENTATIONS ET AMÉLIORATIONS TECHNOLOGIQUES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Orientations technologiques sur la production",
+      "text": "Quelles sont les choix technologiques majeurs retenus pour sécuriser l'approvisionnement futur (dessalement d'eau de mer des Mamelles et de la Grande Côte, grands transferts d'eau, stations de déferrisation/défluoruration) ?",
+      "children": [],
+      "id": "s5q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Digitalisation et Systèmes d'Information",
+      "text": "",
+      "children": [
+       {
+        "label": "SIG et Cartographie",
+        "text": "Quelles améliorations sont prévues pour moderniser le Système d'Information Géographique (SIG) et le géoréférencement du patrimoine hydraulique ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       },
+       {
+        "label": "Télégestion et SCADA",
+        "text": "Quelle est la feuille de route pour étendre la télégestion des ouvrages et déployer des compteurs intelligents afin de réduire l'eau non facturée ?",
+        "points": [],
+        "id": "s5q2c2",
+        "answer": true
+       },
+       {
+        "label": "Outils de gestion interne",
+        "text": "Quels sont les projets d'amélioration sur le plan des ERP, de la GMAO et de la dématérialisation des procédures administratives ?",
+        "points": [],
+        "id": "s5q2c3",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Pilotage par la donnée",
+      "text": "Comment souhaitez-vous intégrer ces données technologiques dans les tableaux de bord stratégiques de la Direction Générale ?",
+      "children": [],
+      "id": "s5q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "DIAGNOSTIC STRATÉGIQUE INTERNE (FORCES ET FAIBLESSES)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Gouvernance institutionnelle, organisation et capital humain",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les principaux enseignements tirés de l'analyse du Système de Management de la Qualité (SMQ) et de la cartographie des risques concernant la maturité des processus internes de la SONES ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment évaluez-vous l'adéquation des effectifs et des compétences actuelles face aux exigences de développement des infrastructures et au déploiement dans les régions ?",
+        "points": [],
+        "id": "s6q1c2",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les points de fragilité identifiés par les rapports d'audit interne et de contrôle de gestion dans la gouvernance administrative et opérationnelle ?",
+        "points": [],
+        "id": "s6q1c3",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Équilibre financier, redevance et gestion des créances",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les facteurs internes qui pèsent sur la marge brute et le Prix Patrimoine de la SONES face aux renégociations des conditions économiques avec l'exploitant ?",
+        "points": [],
+        "id": "s6q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelle est la stratégie interne pour résorber le niveau élevé des impayés de l'Administration centrale, des universités et des collectivités territoriales (avoisinant 25 milliards FCFA) ?",
+        "points": [],
+        "id": "s6q2c2",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Dans quelle mesure la situation financière actuelle permet-elle d'assurer le service de la dette et de dégager des fonds propres pour le renouvellement des infrastructures ?",
+        "points": [],
+        "id": "s6q2c3",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Maîtrise du patrimoine et contrôle de l'exploitation",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le niveau d'actualisation du fichier des immobilisations de l'infrastructure affermée et quelles sont les contraintes internes pour fiabiliser la cartographie SIG du réseau ?",
+        "points": [],
+        "id": "s6q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment la SONES gère-t-elle les difficultés financières et les pertes cumulées enregistrées par le fermier (SEN'EAU) afin de prévenir les risques sur la continuité du service public ?",
+        "points": [],
+        "id": "s6q3c2",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les faiblesses internes identifiées dans la maîtrise du rendement de distribution et la réduction des Eaux Non Facturées (ENF) ?",
+        "points": [],
+        "id": "s6q3c3",
+        "answer": true
+       }
+      ],
+      "id": "s6q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 7",
+    "title": "DIAGNOSTIC STRATÉGIQUE EXTERNE (OPPORTUNITÉS ET MENACES)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Environnement institutionnel et réglementaire",
+      "text": "",
+      "children": [
+       {
+        "label": "Création de la Haute Autorité de Régulation (HARSE)",
+        "text": "Comment la SONES anticipe-t-elle la mise en place de l'Autorité de Régulation du Secteur de l'Eau et les mutations qu'elle entraînera dans les relations contractuelles et tarifaires ?",
+        "points": [],
+        "id": "s7q1c1",
+        "answer": true
+       },
+       {
+        "label": "Nouveau Code de l'Eau",
+        "text": "Quels opportunités ou risques majeurs identifiez-vous dans la révision du Code de l'Eau et des textes législatifs du secteur ?",
+        "points": [],
+        "id": "s7q1c2",
+        "answer": true
+       },
+       {
+        "label": "Arrimer aux politiques publiques",
+        "text": "De quelle manière la stratégie de la SONES s'insère-t-elle dans les orientations de la Vision Sénégal 2050, de la Lettre de Politique Sectorielle (LPSD 2025–2029) et du découpage en pôles territoriaux ?",
+        "points": [],
+        "id": "s7q1c3",
+        "answer": true
+       }
+      ],
+      "id": "s7q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Diversification, Partenariats Publics-Privés (PPP) et PIE",
+      "text": "",
+      "children": [
+       {
+        "label": "Producteurs Indépendants d'Eau (PIE) et PPP",
+        "text": "Quels enseignements tirez-vous des projets en Partenariat Public-Privé (notamment le dessalement sur la Grande Côte) et quelle est votre posture face à l'arrivée de nouveaux producteurs privés d'eau ?",
+        "points": [],
+        "id": "s7q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s7q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Risques climatiques, sécurité hydrique et financements",
+      "text": "",
+      "children": [
+       {
+        "label": "Stress hydrique et qualité des ressources",
+        "text": "Face au franchissement du seuil de stress hydrique (< 1 700 m³/hab/an) et aux fortes teneurs en sel, fluor ou fer dans certaines nappes, quelles sont les menaces directes sur la sécurisation de l'approvisionnement ?",
+        "points": [],
+        "id": "s7q3c1",
+        "answer": true
+       },
+       {
+        "label": "Résilience climatique et coût de l'énergie",
+        "text": "Comment protéger le patrimoine hydraulique contre les événements extrêmes (inondations, dégradation côtière) tout en atténuant l'impact de la hausse des coûts énergétiques par la solarisation ?",
+        "points": [],
+        "id": "s7q3c2",
+        "answer": true
+       },
+       {
+        "label": "Mobilisation des financements extérieurs",
+        "text": "Face à la raréfaction des prêts concessionnels et aux capacités d'endettement limitées, quelles opportunités offrent les financements innovants (fonds verts, finance carbone, PPP) ?",
+        "points": [],
+        "id": "s7q3c3",
+        "answer": true
+       }
+      ],
+      "id": "s7q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 8",
+    "title": "ENGAGEMENTS DANS LE CONTRAT DE PERFORMANCE ÉTAT–SONES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Engagements mutuels",
+      "text": "Quels indicateurs clés de performance (KPI) la SONES propose-t-elle d'inscrire dans son Contrat de Performance 2026–2030, et quelles garanties indispensables sollicitez-vous en contrepartie de la part de l'État (subventions, exonérations, apurement des créances) ?",
+      "children": [],
+      "id": "s8q1",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "cpsm": {
+  "title": "GUIDE D'ENTRETIEN : RESPONSABLE DE LA PASSATION ET DU SUIVI DES MARCHÉS (CPSM)",
+  "fiche": [
+   {
+    "k": "Cadre de référence",
+    "v": "Élaboration du Plan Stratégique de Développement (PSD) de la SONES 2026–2030"
+   },
+   {
+    "k": "Objectif de l'entretien",
+    "v": "Évaluer la performance actuelle des processus de passation et de gestion des marchés, identifier les goulots d'étranglement opérationnels, analyser l'alignement avec les exigences des bailleurs de fonds (AFD, BADEA, SFD, etc.) et recueillir des propositions pour le positionnement stratégique futur de la SONES."
+   }
+  ],
+  "sections": [
+   {
+    "code": "Section 2",
+    "title": "DIAGNOSTIC INTERNE (Processus, Organisation et Ressources)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Efficacité et délais des procédures",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont actuellement les principaux facteurs de retard ou goulots d'étranglement identifiés entre l'expression des besoins par les Directions techniques (DTP, DTDA, DPMG) et l'attribution effective des marchés ?",
+        "points": [],
+        "id": "s1q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment évaluez-vous l'intégration des outils numériques et des systèmes de gestion électronique des documents (GED) dans le suivi des dossiers de passation ?",
+        "points": [],
+        "id": "s1q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s1q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Ressources humaines et compétences",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "La taille et les qualifications de l'équipe de la Cellule de Passation et de Suivi des Marchés sont-elles adéquates face au volume croissant des projets d'investissement (notamment les grands programmes financés par les bailleurs internationaux) ?",
+        "points": [],
+        "id": "s1q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les besoins de renforcement de compétences prioritaires pour le personnel de la cellule au cours des cinq prochaines années ?",
+        "points": [],
+        "id": "s1q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s1q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Gouvernance et coordination interne",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment s'articule la collaboration entre la CPSM, la Direction Financière (DFC) et les unités de gestion de projets (KMS3, Mamelles) pour assurer la disponibilité des budgets et la maîtrise des coûts ?",
+        "points": [],
+        "id": "s1q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s1q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Section 3",
+    "title": "QUESTIONS OUVERTES DU DIAGNOSTIC INTERNE (FORCES ET FAIBLESSES)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont, selon vous, les principaux points forts (forces) de la SONES en matière de passation et de gestion des marchés par rapport aux standards du secteur ?",
+      "children": [],
+      "hint": "Ex. : maîtrise des procédures, transparence, rigueur réglementaire, stabilité de l'équipe, etc.",
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont les dysfonctionnements majeurs ou les points de vulnérabilité (faiblesses) internes qui pénalisent la performance, l’efficacité ou la réactivité de la cellule ?",
+      "children": [],
+      "hint": "Ex. : lourdeurs administratives, retards dans la validation des dossiers techniques amont, insuffisance d'outils de suivi automatisés, etc.",
+      "id": "s2q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Section 4",
+    "title": "DIAGNOSTIC EXTERNE (Environnement, Régulation et Bailleurs)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Cadre institutionnel et réglementaire",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment les évolutions du cadre réglementaire national des marchés publics et la mise en place future d’une haute autorité de régulation du secteur impactent-elles ou impacteront-elles l’agilité de la SONES dans ses acquisitions ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Relations avec les partenaires techniques et financiers (PTF)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles sont les principales contraintes ou exigences rencontrées dans la synchronisation des procédures internes de la SONES avec les directives des bailleurs (AFD, BADEA, SFD) lors du montage des requêtes de financement ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Section 5",
+    "title": "QUESTIONS OUVERTES DU DIAGNOSTIC EXTERNE (OPPORTUNITÉS ET MENACES)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les opportunités majeures de l'environnement externe (national et international) que la SONES et sa cellule de passation des marchés pourraient saisir à l'horizon 2030 ?",
+      "children": [],
+      "hint": "Ex. : digitalisation poussée des procédures publiques, nouveaux modes de contractualisation comme les PPP — Partenariats Public-Privé, renforcement de l’implication du secteur privé national dans le cadre de la Vision Sénégal 2050, etc.",
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les menaces ou risques externes (macroéconomiques, réglementaires, géopolitiques ou liés aux marchés des matières premières) susceptibles de compromettre la bonne exécution des marchés et la réalisation des objectifs du PSD ?",
+      "children": [],
+      "hint": "Ex. : volatilité des coûts des intrants et des équipements, complexité croissante des exigences des bailleurs, risques de retards dans les décaissements, etc.",
+      "id": "s4q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Section 6",
+    "title": "PROJECTIONS STRATÉGIQUES ET RECOMMANDATIONS (Horizon 2026–2030)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Alignement sur la Vision Sénégal 2050 et la LPSD (2025–2029)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels ajustements majeurs doivent être apportés aux processus d'achat pour accompagner la politique d'accès universel à l'eau potable et l'intégration territoriale (pôles territoriaux) ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Digitalisation et Modernisation",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles solutions technologiques ou innovations recommanderiez-vous d'intégrer en priorité dans le nouveau plan stratégique pour dématérialiser totalement la chaîne des marchés (e-procurement) ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de performance (KPI) et Suivi-évaluation",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs clés de performance devrait-on retenir dans le PSD 2026–2030 pour mesurer objectivement l'efficacité, la transparence et la célérité de la passation des marchés ?",
+        "points": [],
+        "id": "s5q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q3",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "cpse": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – PROGRAMMATION ET SUIVI-ÉVALUATION",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Responsable / Coordonnateur du Service Programmation et Suivi-Évaluation (CPSE)"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer la maturité des mécanismes de planification, de programmation et de suivi des performances au sein de la SONES, analyser l'articulation de la chaîne PPBSE (Planification, Programmation, Budgétisation, Suivi-Évaluation), dresser le diagnostic des outils et données de pilotage, et co-construire l'architecture du futur dispositif de suivi-évaluation du PSD et du Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION DE LA SONES, RÔLE ET ANCRAGE DE LA STRUCTURE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation institutionnelle et schéma tripartite",
+      "text": "Pouvez-vous nous présenter la SONES, son cadre statutaire (loi n° 95-10), la structure de son capital (99,93 % État, 0,07 % communes) et le fonctionnement du modèle tripartite État / SONES / SEN'EAU sous l'angle de la mesure de la performance ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage organisationnel et missions",
+      "text": "Comment le Service Programmation et Suivi-Évaluation s'insère-t-il dans l'organigramme de la Direction Générale et du Secrétariat Général, et quelles sont ses interactions fonctionnelles avec la DPES, la DCE, la DFC et la Cellule Contrôle de Gestion et Budget ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Missions principales du CPSE",
+      "text": "Quels sont les attributs et responsabilités clés de votre structure dans la programmation des projets, la centralisation des indicateurs d'impact, la consolidation des rapports d'activités et l'évaluation des performances ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "PRATIQUES ACTUELLES DE PROGRAMMATION ET DE SUIVI DES PERFORMANCES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Programmation annuelle et pluriannuelle",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment s'effectue la programmation opérationnelle et annuelle des projets (PTBA, matrice des investissements) en lien avec le Plan Prévisionnel d'Investissement (PPI 2017–2047) et le Programme Quinquennal d'Investissement (PQI) ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment est assurée la déclinaison entre les objectifs stratégiques globaux et les plans d'actions opérationnels des directions métiers (DTP, DTDA, DCE) ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Collecte et remontée des données",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le circuit actuel de collecte des données de performance (fréquence, canaux, points focaux dans les directions et projets comme KMS3 et Mamelles) ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les principaux goulets d'étranglement ou retards constatés dans la transmission des données par les directions internes et par l'exploitant (SEN'EAU) ?",
+        "points": [],
+        "id": "s2q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Production des rapports d'activités et de performance",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment sont élaborés et consolidés les rapports trimestriels, semestriels et annuels d'activités de la SONES ?",
+        "points": [],
+        "id": "s2q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le niveau d'alignement avec la démarche Budget-Programme et les exigences du Rapport Annuel de Performances (RAP) de la tutelle sectorielle ?",
+        "points": [],
+        "id": "s2q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "DIAGNOSTIC STRATÉGIQUE (SWOT SUIVI-ÉVALUATION & PERFORMANCE)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Forces internes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les atouts clés de la SONES en matière de suivi-évaluation (existence de rapports d'activités réguliers, suivi des indicateurs d'impact, dynamique de certification ISO 9001 V 2015) ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et vulnérabilités internes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles sont les lacunes ou limites des outils actuels de suivi (dispersion des fichiers Excel, manque d'automatisation, insuffisance de valeurs de référence / baselines) ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment le CPSE gère-t-il les écarts entre les cibles d'indicateurs prévues (ex. rendement du réseau, volumes produits, branchements sociaux) et les réalisations effectives sur le terrain ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles opportunités offre l'alignement sur le nouveau cadre de suivi-évaluation du Ministère de l'Hydraulique et de l'Assainissement (MHA / CPCSP) et la plateforme PENC'EAU ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment valoriser les données de la SONES dans les instances nationales et internationales de reporting WASH (JMP, GLASS, ODD 6) ?",
+        "points": [],
+        "id": "s3q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Menaces et contraintes externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les risques liés à la dépendance vis-à-vis des données transmises par le Fermier (SEN'EAU) (ex. biais, retards ou insuffisances d'attributs dans le SIG) ?",
+        "points": [],
+        "id": "s3q4c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est l'impact des aléas d'exécution des projets (retards de décaissement des bailleurs, encombrement du sous-sol en zone urbaine) sur l'atteinte des cibles d'indicateurs ?",
+        "points": [],
+        "id": "s3q4c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q4",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "SYSTÈMES D'INFORMATION, DIGITALISATION ET PILOTAGE PAR LA DONNÉE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Outils informatiques et Tableaux de bord",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels logiciels ou applications sont actuellement utilisés par le CPSE pour saisir, traiter et restituer les données de performance ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Existe-t-il un tableau de bord dynamique et automatisé à disposition de la Direction Générale pour la prise de décision ?",
+        "points": [],
+        "id": "s4q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Digitalisation et Schéma Directeur SI (SDSI)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment le dispositif de suivi-évaluation s'intègre-t-il dans le Schéma Directeur des Systèmes d'Information (SDSI) du secteur (centralisation des bases de données, Business Intelligence, Mini-Data Center) ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les perspectives de déploiement d'une plateforme applicative de suivi-évaluation accessible aux directions et filiales ?",
+        "points": [],
+        "id": "s4q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Synergie avec la démarche Qualité (SMQ - ISO 9001 V 2015)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment les indicateurs du suivi-évaluation s'articulent-ils avec les indicateurs des 11 processus du Système de Management de la Qualité (SMQ) de la SONES ?",
+        "points": [],
+        "id": "s4q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "De quelle manière la revue de direction annuelle et les revues de processus alimentent-elles l'évaluation globale de la performance ?",
+        "points": [],
+        "id": "s4q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "VISION À 5 ANS, TRANSFORMATION EN HOLDING ET ALIGNEMENT SECTORIEL",
+    "items": [
+     {
+      "type": "q",
+      "label": "Vision globale à 5 ans (horizon 2030)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "De quelle manière percevez-vous l'évolution de la fonction de suivi-évaluation dans le cadre de la transformation de la SONES en Holding polyvalente ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment structurer la remontée des indicateurs de performance et de rentabilité pour les futures filiales (eau minérale, patrimoine foncier, ingénierie) ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Alignement sur la Vision Sénégal 2050 et la LPSD 2025–2029",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment s'assurer que le dispositif de suivi du PSD s'articule avec les indicateurs des 8 pôles territoriaux et de l'Agenda National de Transformation (Sénégal 2050) ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel mécanisme mettre en place pour alimenter régulièrement les revues annuelles sectorielles et le dialogue avec le MHA et le MFB ?",
+        "points": [],
+        "id": "s5q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CO-CONSTRUCTION DU DISPOSITIF DE SUIVI-ÉVALUATION DU PSD (2026–2030) ET DU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Architecture du futur dispositif de suivi-évaluation du PSD (OS 6)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles sont vos attentes vis-à-vis du consultant pour la conception du système de suivi-évaluation du PSD (fiches d'indicateurs, valeurs de référence/baseline, cibles annuelles 2026–2030) ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel format de tableau de bord (ex. modèle Excel automatisé ou outil applicatif) préconisez-vous pour garantir sa prise en main immédiate par vos équipes ?",
+        "points": [],
+        "id": "s6q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Gouvernance et fréquences de suivi",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles instances et fréquences de revue recommandez-vous (ex. comités de performance trimestriels, revues semestrielles du CODIR, rapport annuel de suivi pour le Conseil d'Administration) ?",
+        "points": [],
+        "id": "s6q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment clarifier les rôles et responsabilités dans la chaîne « Collecte - Analyse - Validation - Reporting » ?",
+        "points": [],
+        "id": "s6q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Renforcement des capacités et transfert de compétences",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les besoins de formation prioritaires de votre équipe et des points focaux des directions pour assurer la durabilité du dispositif de suivi-évaluation ?",
+        "points": [],
+        "id": "s6q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Adossement au Contrat de Performance État–SONES (OS 9)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs clés stratégiques (KPIs) proposez-vous de retenir dans la matrice de performance du futur Contrat de Performance 2026–2030 négocié avec les ministères de tutelle (MHA et MFB) ?",
+        "points": [],
+        "id": "s6q4c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q4",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "sg": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – SECRÉTAIRE GÉNÉRAL",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Secrétaire Général de la SONES (M. Baïdy Souleymane NDIAYE)"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer la gouvernance administrative et institutionnelle, examiner l'organisation générale des services support, analyser le Schéma Directeur des Systèmes d'Information (SDSI), diagnostiquer le fonctionnement des instances délibérantes (CA, AG) et définir la feuille de route d'accompagnement de la transformation de la SONES en Holding polyvalente."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION INSTITUTIONNELLE, RÔLE ET PÉRIMÈTRE DU SECRÉTARIAT GÉNÉRAL",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation institutionnelle et statut",
+      "text": "Pouvez-vous nous présenter la SONES sur le plan institutionnel, son cadre créateur (loi n° 95-10 et décrets statutaires), la structure de son capital (détenu à 99,93 % par l'État et 0,07 % par 8 communes) ainsi que le fonctionnement du modèle tripartite État / SONES / SEN'EAU ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage et missions du Secrétariat Général",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment s'articule le positionnement du Secrétariat Général au sein de l'organisation générale, en appui direct à la Direction Générale et en coordination avec la Coordination Technique et les directions métiers ?",
+        "points": [],
+        "id": "s1q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les attributions fondamentales du SG dans le pilotage de l'administration générale, la coordination des services rattachés (Service des Systèmes d'Informations - SSI, Suivi-Évaluation) et le fonctionnement des instances statutaires ?",
+        "points": [],
+        "id": "s1q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s1q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "GOUVERNANCE INSTITUTIONNELLE, CADRE RÉGLEMENTAIRE ET CONFORMITÉ",
+    "items": [
+     {
+      "type": "q",
+      "label": "Fonctionnement des instances de gouvernance",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment le Secrétariat Général orchestre-t-il la préparation, la tenue et le suivi des décisions de l'Assemblée Générale des Actionnaires et du Conseil d'Administration (CA) ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le niveau de mise en œuvre et de suivi des procès-verbaux (PV) et résolutions adoptés lors des sessions du CA des trois dernières années ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Conformité aux nouvelles réformes du secteur parapublic",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la SONES s'adapte-t-elle aux exigences de la loi d'orientation n° 2022-08 du 19 avril 2022 relative au secteur parapublic et du décret n° 2025-671 fixant les statuts-types des sociétés nationales (notamment sur l'obligation de soumission des rapports annuels de performance et de gouvernance) ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les évolutions requises sur le règlement intérieur et le fonctionnement des comités spécialisés du Conseil d'Administration ?",
+        "points": [],
+        "id": "s2q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "DIAGNOSTIC STRATÉGIQUE (SWOT SECRÉTARIAT GÉNÉRAL ET ORGANISATION)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Forces internes",
+      "text": "Quels sont les atouts majeurs de l'organisation interne (stabilité institutionnelle, régularité de la tenue des instances, engagement dans le SMQ - ISO 9001 V 2015, mémoire institutionnelle) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et vulnérabilités internes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles sont les lourdeurs administratives ou organisationnelles qui affectent la fluidité de la transmission des informations entre les directions ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est l'état de la gestion documentaire, du système d'archivage physique/numérique et de la conservation du patrimoine d'informations de l'entreprise ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles opportunités offre le nouveau cadre de gouvernance pour renforcer la légitimité de la SONES et moderniser ses processus de gestion ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment valoriser le travail de capitalisation de l'expérience de la SONES (notamment les acquis célébrés lors du trentenaire de la société) ?",
+        "points": [],
+        "id": "s3q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Menaces externes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les risques d'instabilité ou de complexité administrative liés aux réorganisations sectorielles et à l'interaction avec la multitude d'acteurs institutionnels ?",
+        "points": [],
+        "id": "s3q4c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q4",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "MODERNISATION, DIGITALISATION ET SCHÉMA DIRECTEUR SI (SDSI)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Supervision du Système d'Information",
+      "text": "Comment le Secrétariat Général supervise-t-il le Service des Systèmes d'Informations (SSI) pour répondre aux besoins digitaux des directions métiers ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "État d'avancement du Schéma Directeur des Systèmes d'Information (SDSI)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le niveau d'élaboration et d'opérationnalisation du SDSI de la SONES ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les projets informatiques majeurs en cours pour interconnecter les outils internes (ERP, GED, outils de gestion budgétaire, messagerie) et sécuriser le réseau informatique ?",
+        "points": [],
+        "id": "s4q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Digitalisation et gouvernance numérique",
+      "text": "Quelles sont les priorités pour dématérialiser les procédures administratives, fluidifier le circuit de signature et améliorer les partages de données avec le fermier et les tutelles ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "TRANSFORMATION INSTITUTIONNELLE (HOLDING POLYVALENTE) ET CONDUITE DU CHANGEMENT",
+    "items": [
+     {
+      "type": "q",
+      "label": "Pilotage de la transformation en Holding (OS 10)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment le Secrétariat Général perçoit-il le projet de transformation institutionnelle de la SONES en Holding polyvalente ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles adaptations administratives et organisationnelles devront être apportées au Secrétariat Général pour gérer le portefeuille de filiales (eau minérale, valorisation foncière, ingénierie) ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Plan de conduite du changement (OS 7)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles initiatives administratives et managériales préconisez-vous pour préparer le personnel aux mutations organisationnelles découlant du PSD ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment coordonner l'action des partenaires sociaux et de la Direction du Capital Humain pour garantir un climat social apaisé durant la phase de transition ?",
+        "points": [],
+        "id": "s5q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTION AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Vulgarisation et communication institutionnelle du PSD (OS 8)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel rôle le Secrétariat Général jouera-t-il pour appuyer la diffusion du PSD auprès du Conseil d'Administration, des ministères de tutelle (MHA, MFB) et des partenaires externes ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de performance de gouvernance",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs clés (KPI) de gouvernance et d'efficacité administrative proposez-vous d'inscrire dans le Contrat de Performance 2026–2030 (taux de tenue des instances dans les délais, niveau de mise en œuvre du SDSI, taux de digitalisation des procédures, conformité aux exigences réglementaires) ?",
+        "points": [],
+        "id": "s6q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "ssi": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – SERVICE DES SYSTÈMES D'INFORMATIONS",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef / Responsable du Service des Systèmes d'Informations (SSI)"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer la maturité technologique et l'infrastructure du Système d'Information (SI) de la SONES, analyser l'état d'avancement du Schéma Directeur des Systèmes d'Information (SDSI), examiner les projets majeurs (acquisition de l'ERP, audit de sécurité informatique, SIG, digitalisation des processus), diagnostiquer l'interopérabilité des données avec l'exploitant (SEN'EAU) et définir l'architecture SI cible pour la future Holding polyvalente."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION INSTITUTIONNELLE, RÔLE ET ANCRAGE DU SERVICE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Présentation institutionnelle et modèle tripartite",
+      "text": "Pouvez-vous nous présenter la SONES sous l'angle technologique, son cadre créateur (loi n° 95-10), la structure de son capital (99,93 % État, 0,07 % communes) et le fonctionnement du modèle tripartite État / SONES / SEN'EAU concernant la propriété, la gestion et le partage des données numériques ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage organisationnel",
+      "text": "Comment le Service des Systèmes d'Informations (SSI) s'insère-t-il au sein du Secrétariat Général et quelles sont ses interactions fonctionnelles avec les directions métiers (DPES, DFC, DCE, DTP, DTDA) et la Cellule Informatique de la tutelle (MHA) ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Missions principales du SSI",
+      "text": "Quels sont les attributs fondamentaux de votre service (gestion des infrastructures informatiques, sécurité des réseaux, déploiement des logiciels métiers, assistance aux utilisateurs et conduite des projets digitaux) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "DIAGNOSTIC STRATÉGIQUE DU SI ET DES INFRASTRUCTURES (SWOT IT)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Infrastructures matérielles et réseaux",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est l'état d'obsolescence et de conformité des équipements matériels (serveurs, switchs, systèmes de courant ondulé/Inverter du bâtiment C et des Madeleines, réseaux informatiques) ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le niveau de sécurisation physique et logique de la salle des serveurs ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Gestion du parc applicatif et licences logiciels",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Pouvez-vous faire le point sur la gestion des licences informatiques récurrentes (redevance Microsoft, Kaspersky, Vmware, Symantec Backup, XRT Cash, AutoCAD, MS Project, Cebelmail, ArcGIS) ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le niveau de couverture des besoins des directions par les logiciels actuels et les mesures prises pour éliminer les logiciels non homologués ?",
+        "points": [],
+        "id": "s2q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Digitalisation et gestion documentaire (GED)",
+      "text": "Où en sont les projets d'assistance technique pour la numérisation, l'indexation de la documentation et l'archivage électronique ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Interfaçage et transmission des données par le Fermier (SEN'EAU)",
+      "text": "",
+      "children": [
+       {
+        "label": "SIG et Cartographie",
+        "text": "Quel est le constat sur la qualité, la complétude et les délais de transmission annuelle de la base SIG et des modèles hydrauliques par SEN'EAU (notamment le faible taux de renseignement de l'âge des conduites à 6,02 % et le géoréférencement des compteurs) ?",
+        "points": [],
+        "id": "s2q4c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les obstacles techniques pour établir un interfaçage en temps réel ou un accès direct de la SONES aux bases de données d'exploitation (clientèle, comptage, télégestion, fuites) ?",
+        "points": [],
+        "id": "s2q4c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q4",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Cybersécurité et menaces",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles sont les principales vulnérabilités identifiées face aux risques de cyberattaques, d'intrusions ou de pertes de données ?",
+        "points": [],
+        "id": "s2q5c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est l'état d'avancement de l'audit du système d'information et de la sécurité informatique prévu au budget ?",
+        "points": [],
+        "id": "s2q5c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q5",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "ÉTAT D'AVANCEMENT DU SDSI ET DE L'ACQUISITION DE L'ERP",
+    "items": [
+     {
+      "type": "q",
+      "label": "Schéma Directeur des Systèmes d'Information (SDSI) de la SONES",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le niveau d'actualisation et de mise en œuvre du SDSI de la SONES en articulation avec le SDSI sectoriel du Ministère de l'Hydraulique et de l'Assainissement ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les orientations prioritaires retenues dans le SDSI pour moderniser la gouvernance digitale de l'entreprise ?",
+        "points": [],
+        "id": "s3q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Projet d'acquisition du Progiciel de Gestion Intégré (ERP)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est l'historique et le niveau de relance du projet d'assistance technique (AMO) pour la sélection et la mise en place de l'ERP de la SONES ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les modules fonctionnels prioritaires qui doivent être couverts par cet ERP (finances/comptabilité, gestion des actifs/immobilisations, ressources humaines, passation des marchés, contrôle de gestion) ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "ALIGNEMENT SUR LA DIGITALISATION SECTORIELLE (MHA ET SÉNÉGAL 2050)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Convergence avec la stratégie de digitalisation du MHA",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment le SI de la SONES s'intègre-t-il dans les initiatives transversales du secteur (projet de Mini-Data Center centralisé, plateforme de convergence PENC'EAU, intégration de la Business Intelligence) ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Ancrage dans la Vision Sénégal 2050 et la SND 2025–2029",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "De quelle manière la feuille de route du SSI répond-elle aux exigences du « New Deal Technologique » et de l'Agenda National de Transformation (souveraineté des données, gouvernance orientée usagers, numérisation des registres) ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "ARCHITECTURE SI CIBLE POUR LA HOLDING POLYVALENTE ET SÉCURITÉ",
+    "items": [
+     {
+      "type": "q",
+      "label": "Transformation en Holding et gouvernance multi-filiales (OS 10)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment le SSI anticipe-t-il l'architecture SI cible nécessaire pour gérer le futur groupe Holding polyvalent et ses filiales (eau minérale, valorisation du patrimoine foncier, ingénierie) ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel modèle de gestion des infrastructures et des bases de données préconisez-vous (centralisation au siège Holding vs autonomie des filiales) ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Plan de Continuité et de Reprise d'Activité (PCA / PRA)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels dispositifs de sauvegarde distante, de redondance et de plan de secours (réseau, pare-feux ASA, serveurs de backup) sont en place pour garantir zéro perte de données critiques en cas de sinistre majeur ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTION AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Feuille de route des investissements informatiques (2026–2030)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les projets technologiques majeurs et le volume d'investissement prévisionnel que le SSI propose d'inscrire dans le Plan d'Actions Prioritaires (PAP) du PSD ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de performance (KPIs IT) pour le Contrat de Performance",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs chiffrés proposez-vous pour mesurer l'efficacité du système d'information dans le futur Contrat de Performance État–SONES :",
+        "points": [
+         "Taux de disponibilité des réseaux et applications critiques.",
+         "Taux d'avancement du déploiement de l'ERP.",
+         "Taux de digitalisation et dématérialisation des procédures internes.",
+         "Niveau de conformité aux audits de sécurité informatique.",
+         "Taux d'intégration des données du SIG patrimonial."
+        ],
+        "id": "s6q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "generic": {
+  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – TRAME COMMUNE",
+  "provisional": true,
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Responsable de la structure et, le cas échéant, ses principaux collaborateurs"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES"
+   },
+   {
+    "k": "Objectif",
+    "v": "Recueillir le bilan, le diagnostic stratégique (forces, faiblesses, opportunités, menaces), la vision à 5 ans et les propositions d'actions et d'indicateurs de la structure pour le PSD 2026–2030."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION, MISSIONS ET ANCRAGE ORGANISATIONNEL",
+    "items": [
+     {
+      "type": "q",
+      "label": "Missions et attributions",
+      "text": "Quelles sont les missions et attributions de votre structure, et comment ont-elles évolué depuis les dernières réorganisations internes ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage organisationnel",
+      "text": "Comment votre structure s'insère-t-elle dans l'organigramme et comment interagit-elle avec la Direction Générale, le Secrétariat Général, la Coordination Technique et les autres directions et cellules ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Organisation et ressources",
+      "text": "Quelles sont l'organisation interne, les effectifs et les principales compétences de votre structure ? Sont-ils adaptés à vos missions actuelles et futures ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "BILAN DES ACTIVITÉS ET DE LA PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Réalisations majeures",
+      "text": "Quelles sont les principales réalisations de votre structure au cours des dernières années (projets, programmes, réformes) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs et écarts",
+      "text": "Quels indicateurs suivez-vous, quels sont leurs niveaux actuels et quels écarts constatez-vous par rapport aux cibles fixées ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Contraintes d'exécution",
+      "text": "Quelles contraintes (budgétaires, procédurales, techniques, humaines, interinstitutionnelles) ont pesé sur l'atteinte de vos objectifs ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "DIAGNOSTIC STRATÉGIQUE (SWOT)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Diagnostic interne (Forces et Faiblesses)"
+     },
+     {
+      "type": "q",
+      "label": "Forces internes",
+      "text": "Quels sont les atouts majeurs de votre structure (compétences, expérience, outils, procédures, partenariats) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et vulnérabilités",
+      "text": "Quels sont les dysfonctionnements, goulets d'étranglement ou points de fragilité internes qui pénalisent votre performance ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités externes",
+      "text": "Quelles opportunités de l'environnement (Haute Autorité de Régulation du Secteur de l'Eau, nouveau Code de l'Eau, LPSD 2025–2029, Vision Sénégal 2050, PPP, bailleurs de fonds) votre structure peut-elle saisir ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Menaces externes",
+      "text": "Quels risques externes (financiers, climatiques, réglementaires, techniques, sociaux) pourraient compromettre l'atteinte de vos objectifs ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "VISION À 5 ANS, HOLDING POLYVALENTE ET SÉNÉGAL 2050",
+    "items": [
+     {
+      "type": "q",
+      "label": "Vision 2030",
+      "text": "Comment voyez-vous votre structure et la SONES à l'horizon 2030 ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Transformation en Holding",
+      "text": "Quels impacts et quelles opportunités la transformation de la SONES en Holding polyvalente et la création de filiales (eau minérale, valorisation foncière, ingénierie/expertise) représentent-elles pour votre structure ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ancrage territorial",
+      "text": "Comment votre structure peut-elle contribuer à la logique des pôles territoriaux et à l'équité d'accès à l'eau portées par la Vision Sénégal 2050 ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "DIGITALISATION ET OUTILS DE PILOTAGE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Outils actuels",
+      "text": "Quels outils (logiciels métiers, SIG, ERP, tableaux de bord, télégestion) utilisez-vous et quelles en sont les limites ?",
+      "children": [],
+      "id": "s5q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Priorités de digitalisation",
+      "text": "Quels projets de digitalisation ou de modernisation jugez-vous prioritaires pour votre structure sur la période 2026–2030 ?",
+      "children": [],
+      "id": "s5q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTION AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Projets prioritaires",
+      "text": "Quels projets et actions prioritaires votre structure propose-t-elle d'inscrire dans le Plan d'Actions Prioritaires (PAP 2026–2030) ?",
+      "children": [],
+      "id": "s6q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de performance (KPIs)",
+      "text": "Quels indicateurs clés et quelles cibles chiffrées proposez-vous d'inscrire dans le Contrat de Performance État–SONES 2026–2030 ?",
+      "children": [],
+      "id": "s6q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Conditions de réussite",
+      "text": "Quels moyens (humains, financiers, organisationnels) et quels engagements de l'État sont indispensables à la réussite de ces actions ?",
+      "children": [],
+      "id": "s6q3",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ }
+}

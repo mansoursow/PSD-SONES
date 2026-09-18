@@ -1,0 +1,14 @@
+{
+  "name": "sones-psd-entretiens",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PSD SONES 2026-2030 — prise de rendez-vous et guides d'entretien par structure",
+  "scripts": {
+    "dev": "node server.mjs"
+  },
+  "engines": { "node": "22.x" },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
