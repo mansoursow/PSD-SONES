@@ -39,7 +39,11 @@ export const isInterviewed = (d) => d && d.interview !== false;
 
 // Pôles ouverts à la prise de rendez-vous (les autres sont grisés dans l'organigramme).
 // Pour ouvrir un pôle, ajoutez son slug ici.
-export const ACTIVE = ['dg', 'coordonnateur-technique'];
+export const ACTIVE = [
+  'dg', 'coordonnateur-technique',
+  'secretariat-general', 'ssi', 'qse',
+  'cpsm', 'ccp', 'caj', 'ccgb', 'caicp', 'cpse',
+];
 export const isActive = (d) => isInterviewed(d) && ACTIVE.includes(d.slug);
 
 // Créneaux proposés (heure de Dakar = UTC, pas d'heure d'été). Entretiens de 1 h 30 à 2 h.

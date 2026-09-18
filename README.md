@@ -2,7 +2,7 @@
 
 Site de prise de rendez-vous et de préparation des entretiens stratégiques, organisé autour de l'organigramme de la Direction Générale de la SONES.
 
-- **Accueil = l'organigramme seul**, aux couleurs ADOC. Seuls les pôles listés dans `ACTIVE` (`public/js/departments.js`) sont cliquables et clignotent : actuellement **Direction Générale** et **Coordonnateur Technique**. Les autres sont grisés et ne peuvent pas être réservés, même via l'URL. Pour ouvrir un pôle, ajoutez son identifiant dans `ACTIVE`.
+- **Accueil = l'organigramme seul**, aux couleurs ADOC. Seuls les pôles listés dans `ACTIVE` (`public/js/departments.js`) sont cliquables et clignotent : actuellement les **11 pôles qui ont un guide dédié** (DG, Coordonnateur Technique, SG, SSI, QSE, CPSM, CCP, CAJ, CCGB, CAICP, CPSE). Les autres sont grisés et ne peuvent pas être réservés, même via l'URL. Pour ouvrir un pôle, ajoutez son identifiant dans `ACTIVE`.
 - **Parcours** : clic sur le pôle → choix de la date (`/#/s/<pôle>`) → écran « Terminé » avec le bouton « Consulter le questionnaire » → questionnaire (`/#/s/<pôle>/questionnaire`). Le lien de l'e-mail de confirmation mène directement au questionnaire.
 - **Réservation** : calendrier, créneaux (lun.–jeu. 09h00 · 11h30 · 15h00, ven. 09h00 · 11h00 · 15h30, heure de Dakar), présentiel ou visio. Un créneau réservé n'est plus proposé aux autres structures.
 - **E-mail de confirmation** avec invitation calendrier (.ics) envoyé à l'interviewé(e), avec le consultant en copie. Des e-mails partent aussi en cas de report ou d'annulation.
