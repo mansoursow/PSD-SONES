@@ -439,3 +439,12 @@ table.tbl{width:100%;border-collapse:collapse;font-size:.86rem}
 .q-actions{position:sticky;bottom:0;z-index:6;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.7rem;margin-top:1rem;padding:1rem 0;background:linear-gradient(180deg,rgba(255,255,255,.85),#fff 35%);border-top:1px solid var(--line)}
 @media (max-width:560px){.q-actions .btn{flex:1 1 100%}}
 .modal__box .done__text{margin-bottom:1rem}
+
+/* Aperçu du guide avant réservation */
+.guide-teaser .step__n{font-size:1rem}
+.teaser-modules{list-style:none;display:grid;gap:.35rem;margin:.6rem 0 0;font-size:.92rem}
+.teaser-modules li{padding-left:1.1rem;position:relative;color:var(--ink-soft)}
+.teaser-modules li::before{content:"›";position:absolute;left:.2rem;color:var(--orange);font-weight:700}
+.teaser-modules b{color:var(--navy-2)}
+.book-invite{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;background:rgba(230,69,1,.07);border:1px solid rgba(230,69,1,.25);border-radius:16px;padding:1rem 1.2rem;margin-bottom:1.2rem}
+.book-invite b{color:var(--navy-2)}

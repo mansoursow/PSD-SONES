@@ -183,7 +183,7 @@ function renderHome() {
   app.innerHTML = `
   <section class="container home">
     <h1 class="home__title">Entretiens <span>PSD 2026–2030</span></h1>
-    <p class="home__lead">Cliquez sur votre pôle pour choisir la date de votre entretien.</p>
+    <p class="home__lead">Cliquez sur votre pôle pour consulter le guide d'entretien et choisir la date.</p>
     ${state.config.storeKind === 'none' ? `<p class="notice" style="margin-bottom:1rem">La réservation en ligne n'est pas encore activée.</p>` : ''}
     ${orgChart()}
   </section>`;
@@ -196,10 +196,23 @@ function renderHome() {
 
 /* ------------------------------------------------------------ page rendez-vous */
 function renderDept(d) {
+  const guide = guideFor(d);
+  const ids = answerIds(guide);
+  const objectif = guide.fiche.find((f) => /objectif/i.test(f.k))?.v;
   app.innerHTML = `
   <div class="container page">
     <a class="back" href="#/">← Organigramme</a>
     <h1 class="page__title">${esc(d.name)}</h1>
+
+    <section class="step guide-teaser">
+      <div class="step__head"><h2>Le guide d'entretien</h2></div>
+      ${objectif ? `<p class="muted step__intro">${esc(objectif)}</p>` : ''}
+      <ul class="teaser-modules">${guide.sections.map((s) => `<li><b>${esc(s.code)}</b> ${esc(cap(s.title))}</li>`).join('')}</ul>
+      <p class="muted" style="font-size:.88rem;margin:.8rem 0 1rem">${guide.sections.length} modules · ${ids.length} questions · entretien de 1 h 30 à 2 h${guide.provisional ? ' · trame commune provisoire' : ''}</p>
+      <a class="btn btn--cta" href="#/s/${d.slug}/questionnaire">Consulter le guide complet →</a>
+      <p class="muted" style="font-size:.84rem;margin-top:.7rem">Vous pouvez le lire librement, l'imprimer, et commencer à y répondre même avant d'avoir fixé la date.</p>
+    </section>
+
     <section class="step" id="booking"><p class="muted">Chargement…</p></section>
   </div>`;
   setupBooking(d);
@@ -210,11 +223,21 @@ function renderQuestionnaire(d) {
   const guide = guideFor(d);
   const ids = answerIds(guide);
   const objectif = guide.fiche.find((f) => /objectif/i.test(f.k))?.v;
+  const booked = !!state.status[d.slug]?.booking;
   app.innerHTML = `
   <div class="container page">
-    <a class="back" href="#/s/${d.slug}">← Rendez-vous</a>
-    <h1 class="page__title">Questionnaire — ${esc(d.name)}</h1>
+    <a class="back" href="#/s/${d.slug}">← Retour au pôle</a>
+    <h1 class="page__title">Guide d'entretien — ${esc(d.name)}</h1>
     <section class="step">
+      ${booked
+        ? ''
+        : `<div class="book-invite">
+             <div>
+               <b>Vous n'avez pas encore fixé la date de votre entretien.</b>
+               <p class="muted" style="font-size:.9rem">Parcourez le guide autant que vous le souhaitez. Vos réponses sont enregistrées, mais pensez à réserver votre créneau.</p>
+             </div>
+             <a class="btn btn--cta btn--pulse" href="#/s/${d.slug}">Choisir la date →</a>
+           </div>`}
       <p class="muted step__intro">${objectif ? esc(objectif) + ' ' : ''}Apportez des premiers éléments de réponse avant l'entretien : quelques lignes par question suffisent, tout est enregistré automatiquement.</p>
       <div class="guide-bar">
         <span class="save-state" id="save"><i></i><span>À jour</span></span>
