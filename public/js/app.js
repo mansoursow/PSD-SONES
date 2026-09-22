@@ -210,7 +210,7 @@ function renderDept(d) {
       <ul class="teaser-modules">${guide.sections.map((s) => `<li><b>${esc(s.code)}</b> ${esc(cap(s.title))}</li>`).join('')}</ul>
       <p class="muted" style="font-size:.88rem;margin:.8rem 0 1rem">${guide.sections.length} modules · ${ids.length} questions · entretien de 1 h 30 à 2 h${guide.provisional ? ' · trame commune provisoire' : ''}</p>
       <a class="btn btn--cta" href="#/s/${d.slug}/questionnaire">Consulter le guide complet →</a>
-      <p class="muted" style="font-size:.84rem;margin-top:.7rem">Vous pouvez le lire librement, l'imprimer, et commencer à y répondre même avant d'avoir fixé la date.</p>
+      <p class="muted" style="font-size:.84rem;margin-top:.7rem">Deux possibilités, au choix : fixer la date puis remplir le guide, ou remplir le guide puis fixer la date.</p>
     </section>
 
     <section class="step" id="booking"><p class="muted">Chargement…</p></section>
@@ -229,15 +229,6 @@ function renderQuestionnaire(d) {
     <a class="back" href="#/s/${d.slug}">← Retour au pôle</a>
     <h1 class="page__title">Guide d'entretien — ${esc(d.name)}</h1>
     <section class="step">
-      ${booked
-        ? ''
-        : `<div class="book-invite">
-             <div>
-               <b>Vous n'avez pas encore fixé la date de votre entretien.</b>
-               <p class="muted" style="font-size:.9rem">Parcourez le guide autant que vous le souhaitez. Vos réponses sont enregistrées, mais pensez à réserver votre créneau.</p>
-             </div>
-             <a class="btn btn--cta btn--pulse" href="#/s/${d.slug}">Choisir la date →</a>
-           </div>`}
       <p class="muted step__intro">${objectif ? esc(objectif) + ' ' : ''}Apportez des premiers éléments de réponse avant l'entretien : quelques lignes par question suffisent, tout est enregistré automatiquement.</p>
       <div class="guide-bar">
         <span class="save-state" id="save"><i></i><span>À jour</span></span>
@@ -250,10 +241,22 @@ function renderQuestionnaire(d) {
         <button class="btn btn--ghost" id="pause">💾 Enregistrer et continuer plus tard</button>
         <button class="btn btn--cta" id="submit">Soumettre le questionnaire →</button>
       </div>
+      <div id="next-step" class="no-print"></div>
     </section>
   </div>`;
   $('#print').addEventListener('click', () => window.print());
   const ctl = setupAnswers(d, guide, ids);
+
+  const showNextStep = () => {
+    $('#next-step').innerHTML = booked ? '' : `<div class="book-invite">
+      <div>
+        <b>Dernière étape : fixez la date de votre entretien</b>
+        <p class="muted" style="font-size:.9rem">Choisissez le jour et l'heure qui vous conviennent. Vous recevrez une confirmation par e-mail avec l'invitation pour votre agenda.</p>
+      </div>
+      <a class="btn btn--cta btn--pulse" href="#/s/${d.slug}">Choisir la date →</a>
+    </div>`;
+  };
+  showNextStep();
 
   const showSubmitted = (at) => {
     $('#submitted').innerHTML = at ? `<p class="notice notice--ok" style="margin-bottom:1rem">✓ Questionnaire soumis le ${esc(new Date(at).toLocaleString('fr-FR', { dateStyle: 'long', timeStyle: 'short' }))}. Vous pouvez encore compléter vos réponses et le soumettre à nouveau.</p>` : '';
@@ -302,7 +305,11 @@ function renderQuestionnaire(d) {
         <div class="done__icon">✓</div>
         <div class="done__title">Questionnaire soumis</div>
         <p class="done__text">Merci ! ${r.filled} réponse${r.filled > 1 ? 's ont' : ' a'} été transmise${r.filled > 1 ? 's' : ''} à l'équipe du consultant.${r.mail?.sent ? (r.to === 'interviewee' ? ' Un récapitulatif vous a été envoyé par e-mail.' : '') : " (L'e-mail récapitulatif n'a pas pu être envoyé, mais vos réponses sont bien enregistrées.)"}</p>
-        <div class="row-actions" style="justify-content:center"><a class="btn btn--ghost btn--sm" href="#/" data-close>Retour à l'organigramme</a><button class="btn btn--primary btn--sm" data-close>Fermer</button></div>
+        ${booked
+          ? `<div class="row-actions" style="justify-content:center"><a class="btn btn--ghost btn--sm" href="#/" data-close>Retour à l'organigramme</a><button class="btn btn--primary btn--sm" data-close>Fermer</button></div>`
+          : `<p class="done__text" style="margin-bottom:1rem"><b>Il reste à fixer la date de votre entretien.</b></p>
+             <a class="btn btn--cta btn--pulse" href="#/s/${d.slug}" data-close>Choisir la date →</a>
+             <div class="done__links"><a href="#" data-close>Plus tard</a></div>`}
       </div>`);
     } catch (err) {
       toast(err.message, true);
