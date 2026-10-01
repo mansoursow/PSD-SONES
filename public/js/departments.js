@@ -46,6 +46,11 @@ export const ACTIVE = [
 ];
 export const isActive = (d) => isInterviewed(d) && ACTIVE.includes(d.slug);
 
+// Journées fermées (consultant indisponible) : aucun créneau n'est proposé, la date est grisée.
+export const BLOCKED_DATES = [
+  '2026-10-06', // mardi 6 octobre — équipe indisponible
+];
+
 // Créneaux proposés (heure de Dakar = UTC, pas d'heure d'été). Entretiens de 1 h 30 à 2 h.
 export const SLOTS = {
   1: ['09:00', '11:30', '15:00'], // lundi

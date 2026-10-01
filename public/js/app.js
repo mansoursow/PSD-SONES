@@ -1,4 +1,4 @@
-import { DEPARTMENTS, bySlug, isInterviewed, isActive, SLOTS, DURATION_MIN } from './departments.js';
+import { DEPARTMENTS, bySlug, isInterviewed, isActive, SLOTS, BLOCKED_DATES, DURATION_MIN } from './departments.js';
 
 const app = document.getElementById('app');
 const state = { config: null, guides: null, status: {} };
@@ -497,7 +497,7 @@ function setupBooking(d) {
     return (SLOTS[dow] || []).map((t) => ({ t, free: !taken.has(`${date}T${t}`) }));
   };
   const dayState = (date) => {
-    if (date < w.start || date > w.end) return 'off';
+    if (date < w.start || date > w.end || BLOCKED_DATES.includes(date)) return 'off';
     const ts = freeTimes(date);
     if (!ts.length) return 'off';
     return ts.some((x) => x.free) ? 'open' : 'full';
