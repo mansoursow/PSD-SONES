@@ -1,7 +1,7 @@
 // GET    /api/bookings?dept=slug            → rendez-vous de la structure (e-mail masqué)
 // POST   /api/bookings  {dept, date, time…}  → réserve ou reprogramme + e-mail de confirmation
 // DELETE /api/bookings?dept=slug {email}    → annule + e-mail d'annulation
-import { handler, send, readBody, query, checkAccess, fail, siteUrl } from '../lib/http.js';
+import { handler, send, readBody, query, checkAccess, fail, siteUrl, isDispatcher } from '../lib/http.js';
 import * as store from '../lib/store.js';
 import { buildIcs, bookingEmail, sendMail, consultantEmails } from '../lib/mail.js';
 import { getDept, sanitizeBooking, slotKey, bookingKey, ccList, newId } from '../lib/bookings.js';
@@ -9,7 +9,7 @@ import { getDept, sanitizeBooking, slotKey, bookingKey, ccList, newId } from '..
 const mask = (e) => e.replace(/^(.{2})[^@]*/, (m, a) => a + '•••');
 const publicView = (b) => b && { ...b, email: mask(b.email), participants: b.participants ? '(renseignés)' : '' };
 
-const isAdmin = (req) => process.env.ADMIN_PASSWORD && req.headers['x-admin-password'] === process.env.ADMIN_PASSWORD;
+const isAdmin = (req) => isDispatcher(req);
 
 async function notify(req, dept, booking, kind) {
   const link = `${siteUrl(req)}/#/s/${dept.slug}${kind === 'cancel' ? '' : '/questionnaire'}`;

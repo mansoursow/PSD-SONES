@@ -42,6 +42,8 @@ async function api(path, { method = 'GET', body } = {}) {
   const admin = session.get('psd-admin');
   if (code) headers['x-access-code'] = code;
   if (admin) headers['x-admin-password'] = admin;
+  const dispatch = session.get('psd-dispatch');
+  if (dispatch) headers['x-dispatch-code'] = dispatch;
   if (body) headers['Content-Type'] = 'application/json';
   const r = await fetch(path, { method, headers, body: body ? JSON.stringify(body) : undefined, keepalive: method === 'PUT' });
   let data = {};
@@ -117,6 +119,7 @@ async function route() {
     if (!state.config) await loadConfig();
     await loadGuides();
     if (page === 'admin') return renderAdmin(arg);
+    if (page === 'dispatch') return renderDispatch();
     if (state.config.locked) await accessGate();
     if (page === 's' && isActive(bySlug[arg])) return sub === 'questionnaire' ? renderQuestionnaire(bySlug[arg]) : renderDept(bySlug[arg]);
     if (hash !== '/') { history.replaceState(null, '', '#/'); }
@@ -659,6 +662,139 @@ function downloadIcs(d, b) {
   a.download = `entretien-psd-sones-${d.slug}.ics`;
   a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+
+/* ------------------------------------------------------------ répartition (organisateur SONES) */
+async function renderDispatch() {
+  if (!session.get('psd-dispatch')) return dispatchLogin();
+  let data;
+  try {
+    data = await api('/api/admin');
+  } catch (e) {
+    session.del('psd-dispatch');
+    return dispatchLogin(e.status === 401 ? 'Code incorrect.' : e.message);
+  }
+
+  const w = state.config.window;
+  const taken = new Set(data.rows.filter((r) => r.booking).map((r) => `${r.booking.date}T${r.booking.time}`));
+  const openDays = [];
+  for (let t = utc(w.start).getTime(); t <= utc(w.end).getTime(); t += 86400000) {
+    const date = iso(new Date(t));
+    if (BLOCKED_DATES.includes(date)) continue;
+    const times = SLOTS[utc(date).getUTCDay()] || [];
+    if (times.some((x) => !taken.has(`${date}T${x}`))) openDays.push(date);
+  }
+  const freeTimes = (date) => (SLOTS[utc(date).getUTCDay()] || []).filter((t) => !taken.has(`${date}T${t}`));
+
+  const rows = data.rows.map((r) => ({ ...r, d: bySlug[r.slug] })).filter((r) => r.d);
+  const done = rows.filter((r) => r.booking).sort((a, b) => (a.booking.date + a.booking.time).localeCompare(b.booking.date + b.booking.time));
+  const todo = rows.filter((r) => !r.booking);
+  const dayLabel = (x) => ucfirst(fmtLong(x).replace(/ \d{4}$/, ''));
+
+  app.innerHTML = `
+  <div class="container page">
+    <a class="back" href="#/">← Organigramme</a>
+    <h1 class="page__title">Répartition des entretiens</h1>
+    <p class="muted" style="margin-bottom:1.4rem">Fixez les rendez-vous des structures qui n'en ont pas encore. Chaque validation envoie l'invitation par e-mail à la personne concernée, avec l'équipe du consultant en copie.</p>
+
+    <section class="step">
+      <div class="step__head"><span class="step__n">${todo.length}</span><h2>Entretiens à placer</h2></div>
+      ${todo.length ? todo.map((r) => `
+        <form class="dispatch-row" data-dept="${r.slug}">
+          <div class="dispatch-row__name">${esc(r.d.name)}</div>
+          <div class="dispatch-grid">
+            <label class="field">Jour<select name="date" required>
+              <option value="">— choisir —</option>
+              ${openDays.map((x) => `<option value="${x}">${esc(dayLabel(x))}</option>`).join('')}
+            </select></label>
+            <label class="field">Heure<select name="time" required disabled><option value="">—</option></select></label>
+            <label class="field">Personne à interviewer *<input name="name" required placeholder="Prénom et nom"></label>
+            <label class="field">E-mail *<input name="email" type="email" required placeholder="prenom.nom@sones.sn"></label>
+            <label class="field">Téléphone<input name="phone" type="tel"></label>
+            <label class="field">Modalité<select name="mode"><option value="presentiel">Présentiel</option><option value="visio">Visioconférence</option></select></label>
+          </div>
+          <p class="notice hidden" data-err></p>
+          <button class="btn btn--cta btn--sm" type="submit">Valider et envoyer l'invitation</button>
+        </form>`).join('') : `<p class="notice notice--ok">Toutes les structures ont leur rendez-vous.</p>`}
+    </section>
+
+    <section class="step">
+      <div class="step__head"><span class="step__n">${done.length}</span><h2>Entretiens déjà fixés</h2></div>
+      ${done.length ? `<div class="table-wrap"><table class="tbl">
+        <thead><tr><th>Structure</th><th>Date</th><th>Personne</th><th>Contact</th><th></th></tr></thead>
+        <tbody>${done.map((r) => `
+          <tr><td>${esc(r.d.name)}</td>
+            <td class="nowrap">${esc(fmtShort(r.booking.date))} <b>${fmtTime(r.booking.time)}</b></td>
+            <td>${esc(r.booking.name)}</td>
+            <td><a href="mailto:${esc(r.booking.email)}">${esc(r.booking.email)}</a><div class="muted" style="font-size:.78rem">${esc(r.booking.phone || '')}</div></td>
+            <td class="nowrap"><button class="btn btn--danger btn--sm" data-cancel="${r.slug}">Annuler</button></td></tr>`).join('')}
+        </tbody></table></div>` : '<p class="muted">Aucun pour le moment.</p>'}
+      <p class="muted" style="font-size:.84rem;margin-top:1rem">Période ouverte : du ${esc(fmtLong(w.start))} au ${esc(fmtLong(w.end))}. Les créneaux déjà pris ne sont plus proposés.</p>
+    </section>
+  </div>`;
+
+  const onChange = (e) => {
+    const sel = e.target.closest('select[name=date]');
+    if (!sel) return;
+    const timeSel = $('select[name=time]', sel.closest('form'));
+    const list = sel.value ? freeTimes(sel.value) : [];
+    timeSel.disabled = !list.length;
+    timeSel.innerHTML = list.length ? list.map((t) => `<option value="${t}">${fmtTime(t)}</option>`).join('') : '<option value="">—</option>';
+  };
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    const f = e.target;
+    const body = Object.fromEntries(new FormData(f));
+    const err = $('[data-err]', f);
+    const show = (m) => { err.textContent = m; err.classList.remove('hidden'); };
+    if (!body.date || !body.time) return show("Choisissez le jour et l'heure.");
+    if (!body.name.trim()) return show('Indiquez la personne à interviewer.');
+    const btn = $('button[type=submit]', f);
+    btn.disabled = true;
+    btn.textContent = 'Envoi…';
+    try {
+      const r = await api('/api/bookings', { method: 'POST', body: { ...body, dept: f.dataset.dept } });
+      toast(r.mail?.sent ? `Invitation envoyée à ${body.email}.` : `Rendez-vous enregistré, mais l'e-mail n'est pas parti.`, !r.mail?.sent);
+      await loadConfig();
+      renderDispatch();
+    } catch (ex) {
+      show(ex.message);
+      btn.disabled = false;
+      btn.textContent = "Valider et envoyer l'invitation";
+    }
+  };
+
+  const onClick = async (e) => {
+    const t = e.target.closest('[data-cancel]');
+    if (!t) return;
+    if (!confirm(`Annuler l'entretien de ${bySlug[t.dataset.cancel].name} ? Un e-mail d'annulation sera envoyé.`)) return;
+    try {
+      await api(`/api/bookings?dept=${t.dataset.cancel}`, { method: 'DELETE', body: {} });
+      await loadConfig();
+      toast('Entretien annulé.');
+      renderDispatch();
+    } catch (ex) { toast(ex.message, true); }
+  };
+
+  app.addEventListener('change', onChange);
+  app.addEventListener('submit', onSubmit);
+  app.addEventListener('click', onClick);
+  cleanup = () => {
+    app.removeEventListener('change', onChange);
+    app.removeEventListener('submit', onSubmit);
+    app.removeEventListener('click', onClick);
+  };
+}
+
+function dispatchLogin(err = '') {
+  app.innerHTML = `<div class="container"><form class="card login" id="dlogin">
+    <div class="card__kicker">Répartition des entretiens</div><h2>Accès réservé</h2>
+    <p class="muted" style="font-size:.9rem;margin-top:.4rem">Saisissez le code communiqué par l'équipe du consultant.</p>
+    <label class="field" style="margin-top:.8rem">Code<input type="password" name="pw" required autofocus></label>
+    ${err ? `<p class="notice" style="margin-top:.8rem">${esc(err)}</p>` : ''}
+    <button class="btn btn--cta" style="margin-top:1rem;width:100%">Accéder</button></form></div>`;
+  $('#dlogin').onsubmit = (e) => { e.preventDefault(); session.set('psd-dispatch', new FormData(e.target).get('pw')); renderDispatch(); };
 }
 
 /* ------------------------------------------------------------ espace consultant */

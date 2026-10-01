@@ -448,3 +448,9 @@ table.tbl{width:100%;border-collapse:collapse;font-size:.86rem}
 .teaser-modules b{color:var(--navy-2)}
 .book-invite{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;background:rgba(230,69,1,.07);border:1px solid rgba(230,69,1,.25);border-radius:16px;padding:1rem 1.2rem;margin-bottom:1.2rem}
 .book-invite b{color:var(--navy-2)}
+
+/* Répartition des entretiens */
+.dispatch-row{border:1px solid var(--line);border-radius:16px;padding:1rem 1.1rem;margin-bottom:.9rem;background:#fff}
+.dispatch-row__name{font-family:var(--font-head);font-weight:700;color:var(--navy-2);margin-bottom:.7rem}
+.dispatch-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:.7rem;margin-bottom:.8rem}
+.dispatch-grid select{appearance:auto}
