@@ -4257,5 +4257,1977 @@
     ]
    }
   ]
+ },
+ "dfc": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – DIRECTION DES FINANCES ET DE LA COMPTABILITÉ (DFC)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Directeur des Finances et de la Comptabilité"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Recueillir les éléments de diagnostic et de cadrage des axes financier, audit et contrôle permanent, passation des marchés, coordination technique et suivi-évaluation / QSE pour le PSD 2026–2030 : comptabilité analytique du Fermier, soutenabilité du Prix Patrimoine, créances publiques, modélisation financière de la Holding."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "DIRECTION FINANCIÈRE & CONTRÔLE DE GESTION (DFC / CCGB)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "Orienté par les constats budgétaires, le modèle économique et l'alerte sur la comptabilité analytique."
+     },
+     {
+      "type": "q",
+      "label": "Alerte rouge sur la comptabilité analytique du Fermier",
+      "text": "Face à la non-transmission de la comptabilité analytique du délégataire (SEN'EAU) depuis 2021, comment la DFC compte-t-elle lever ce blocage pour connaître le coût de revient réel du m³ d'eau et restaurer la maîtrise tarifaire ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Soutenabilité du Prix Patrimoine et effet ciseau",
+      "text": "Quelles projections financières et mesures de régulation sont retenues dans le PSD pour préserver la marge de la SONES face au gel du Prix Patrimoine (~86,2 FCFA/m³) et à l'augmentation du Prix Exploitant ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Apurement des créances publiques et blocages fiscaux",
+      "text": "Quelle est la feuille de route pour le recouvrement des 25 à 30 milliards FCFA d'impayés de l'Administration/Universités et la résolution des blocages de tirages (DODP / TVA) dépassant 14 milliards FCFA ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Modélisation financière de la Holding",
+      "text": "Quels schémas de consolidation comptable, de gestion de trésorerie et d'allocation de fonds propres préconisez-vous pour financer le Plan d'Actions Prioritaires (PAP) et les nouvelles filiales ?",
+      "children": [],
+      "id": "s1q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "AUDIT INTERNE ET CONTRÔLE PERMANENT (CAICP)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "Orienté par le diagnostic du contrôle interne, le cloisonnement et les délais administratifs."
+     },
+     {
+      "type": "q",
+      "label": "Levée du cloisonnement d'information",
+      "text": "Comment remédier à la retention d'information constatée (notamment le non-partage des rapports d'investigation financière et technique menés par la DCE avec l'Audit Interne) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Couverture des zones d'ombre du plan d'audit",
+      "text": "Quelles dispositions intégrer au PSD pour auditer des processus sensibles jusqu'ici peu contrôlés, tels que la paie du personnel ou le traitement en urgence des indemnisations foncières (impenses) sur les chantiers ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Réduction des délais et archivage",
+      "text": "Quel plan d'actions pour résorber les retards récurrents de classement (physique/numérique) et faire respecter le délai administratif de traitement de 15 jours ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Supervision des filiales et gestion des risques",
+      "text": "Comment adapter la cartographie des risques et le système de contrôle interne pour assurer un audit consolidé du futur groupe Holding ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "PASSATION ET SUIVI DES MARCHÉS (CPM)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "Orienté par le sous-effectif critique, la déconnexion de l'exécution et les exigences SIGMAP."
+     },
+     {
+      "type": "q",
+      "label": "Traitement du sous-effectif critique",
+      "text": "Avec une cellule réduite à 3 personnes générant des allongements de délais, quelle réorganisation des effectifs est prévue pour sécuriser l'instruction du Programme Quinquennal d'Investissement (PQI) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Reconnexion du volet « Suivi et Exécution des marchés »",
+      "text": "Comment rétablir la centralisation des pièces de paiement, décomptes et PV de chantier au sein de la CPM (défaillance récurrente soulevée par les audits) en lien avec la DFC et les directions techniques ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Conformité SIGMAP / E-SIGMAP",
+      "text": "Quelle est la stratégie pour automatiser la publication des avis et PV d'attribution sur la plateforme de la DCMP et remédier aux retards d'enregistrement ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "KPIs Contractuels de Passation (2026–2030)",
+      "text": "Comment la CPM valide-t-elle les cibles sur : le respect des délais internes de traitement, le taux d'Avis de Non-Objection (ANO) dès la première saisine et le taux d'exécution du Plan de Passation des Marchés (PPM) ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "COORDINATION TECHNIQUE ET DIRECTIONS OPÉRATIONNELLES (DTP / DTDA / DCE)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "Orienté par le contrôle de l'exploitation, la digitalisation et l'innovation énergétique."
+     },
+     {
+      "type": "q",
+      "label": "Maîtrise du rendement et Eaux Non Facturées (ENF)",
+      "text": "Quels arbitrages techniques d'urgence inscrire au PSD pour traiter le déficit de rendement de réseau (76,3 % constaté vs 84,1 % contractuel) ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Fiabilisation des données SIG et patrimoine",
+      "text": "Face aux lacunes majeures du SIG transmis par l'exploitant (seul 6,02 % de l'âge des conduites est renseigné), quelle stratégie de mise à niveau du SIG patrimonial adopter ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Projets structurants et transition énergétique (Nexus Eau-Énergie)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le calendrier de levée définitive des réserves sur KMS3 et le projet des Mamelles ?",
+        "points": [],
+        "id": "s4q3c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment dupliquer le montage novateur solar-IPP du dessalement de la Grande Côte (centrale solaire de 300 MW pour abaisser le tarif à ~30 FCFA/kWh) sur les autres infrastructures de production ?",
+        "points": [],
+        "id": "s4q3c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q3",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Feuille de route télégestion / SCADA",
+      "text": "Quel est le plan de déploiement de la télégestion et des compteurs intelligents pour optimiser le comptage et le pilotage des réseaux ?",
+      "children": [],
+      "id": "s4q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "PROGRAMMATION, SUIVI-ÉVALUATION ET QSE (CPSE / QSE)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "Orienté par le découplage SMQ/performance, l'outillage applicatif et le maintien des normes."
+     },
+     {
+      "type": "q",
+      "label": "Rapprochement SMQ et Performance Stratégique",
+      "text": "Comment corriger le découplage actuel entre les indicateurs ISO 9001 (orientés conformité des processus) et les indicateurs de performance stratégique globale des projets dans le PSD ?",
+      "children": [],
+      "id": "s5q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Déploiement d'une application métier de Suivi-Évaluation",
+      "text": "Face à l'absence d'outil applicatif dans le SDSI actuel, quelles sont les spécifications retenues pour développer la plateforme web intégrée de saisie et de reporting en temps réel ?",
+      "children": [],
+      "id": "s5q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Renseignement des tableaux de bord et audits",
+      "text": "Quelles mesures managériales instaurer pour pallier les retards de saisie des indicateurs par les pilotes de processus et garantir la tenue régulière des revues de direction ?",
+      "children": [],
+      "id": "s5q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Consolidation de la certification ISO 9001 V 2015",
+      "text": "Suite au renouvellement obtenu en août 2025, comment étendre le périmètre de certification aux projets ruraux/régionaux et aux futures filiales du groupe Holding ?",
+      "children": [],
+      "id": "s5q4",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "dce": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – DIRECTION DU CONTRÔLE DE L'EXPLOITATION (DCE)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Directeur du Contrôle de l'Exploitation"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer l'exercice du droit de contrôle sur le Fermier, la performance technique (rendement, ENF), la qualité de l'eau, la gestion numérique du patrimoine (SIG, modèles hydrauliques, SCADA) et recueillir les contributions de la DCE au PSD 2026–2030 et au Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "EXERCICE DU DROIT DE CONTRÔLE ET RÉSOLUTION DE L'ASYMÉTRIE D'INFORMATION",
+    "items": [
+     {
+      "type": "q",
+      "label": "Accès direct aux données brutes d'exploitation",
+      "text": "Face au constat que la SONES ne dispose que d'un accès à des données pré-traitées via la plateforme du fermier sans accès simultané à 100 % aux bases primaires, quelles dispositions techniques la DCE propose-t-elle d'inscrire au PSD pour instaurer un accès direct et autonome aux données brutes de production, de comptage et de facturation ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Obtention de la comptabilité analytique de l'exploitant",
+      "text": "La non-transmission récurrente de la comptabilité analytique par le fermier constituant l'unique point d'alerte rouge du tableau de bord de contrôle, quels leviers opérationnels et contractuels la DCE compte-t-elle activer pour contraindre l'exploitant à fournir ces données indispensables au calcul du coût de revient réel du m³ ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Pénalités et réclamations financières",
+      "text": "Quel est le bilan d'application des pénalités contractuelles et des intérêts moratoires notifiés par la DCE à l'exploitant concernant les retards de livrables et les écarts de performance ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "PERFORMANCE TECHNIQUE ET LUTTE CONTRE LES EAUX NON FACTURÉES (ENF)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Redressement du rendement de réseau",
+      "text": "Le rendement réel de réseau s'établissant à 76,3 % en 2024 contre une cible contractuelle de 84,1 %, quelle est l'évaluation par la DCE des arguments avancés par l'exploitant (hausse de pression consécutive à la mise en service de KMS3) et quel plan d'actions d'urgence est prévu dans le PSD pour réduire les Eaux Non Facturées ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Comptage de la production et étalonnage des compteurs",
+      "text": "À la suite des résultats de la campagne d'étalonnage des compteurs d'eau, quelles sont les mesures arrêtées par la DCE pour fiabiliser la mesure des volumes produits (atteignant 288,257 millions m³) et garantir la rigueur du calcul de la redevance ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Surexploitation des ouvrages et renouvellements",
+      "text": "Quels sont les constats d'inspection de la DCE sur le temps de fonctionnement journalier frôlant les 24 heures sur les forages de Dakar et de certaines régions (Ziguinchor, Kolda, Fatick, Mbour), et quelles priorités de renouvellement électromécanique ont été transmises aux directions de travaux ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "CONTRÔLE DE LA QUALITÉ DE L'EAU ET MAÎTRISE DES RISQUES SANITAIRES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Couverture des missions d'inspection et moyens de laboratoire",
+      "text": "Comment la DCE compte-t-elle surmonter les ruptures de réactifs et les contraintes logistiques ayant empêché la réalisation de toutes les missions d'inspection prévues dans les Directions Territoriales, afin d'assurer un suivi physico-chimique et bactériologique continu ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Traitement des problématiques régionales de qualité",
+      "text": "",
+      "children": [
+       {
+        "label": "Fer et manganèse",
+        "text": "Quel est le suivi opéré sur l'efficacité des stations de déferrisation (Lymodak, PK4, Koungheul) et sur les opérations de dilution par les eaux de surface du Lac de Guiers à Dakar ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": "Fluor, chlorures et H2S",
+        "text": "Quelles sont les solutions techniques d'urgence suivies par la DCE dans les zones à forte minéralisation (bassin arachidier, Ziguinchor) en attendant la finalisation des grands transferts d'eau douce (Ndiayène Moussa Ndiaye, Sadio, Malem Hodar) ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Protection cathodique des adductions majeures",
+      "text": "Face au diagnostic révélant l'absence de protection cathodique sur une grande partie de la conduite ALG 1 et sur l'ensemble d'ALG 2, quel est le calendrier d'exécution du plan de réhabilitation d'urgence élaboré conjointement avec le fermier ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "GESTION NUMÉRIQUE DU PATRIMOINE (SIG, MODÈLES HYDRAULIQUES ET SCADA)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Mise à niveau de la base SIG patrimoniale",
+      "text": "Face aux insuffisances majeures de la base SIG transmise par l'exploitant — notamment un taux de renseignement de l'âge des canalisations plafonnant à 6,02 % —, quelles exigences précises la DCE entend-elle imposer au fermier pour fiabiliser la géolocalisation des conduites, des fuites et des abonnés ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Restauration et transmission des modèles hydrauliques",
+      "text": "Comment la DCE gère-t-elle le refus ou le retard de transmission par l'exploitant des modèles hydrauliques de l'ensemble des centres AEP du périmètre affermé (seuls 7 modèles ayant été remis sur la totalité des systèmes) ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Interconnexion des systèmes de télégestion (SCADA)",
+      "text": "Comment la DCE prévoit-elle de s'interconnecter aux centres de supervision de l'exploitant (comme le centre VISIO) pour disposer d'un tableau de bord de télégestion en temps réel à la Direction Générale ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "EXPLOITATION DES AUDITS MAJEURS ET TRANSVERSALITÉ INTERNE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Mise en œuvre des recommandations d'audits clés",
+      "text": "",
+      "children": [
+       {
+        "label": "Audit de facturation (Grant Thornton)",
+        "text": "Quelles sont les actions correctives arrêtées pour traiter les faiblesses identifiées sur les factures estimées et le paramétrage du système commercial ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": "Audit d'investigation technique/financière (Mazars)",
+        "text": "À la suite de l'évaluation des pertes cumulées de l'exploitant et du risque sur la continuité du service public, quelles recommandations de la DCE doivent être intégrées au PSD ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       },
+       {
+        "label": "Audit de maintenance (AMODIAC)",
+        "text": "Quelles dispositions sont retenues pour corriger les retards de maintenance préventive et de renouvellement sur l'infrastructure affermée ?",
+        "points": [],
+        "id": "s5q1c3",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Levée du cloisonnement avec l'Audit Interne",
+      "text": "Afin de supprimer le déficit de partage d'informations constaté par la cellule d'Audit Interne (non-transmission des rapports d'investigation technique), quel protocole de transmission systématique des livrables d'inspection la DCE propose-t-elle de formaliser ?",
+      "children": [],
+      "id": "s5q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTIONS AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Outil logiciel transversal de suivi de l'exploitation",
+      "text": "Pour pallier l'absence d'outil informatique d'exploitation intégré au niveau de la SONES, quelles spécifications fonctionnelles la DCE préconise-t-elle pour la création d'un progiciel métier de contrôle d'exploitation dans le cadre du SDSI ?",
+      "children": [],
+      "id": "s6q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs clés (KPIs) pour le Contrat de Performance 2026–2030",
+      "text": "Quels objectifs chiffrés la DCE propose-t-elle d'inscrire dans le futur Contrat de Performance État–SONES sur :",
+      "children": [],
+      "id": "s6q2",
+      "answer": true,
+      "points": [
+       "Le taux de rendement global des réseaux de distribution (cible d'amélioration progressive par rapport aux 76,3 % actuels).",
+       "Le taux de conformité physico-chimique et bactériologique de l'eau distribuée.",
+       "Le taux de résolution des réclamations clients et des réparations de fuites dans les délais contractuels.",
+       "Le taux de complétude des données d'attributs du SIG patrimonial (âge, matériau, diamètre)."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "ugp": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – UNITÉ DE GESTION DU PROJET KMS3 (UGP KMS3)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Coordonnateur de l'Unité de Gestion du Projet KMS3"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Faire le point sur la levée des dernières réserves techniques de KMS3, la clôture financière du projet, les engagements environnementaux et sociaux, et capitaliser l'expérience de l'UGP pour les nouveaux projets structurants, le PSD 2026–2030 et le Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "LEVÉE DES DERNIÈRES RÉSERVES TECHNIQUES ET TRANSFERT DE PROPRIÉTÉ",
+    "items": [
+     {
+      "type": "q",
+      "label": "Résolution des anomalies hydrauliques et mécaniques à l'usine de KMS3",
+      "text": "",
+      "children": [
+       {
+        "label": "Vibrations des pompes eau traitée",
+        "text": "À la suite des essais satisfaisants menés sur les pompes D et E par rognage des roues et ajout de masses, quel est le calendrier d'achèvement de ces opérations sur les pompes A, B et C, et de réalisation des essais finaux d'ensemble ?",
+        "points": [],
+        "id": "s1q1c1",
+        "answer": true
+       },
+       {
+        "label": "Corrosion des pompes eau brute",
+        "text": "Concernant le remplacement des roues en bronze par des roues en Inox 316 plus résistant et le traitement par peinture de protection Belzona, la livraison et la pose prévues pour mi-2025 sont-elles effectives ?",
+        "points": [],
+        "id": "s1q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s1q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Essais au débit nominal (9 000 m³/h - 200 000 m³/j) et télécommunication",
+      "text": "Le dispositif de communication par fibre optique via la ligne haute tension de la SENELEC entre KMS3 et le surpresseur de Mékhé 2 étant désormais opérationnel, la campagne de tests à 9 000 m³/h sous protection contre les phénomènes transitoires hydrauliques a-t-elle été validée définitivement ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Mise en service des ouvrages de stockage et de distribution",
+      "text": "Quel est le statut de l'achèvement et du raccordement des 2 réservoirs de 10 000 m³ de Thiès (avancés à 98 %), et comment s'organise la remise officielle de l'ensemble du patrimoine KMS3 (usine, réservoirs de Diass/Malika, conduites) à la Direction du Contrôle de l'Exploitation (DCE) et au Fermier (SEN'EAU) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "CLÔTURE FINANCIÈRE, MARCHÉS EN SOUFFRANCE ET RELIQUATS DE FINANCEMENT",
+    "items": [
+     {
+      "type": "q",
+      "label": "Paiement des décomptes et prorogation des prêts (BAD / BID / AFD / BEI)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "L'inscription des crédits dans la Loi de Finances Rectificative (LFR) ayant permis la reprise des paiements, la demande de prorogation de la date de clôture du prêt BAD a-t-elle été formalisée pour apurer les derniers décomptes ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est l'état de liquidation des reliquats de financement (estimés à environ 9,6 milliards FCFA cumulés au niveau global du projet) ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Gestion des défaillances prestataires et résiliations",
+      "text": "Suite à la résiliation du lot 3 du marché d'acquisition de 35 000 branchements sociaux (CCPS VALMY) pour non-conformité technique du matériel livré (tuyaux galva), quelle est la procédure de remplacement ou de réallocation budgétaire arrêtée pour ne pas pénaliser les objectifs de desserte sociale ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Constitution du stock stratégique de pièces de rechange",
+      "text": "Où en est le processus de commande et d'approvisionnement des pièces hydrauliques stratégiques de rechange destinées à sécuriser le fonctionnement futur de l'usine ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "ENGAGEMENTS ENVIRONNEMENTAUX, SOCIAUX ET RESPONSABILITÉ SOCIÉTALE (RSE)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Bilan et finalisation des périmètres agricoles (RSE - BAD)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "À la suite des remarques formulées par les bailleurs de fonds concernant les lenteurs d'exécution des infrastructures agricoles destinées aux populations traversées par les conduites, quel est le taux d'achèvement effectif de ce volet RSE (avancé à 90 %) ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Finalisation des indemnisations (PAR) et audits de conformité",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le bilan définitif du Plan d'Action de Réinstallation (PAR) sur l'axe production/transport (1 993 PAP indemnisées pour ~8 milliards FCFA) et sur le volet distribution ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les principales conclusions et recommandations issues des audits définitifs de la mise en œuvre du PGES et du PAR livrés aux bailleurs de fonds ?",
+        "points": [],
+        "id": "s3q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "CAPITALISATION D'EXPÉRIENCE ET TRANSFERT VERS LES NOUVEAUX PROJETS STRUCTURANTS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Capitalisation institutionnelle du modèle UGP KMS3",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "La fonction Suivi-Évaluation au sein de la SONES ayant émergé en 2018 avec le projet KMS3 avant d'être institutionnalisée, quels sont les principaux enseignements méthodologiques que l'UGP transmet pour la conduite des projets futurs ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles leçons tirées de la gestion des interfaces complexes (SENELEC pour la ligne 90kV Sakal-KMS3, OLAC pour la qualité de l'eau du Lac de Guiers, bailleurs multiples) doivent être formalisées dans l'étude d'évaluation finale d'impact du projet ?",
+        "points": [],
+        "id": "s4q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Réallocation et réutilisation des compétences de l'équipe UGP",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment les compétences techniques, juridiques et financières développées au sein de l'UGP KMS3 seront-elles redéployées dans le cadre du PSD 2026–2030 pour renforcer les nouvelles Unités de Gestion de Projets (programme d'urgence Diogo/Khombole, Grand Transfert d'Eau - GTE) ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "CONTRIBUTIONS FINALES AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Intégration des performances de KMS3 dans le modèle de production cible",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "L'usine de KMS3 produisant désormais ~204 000 m³/j, quelle est la consigne de production nominale sécurisée retenue comme hypothèse de base pour le Plan d'Actions Prioritaires (PAP 2026–2030) et la redevance de la SONES ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de clôture et de pérennité pour le Contrat de Performance",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs ultimes la direction de l'UGP KMS3 propose-t-elle pour sceller l'adossement du projet au futur Contrat de Performance État–SONES :",
+        "points": [
+         "Taux de levée à 100 % des réserves contractuelles sur l'usine et les réservoirs.",
+         "Taux de conformité environnementale et sociale post-projet (validation des audits PGES/PAR par la DEEC et les bailleurs).",
+         "Délai de clôture administrative et financière définitive auprès des bailleurs (AFD, BAD, BEI, BID)."
+        ],
+        "id": "s5q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "dpes": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – DIRECTION DE LA PLANIFICATION ET DES ÉTUDES STRATÉGIQUES (DPES)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Directeur de la Planification et des Études Stratégiques"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Analyser la programmation stratégique des investissements (PPI, PQI), les schémas directeurs et grands transferts, la mobilisation des financements et PPP, l'articulation avec la Vision Sénégal 2050 et le pilotage du PSD 2026–2030 et du Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PROGRAMMATION STRATÉGIQUE ET CADRAGE DES INVESTISSEMENTS (PPI 2017–2047 & PQI 2026–2030)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Soutenabilité du Plan Prévisionnel d'Investissement (PPI 2017–2047)",
+      "text": "Le montant global du PPI révisé s'élevant à 5 330 milliards FCFA HT, dont 78 % (soit 4 176 milliards FCFA HT) restent à rechercher, quelle est la grille d'arbitrage de la DPES pour hiérarchiser ces investissements dans le PSD 2026–2030 et prévenir tout risque de sur-endettement ou d'impasse financière ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Cadrage du Programme Quinquennal d'Investissement (PQI 2026–2030)",
+      "text": "Le PQI 2026–2030 ayant été arrêté à 504 milliards FCFA HT et transmis au Fermier (SEN'EAU), quelles sont les hypothèses techniques et financières de cadrage retenues pour aligner les capacités de mobilisation de la SONES avec les exigences d'extension de réseau ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Mise à jour annuelle du PPI et modèle financier",
+      "text": "Quelles améliorations la DPES préconise-t-elle dans le processus de révision annuelle du PPI pour fiabiliser la remontée des données de besoins et alimenter en temps réel le modèle financier de l'entreprise ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "SCHÉMAS DIRECTEURS, AMÉNAGEMENT TERRITORIAL ET GRANDS TRANSFERTS (GTE, DIOGO, TOUBA)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Actualisation des Schémas Directeurs d'AEP",
+      "text": "Quels sont les arbitrages majeurs issus de la finalisation de l'actualisation du Schéma Directeur de l'hydraulique urbaine hors Dakar-Thiès-Petite Côte (horizon 2040) et comment ses conclusions sont-elles déclinées dans la planification territoriale ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ajustement du Programme Intermédiaire 2024–2028 (Zone DMT)",
+      "text": "À la suite de la suspension/restructuration du projet de dessalement sur la Grande Côte, quelles sont les échéances de livraison des études APD/DAO pour le programme d'urgence basé sur la mobilisation des champs captants de Diogo et Ndiayene Sirah-Ngoundiane-Thiénaba ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Grand Transfert d'Eau (GTE) et AEP de la ville sainte de Touba",
+      "text": "Quel est le calendrier d'instruction des études d'aménagement en aval du Grand Transfert d'Eau (GTE) à partir du Lac de Guiers et du piquage de Pekesse vers Touba dont le mandat de maîtrise d'ouvrage déléguée est confié à la SONES ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Études de macro-sectorisation et réduction des Eaux Non Facturées",
+      "text": "Quel est l'état d'avancement des études de macro-sectorisation et sectorisation détaillée dans la zone Dakar-Thiès-Mbour (DMT) pour appuyer la réduction des pertes d'eau ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "MOBILISATION DES FINANCEMENTS ET PARTENARIATS PUBLIC-PRIVÉ (PPP / PISEA / BAILLEURS)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Instruction des requêtes de financement prioritaires",
+      "text": "Quel est le statut des négociations avec les bailleurs pour les trois requêtes stratégiques soumises en 2025 : le projet Ndiayene Sirakh-Ngoundiane avec l'AFD (127 milliards FCFA), le renforcement réseau DMT avec la BADEA (158 milliards FCFA), et le transfert d'eau dessalée vers Malika/Bayakh avec le Fonds Saoudien (85 milliards FCFA) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Encadrement des projets en Partenariat Public-Privé (PPP)",
+      "text": "Quel bilan tirez-vous des prestations d'assistance technico-financière et juridique menées sous le projet PISEA concernant la renégociation du contrat PPP de la Grande Côte et la préparation des futurs schémas PPP ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Diversification des mécanismes de financement (Climat / RSE / Endogène)",
+      "text": "De quelle manière la DPES compte-t-elle structurer la mobilisation des financements innovants et climatiques (fonds verts, Partenariats Public-Privé) face au resserrement des financements concessionnels classiques ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "ARTICULATION AVEC LA VISION SÉNÉGAL 2050, LA LPSD 2025–2029 ET LES PÔLES TERRITORIAUX",
+    "items": [
+     {
+      "type": "q",
+      "label": "Ancrage dans la Vision Sénégal 2050",
+      "text": "Comment la DPES garantit-elle la parfaite déclinaison des orientations stratégiques de l'Agenda National de Transformation (Sénégal 2050) et de la LPSD 2025–2029 du MHA dans les fiches-projets du PSD ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Territorialisation des investissements par Pôles Économiques",
+      "text": "Quelle est la clé de répartition des investissements du PSD retenue entre les 8 pôles territoriaux pour concrétiser l'équité territoriale et la souveraineté hydraulique ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Évaluations Environnementales Stratégiques (EES / PGES)",
+      "text": "Comment la DPES veille-t-elle à l'intégration des études d'impact environnemental et social (EIES/EES) dès la phase de maturation des études de faisabilité ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "INTERFACES AVEC LE FERMIER (CONVENTION PROGRAMME) ET LES DIRECTIONS INTERNES (CPSE / TRAVAUX)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Négociation et suivi de la Convention Programme avec SEN'EAU",
+      "text": "Comment la DPES gère-t-elle la validation et le suivi de la Convention Programme d'Investissement arrêtée avec l'exploitant privé pour prévenir les divergences sur la réalisation des renouvellements ?",
+      "children": [],
+      "id": "s5q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Interface entre Planification (DPES) et Suivi-Évaluation (CPSE)",
+      "text": "Pour supprimer le découplage constaté entre la planification stratégique pluriannuelle et le suivi opérationnel infra-annuel, quel protocole de transmission continue des données la DPES préconise-t-elle d'instaurer ?",
+      "children": [],
+      "id": "s5q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Passage de relais vers les Directions de Travaux (DTP / DTDA)",
+      "text": "Comment s'organise le transfert des dossiers d'études finalisés (APS, APD, DAO) de la DPES vers les directions opérationnelles de travaux pour l'exécution physique ?",
+      "children": [],
+      "id": "s5q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "PILOTAGE DU PSD 2026–2030 ET NÉGOCIATION DU CONTRAT DE PERFORMANCE ÉTAT–SONES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Coordination de la mission PSD et mobilisation du CODIR",
+      "text": "En tant que coordinatrice institutionnelle de la réalisation du PSD 2026–2030 et du Contrat de Performance, quel calendrier d'ateliers et de revues la DPES préconise-t-elle pour assurer la validation participative par le CODIR et le Conseil d'Administration ?",
+      "children": [],
+      "id": "s6q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Matrice de performance du futur Contrat de Performance État–SONES",
+      "text": "Quels indicateurs clés de performance (KPIs) la DPES propose-t-elle de retenir pour le Contrat de Performance 2026–2030 à négocier avec le Ministère de l'Hydraulique et de l'Assainissement (MHA) et le Ministère des Finances et du Budget (MFB) ?",
+      "children": [],
+      "id": "s6q2",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "dtp": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – DIRECTION DES TRAVAUX DE PRODUCTION (DTP)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Directeur des Travaux de Production"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Faire le bilan de l'accroissement et de la sécurisation des capacités de production, du traitement de la qualité de l'eau, de la maintenance lourde et du suivi des chantiers, et recueillir les engagements de la DTP pour le PSD 2026–2030 et le Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "ACCROISSEMENT ET SÉCURISATION DES CAPACITÉS DE PRODUCTION (EAUX DE SURFACE ET SOUTERRAINES)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Programme de réalisation et d'équipement des forages (Champs captants de Khombole, Diogo, Tivaouane, Pire)",
+      "text": "",
+      "children": [
+       {
+        "label": "Programme des 20/25 forages et Accords-Cadres (Générations 3 & 4)",
+        "text": "Quel est le taux d'avancement physique de l'équipement et de la mise en service des forages stratégiques destinés à renforcer le transfert d'eau douce vers la zone Dakar–Thiès–Mbour (DMT) et les centres régionaux ?",
+        "points": [],
+        "id": "s1q1c1",
+        "answer": true
+       },
+       {
+        "label": "Libération des emprises et foncier",
+        "text": "Comment la DTP surmonte-t-elle les blocages de libération de sites (ex. zones de Khombole et Diogo) et les actes de contestation ou de vandalisme constatés sur certains ouvrages (ex. forage F12 de Mbour à Médinatoul Salam) ?",
+        "points": [],
+        "id": "s1q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s1q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Construction et réhabilitation des stations de traitement d'eau de surface",
+      "text": "",
+      "children": [
+       {
+        "label": "Station de Khor (Saint-Louis)",
+        "text": "Quel est le bilan de la mise en service de la nouvelle station de traitement de Khor (15 000 m³/j) et le calendrier des travaux complémentaires sur le réseau d'adduction ?",
+        "points": [],
+        "id": "s1q2c1",
+        "answer": true
+       },
+       {
+        "label": "Programme des 4 centres fluviaux du Nord (Richard-Toll, Dagana, Podor, Matam) · Richard-Toll",
+        "text": "Quel est l'état d'avancement du chantier de la station de 14 000 m³/j (travaux de micropieux, radier et voiles) ?",
+        "points": [],
+        "id": "s1q2c2",
+        "answer": true
+       },
+       {
+        "label": "Programme des 4 centres fluviaux du Nord (Richard-Toll, Dagana, Podor, Matam) · Dagana, Podor et Matam",
+        "text": "À la suite des dépassements budgétaires sur les stations de Dagana (4 000 m³/j) et Podor (5 000 m³/j) ayant nécessité des relances d'appels d'offres auprès de la BOAD, les marchés sont-ils attribués et les chantiers réengagés ?",
+        "points": [],
+        "id": "s1q2c3",
+        "answer": true
+       }
+      ],
+      "id": "s1q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "TRAITEMENT DE LA QUALITÉ DE L'EAU ET UNITÉS SPÉCIALISÉES (DÉFERRISATION, DÉFLUORURATION, DESSALEMENT COMPACT)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Réhabilitation des stations de déferrisation et traitement de la qualité",
+      "text": "",
+      "children": [
+       {
+        "label": "Ville de Kolda",
+        "text": "Quel est le taux d'avancement des travaux de réhabilitation de l'ancienne station de déferrisation (2 600 m³/j) et d'équipement des nouveaux forages pour éliminer les fortes teneurs en fer ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": "Traitement du fer à Lymodak et stations régionales",
+        "text": "Quelles sont les solutions de traitement physico-chimique ou d'électro-chloration déployées par la DTP pour corriger les dépassements de normes OMS sur le fer ou la bactériologie dans les stations de l'intérieur ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Unité compacte de dessalement de l'Île de Gorée",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Face aux casses répétées sur les conduites sous-marines causées par les fortes houles, où en est le processus de passation de marché pour l'acquisition et l'installation de l'unité compacte de dessalement par forages littoraux destinée à sécuriser l'alimentation en eau de Gorée ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "MAINTENANCE LOURDE DU PATRIMOINE DE PRODUCTION ET SÉCURISATION ÉNERGÉTIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Prévention de la surexploitation des forages et renouvellement électromécanique",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Les inspections ayant révélé que plusieurs forages stratégiques alimentant Dakar, Ziguinchor, Fatick, Kolda et Mbour fonctionnent avec des temps de marche journaliers frôlant les 24 heures, quelles priorités de renouvellement des pompes et d'équipements de secours sont inscrites au PSD pour éviter les ruptures de production ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Remise à niveau d'urgence de la protection cathodique des adductions majeures (ALG 1 et ALG 2)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le calendrier d'exécution des travaux de réhabilitation de la protection cathodique des conduites de transfert du Lac de Guiers (ALG 1 non protégée sur une grande partie de son tracé et ALG 2 totalement non protégée) afin de stopper la dégradation par corrosion ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Transition énergétique et solarisation des infrastructures de production",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelle est la feuille de route de la DTP pour le déploiement des centrales solaires photovoltaïques associées aux usines de production (ex. projets de 28 ha à Keur Momar Sarr et Méouane) afin de réduire l'impact des coûts énergétiques sur les charges de la SONES ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "SUIVI DES CHANTIERS, DÉLAIS ET LOGISTIQUE D'APPROVISIONNEMENT",
+    "items": [
+     {
+      "type": "q",
+      "label": "Gestion des contraintes douanières et logistiques (APIX / DODP / Douanes)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la DTP gère-t-elle les retards récurrents dans l'obtention des attestations d'exonération douanière au guichet unique de l'APIX et les suspensions à la DODP, qui bloquent la sortie des matériels importés (notamment les pièces de raccordement en fonte) et ralentissent les chantiers ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Protocoles de réception et de transfert des ouvrages à l'Exploitant",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment s'articule le passage de relais avec la Direction du Contrôle de l'Exploitation (DCE) et le Fermier (SEN'EAU) lors des réceptions provisoires/définitives des nouveaux ouvrages de production pour garantir leur mise en service industrielle immédiate ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "CONTRIBUTIONS AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Objectifs de capacité additionnelle dans le Plan d'Actions Prioritaires (PAP 2026–2030)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le volume global de production journalière supplémentaire que la DTP s'engage à livrer sur la période 2026–2030 pour soutenir l'objectif global de 300+ millions de m³ annuels ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de performance (KPIs DTP) pour le Contrat de Performance État–SONES",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels objectifs chiffrés la DTP propose-t-elle d'inscrire dans le futur Contrat de Performance :",
+        "points": [
+         "Taux d'exécution physique et financière des projets de production du PQI.",
+         "Taux de disponibilité opérationnelle des équipements de pompage et de traitement.",
+         "Respect des délais d'exécution contractuels sur les chantiers d'usines et de forages.",
+         "Taux de mise en conformité environnementale et de sécurité des sites de production."
+        ],
+        "id": "s5q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "dtda": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – DIRECTION DES TRAVAUX DE DISTRIBUTION ET D'ACCÈS À L'EAU POTABLE (DTDA)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Directeur des Travaux de Distribution et d'Accès à l'Eau potable"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Faire le bilan des extensions de réseau, des branchements sociaux, du renouvellement des conduites et des contraintes de chantier urbain, et recueillir les engagements de la DTDA pour le PSD 2026–2030 et le Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "EXTENSION ET DENSIFICATION DES RÉSEAUX DE DISTRIBUTION (URBAIN ET PÉRIURBAIN)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Bilan et finalisation du programme des 582,5 km d’extension (Fonds propres SONES)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est l'état d'avancement physique et financier définitif des différents lots de pose de réseau de distribution en PVC (lots DT Dakar/Thiès pour 188 km, lots DT Diourbel/Petite Côte/Kaolack pour 172 km) et quelles sont les zones restant à couvrir ?",
+        "points": [],
+        "id": "s1q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s1q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Grands projets de densification dans les zones d'extension urbaine (Tivaouane Peulh-Niagha, Diamniadio, Diass)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le calendrier de réalisation des travaux d'extension structurante dans les pôles urbains émergents à forte croissance démographique (notamment le projet de Tivaouane Peulh – Niagha évalué à 3 milliards FCFA) pour résorber les poches de sous-desserte ?",
+        "points": [],
+        "id": "s1q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s1q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Schéma de viabilisation des pôles d'extension régionale",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la DTDA coordonne-t-elle la planification des extensions de distribution secondaires/tertiaires avec l'arrivée des nouvelles adductions et réservoirs dans les villes secondaires (Touba, Mbacké, Kaolack, Kolda, Richard-Toll) ?",
+        "points": [],
+        "id": "s1q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s1q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "PROGRAMMES MASSIFS DE BRANCHEMENTS SOCIAUX (BS) ET DESSERTE POPULAIRE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Poursuite et coordination des programmes de branchements sociaux",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "La réalisation annuelle ayant dépassé 32 000 branchements sociaux fin 2025 (atteignant 228 % des objectifs annuels de la SND), comment la DTDA planifie-t-elle la réalisation des grands paquets de branchements prévus au PQI :",
+        "points": [
+         "Le programme de 39 000 BS (financement BEI).",
+         "Les programmes de 15 000 BS + 120 km et 35 000 BS + 280 km (financement BID).",
+         "Le programme de 35 000 BS (financement JICA - Lot 6)."
+        ],
+        "id": "s2q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Sécurisation de la chaîne d'approvisionnement en kits de branchement",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "À la suite des résiliations ou défaillances de prestataires sur la fourniture de kits de branchement (ex. matériel non conforme) et du différé d'enregistrement fiscal à la DODP, quelles dispositions sont prises pour garantir la disponibilité continue des compteurs DN15 et des accessoires de raccordement ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "RENOUVELLEMENT DE CONDUITES VÉTUSTES, SECTORISATION ET RÉDUCTION DES PERTES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Avancement des chantiers majeurs de renouvellement à Dakar (Lots 3 et 4 JICA - 316 km)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Avec un avancement de plus de 87,5 % sur le Lot 3 (153 km posés sur 175 km aux Almadies, Parcelles Assainies, Grand-Yoff) et le déroulement du Lot 4 (141 km à Dakar Plateau, Grand Dakar, HLM), quel est le planning de basculement effectif des branchements abonnés sur les conduites neuves pour couper les tronçons fuyards ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Projet PISEA (Banque Mondiale) et sectorisation détaillée dans la zone DMT",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Dans le cadre de la composante de réduction des Eaux Non Facturées (ENF) du PISEA (~23 milliards FCFA), quelles sont les modalités d'intervention de la DTDA pour la pose de compteurs sectoriels, le découpage en Districts de Mesure Asservie (DMA) et le remplacement ciblé du réseau tertiaire en lien avec la DCE ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "CONTRAINTES DE CHANTIER EN MILIEU URBAIN, AGEROUTE ET AGRÉMENT APIX",
+    "items": [
+     {
+      "type": "q",
+      "label": "Gestion des contraintes de chantier urbain, réfection de chaussée et travaux nocturnes",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Face à l'encombrement du sous-sol à Dakar et aux exigences des autorités locales (travaux exclusivement nocturnes imposés au Plateau avec la Préfecture et l'AGEROUTE, interférences avec SENELEC, ONAS, opérateurs télécoms), comment la DTDA optimise-t-elle les délais de réfection définitive des chaussées pour limiter les désagréments sur la mobilité ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Fluidification des procédures administratives d'importation (Guichet unique APIX et DODP)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "L'obtention du nouvel agrément d'exonération APIX (n°0314 de janvier 2025 pour 3 ans) ayant permis de débloquer les tuyaux et pièces de raccordement bloqués au port, quel mécanisme d'anticipation la DTDA propose-t-elle pour éviter toute nouvelle rupture de stock sur le terrain ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "INCORPORATION DE NOUVEAUX CENTRES ET TERRITORIALISATION (VISION SÉNÉGAL 2050)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Mise aux normes des réseaux dans les nouveaux centres incorporés (ex. Diender, Nguékhokh, Niomré)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le bilan technique de la mise aux normes et de l'extension des réseaux lors de l'intégration de nouvelles localités dans le périmètre affermé (ex. achèvement de la phase 3 à Diender avec le château d'eau de 1 500 m³ et le réseau associé) ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Déclinaison de l'accès à l'eau dans les 8 Pôles Territoriaux",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Comment la DTDA équilibre-t-elle ses opérations d'extension de réseau et de branchements sociaux entre la zone métropolitaine (Dakar-Thiès-Mbour) et les pôles régionaux (Pôle Sud, Pôle Nord, Pôle Centre, Pôle Sud-Est) afin de concrétiser la directive d'équité territoriale de la Vision Sénégal 2050 ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTIONS AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Engagements de réalisations physiques dans le Plan d'Actions Prioritaires (PAP 2026–2030)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les objectifs cumulés de linéaires de canalisations à poser (en km) et de nouveaux branchements sociaux à exécuter que la DTDA s'engage à inscrire dans la feuille de route 2026–2030 ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs clés de performance (KPIs DTDA) pour le Contrat de Performance État–SONES",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs chiffrés la DTDA propose-t-elle d'inscrire au tableau de bord du futur Contrat de Performance :",
+        "points": [
+         "Nombre annuel de branchements sociaux posés et mis en service.",
+         "Linéaire annuel d'extension et de densification de réseau réalisé (km).",
+         "Linéaire de réseaux vétustes renouvelés et mis hors service (km).",
+         "Taux de réfection définitive des voiries et chaussées après travaux dans le délai contractuel (< 30 jours)."
+        ],
+        "id": "s6q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "dpmg": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – DIRECTION DU PATRIMOINE ET DES MOYENS GÉNÉRAUX (DPMG)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Directeur du Patrimoine et des Moyens Généraux"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer la gestion et la sécurisation du patrimoine foncier et immobilier, la valorisation du patrimoine non affermé, la libération des emprises, les moyens généraux et les infrastructures d'accueil, et recueillir les contributions de la DPMG au PSD 2026–2030 et au Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "GESTION, INVENTAIRE ET SÉCURISATION DU PATRIMOINE FONCIER ET IMMOBILIER",
+    "items": [
+     {
+      "type": "q",
+      "label": "Actualisation du fichier du patrimoine et inventaire contradictoire (SONES / SEN'EAU)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Le dernier inventaire contradictoire des immobilisations ayant été arrêté fin septembre 2023 et le prochain étant fixé par le contrat d'affermage pour 2026, quelle est la feuille de route de la DPMG pour préparer la mise à jour complète du fichier des biens physiques ?",
+        "points": [],
+        "id": "s1q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Où en est le test d'expérimentation de la nouvelle base de données de gestion patrimoniale (développée avec l'assistance technique Phoenix/SGI) au niveau de la Direction Territoriale de Diourbel avant son extension à l'ensemble du réseau ?",
+        "points": [],
+        "id": "s1q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s1q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Sécurisation foncière des assiettes et régularisation des titres",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le taux de régularisation juridique (titres fonciers, baux, délibérations municipales) des sites abritant les forages, usines, châteaux d'eau, bassins de lagunage (ex. KMS) et centrales solaires (ex. Méouane) ?",
+        "points": [],
+        "id": "s1q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels sont les dispositifs physiques et juridiques déployés pour faire cesser les occupations illégales et sécuriser les emprises menacées sur le périmètre affermé ?",
+        "points": [],
+        "id": "s1q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s1q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "VALORISATION ÉCONOMIQUE DU PATRIMOINE NON AFFERMÉ ET PROJET DE HOLDING",
+    "items": [
+     {
+      "type": "q",
+      "label": "Optimisation des recettes locatives du patrimoine non affermé",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Les produits tirés de la location des immeubles et des emprises aux opérateurs de téléphonie mobile s'établissant à environ 181,2 millions FCFA HT en 2025, quel est le plan d'action de la DPMG pour revaloriser ces redevances et renégocier les baux commerciaux ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Projets de promotion immobilière et réserves foncières à Dakar",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "De quelle manière la DPMG compte-t-elle valoriser les réserves foncières stratégiques situées dans la presqu'île de Dakar (notamment sur le site des Mamelles et les emprises des Unités de Coordination) pour générer des revenus récurrents hors redevance eau ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quel est le schéma retenu pour l'intégration de la gestion immobilière dans le futur groupe Holding polyvalent ?",
+        "points": [],
+        "id": "s2q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "LIBÉRATION DES EMPRISES, INDEMNISATION DES PAP ET IMPENSES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Gestion du paiement des impenses et concertation avec les CDREI",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Face à un budget d'impenses révisé à 570 millions FCFA en 2025 pour libérer les emprises des chantiers (AEP des 5 villes, transfert de Fatick/Diourbel/Gossas, etc.), quel est le bilan d'indemnisation des Populations Affectées par les Projets (PAP) ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles sont les mesures arrêtées pour raccourcir les délais d'évaluation des commissions départementales (CDREI) et éviter les suspensions de chantiers dues à la contestation des barèmes par les riverains ?",
+        "points": [],
+        "id": "s3q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "GESTION DES MOYENS GÉNÉRAUX, PARC AUTOMOBILE ET LOGISTIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Rationalisation et renouvellement du parc automobile",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Suite à la suspension du système de « Car Plan » et au basculement vers l'achat direct de véhicules Pick-up autorisés au budget (ex. 263 millions FCFA en 2025), quel est l'état d'obsolescence de la flotte automobile de la SONES ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment la DPMG gère-t-elle la maintenance, la consommation de carburant et le déploiement des véhicules de secours pour les missions d'inspection sur l'ensemble du territoire ?",
+        "points": [],
+        "id": "s4q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Gestion des stocks de consommables et outillages généraux",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les mécanismes de contrôle interne mis en place pour optimiser la gestion des magasins centraux, la distribution du matériel de bureau et l'outillage général ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "INFRASTRUCTURES D'ACCUEIL, RÉHABILITATION DES AGENCES ET CADRE DE TRAVAIL",
+    "items": [
+     {
+      "type": "q",
+      "label": "Programme de construction et de réhabilitation des bâtiments administratifs",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est l'état d'avancement des études architecturales (APS/APD/DAO) et des chantiers pour les nouveaux bâtiments :",
+        "points": [
+         "Le futur Siège de la SONES à Diamniadio.",
+         "L'agence des Parcelles Assainies et les bâtiments des Madeleines I et II.",
+         "La réhabilitation des agences régionales (Ziguinchor, Kaolack, Linguère, Fatick, Thiaroye)."
+        ],
+        "id": "s5q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Amélioration du cadre de travail et transition écologique du siège",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le bilan des travaux d'extension et de réhabilitation du siège (restaurant d'entreprise, étanchéité du Bâtiment C, installation de panneaux solaires) pour moderniser les conditions de travail du personnel ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTIONS AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Plan d'Investissement Patrimonial et Logistique (2026–2030)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le volume global d'investissement sur fonds propres à inscrire dans le Plan d'Actions Prioritaires (PAP) pour la rénovation immobilière, le foncier et le renouvellement de la flotte logistique ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs de performance (KPIs DPMG) pour le Contrat de Performance État–SONES",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels objectifs chiffrés la DPMG propose-t-elle d'inscrire au tableau de bord du futur Contrat de Performance :",
+        "points": [
+         "Taux de régularisation foncière des sites et emprises d'ouvrages de la SONES (cible > 95 %).",
+         "Niveau de valorisation financière et de revenus tirés du patrimoine non affermé.",
+         "Taux d'exécution du programme de réhabilitation des agences régionales.",
+         "Délai moyen d'indemnisation et de libération des emprises pour les PAP (< 60 jours)."
+        ],
+        "id": "s6q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "dch": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – DIRECTION DU CAPITAL HUMAIN (DCH)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Directeur du Capital Humain"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Analyser l'anticipation du choc démographique, la GPEC et le recrutement, la modernisation du SIRH, le climat social, l'accompagnement RH de la transformation en Holding, et recueillir les contributions de la DCH au PSD 2026–2030 et au Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "ANTICIPATION DU CHOC DÉMOGRAPHIQUE ET TRANSMISSION DE LA MÉMOIRE INSTITUTIONNELLE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Plan d'urgence face au départ de 7 Directeurs et 23 cadres clés à horizon 5 ans",
+      "text": "L'analyse des effectifs révélant la retraite imminente de 23 cadres majeurs d'ici 2028-2030 — dont 7 Directeurs de premier plan (Directeur du Contrôle de l'Exploitation, Directeurs techniques) —, quel dispositif d'urgence la DCH compte-t-elle inscrire au PSD pour organiser un tuilage systématique (compagnonnage/passation de témoin) au moins 6 à 12 mois avant les départs effectifs ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Capitalisation de l'expertise rare en maîtrise d'ouvrage",
+      "text": "Face au recours récurrent à des cadres retraités reconvertis en consultants individuels pour pallier la perte de mémoire technique, quelle stratégie de transmission formelle des connaissances (knowledge management) la DCH préconise-t-elle de formaliser dans le PSD ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "GPEC, PLAN DE RECRUTEMENT ET RENOUVELLEMENT DES COMPÉTENCES MÉTIERS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Gestion Prévisionnelle des Emplois et des Compétences (GPEC)",
+      "text": "Quel est le niveau d'actualisation du référentiel des métiers et des compétences de la SONES pour faire face aux nouveaux enjeux technologiques (dessalement, télégestion/SCADA, SIG, hydrogéologie avancée, ingénierie financière) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Plan de recrutement et renforcement du profil « Maître d'Ouvrage »",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Les budgets annuels intégrant régulièrement le recrutement de 3 à 5 ingénieurs et cadres administratifs, ces recrutements suffisent-ils à couvrir la charge de travail générée par le Programme Quinquennal d'Investissement (PQI) ?",
+        "points": [],
+        "id": "s2q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelle politique d'attractivité et de fidélisation la DCH applique-t-elle pour retenir les jeunes ingénieurs et experts face à la concurrence du secteur privé et des cabinets internationaux ?",
+        "points": [],
+        "id": "s2q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Plan de formation pluriannuel et partenariats académiques",
+      "text": "Comment le plan de formation prévisionnel est-il adossé aux orientations stratégiques de la SONES, et quels partenariats développer avec les écoles d'ingénieurs (EPT, 2iE, ESP) pour créer des viviers de recrutement dédiés ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "MODERNISATION DU SIRH, DIGITALISATION ET COHÉRENCE AVEC L'ERP",
+    "items": [
+     {
+      "type": "q",
+      "label": "Mise en place d'un Système d'Information Ressources Humaines (SIRH)",
+      "text": "Les données RH et la paie étant gérées de manière autonome, quelles sont les spécifications retenues par la DCH pour intégrer un module RH moderne dans le futur Progiciel de Gestion Intégré (ERP) du Schéma Directeur SI (SDSI) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Gestion dématérialisée des carrières, congés et évaluations",
+      "text": "Quel est le taux de digitalisation des dossiers administratifs des agents, du suivi de la médecine du travail, du calcul des droits à congés liés à l'ancienneté et du processus annuel d'évaluation des performances ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "CLIMAT SOCIAL, CONVENTION COLLECTIVE ET POLITIQUE DE REMUNÉRATION",
+    "items": [
+     {
+      "type": "q",
+      "label": "Analyse du climat social et dialogue avec les partenaires sociaux",
+      "text": "Quel est l'état du dialogue social avec les syndicats et représentants du personnel concernant les révisions du règlement intérieur, les conditions de travail et la valorisation de la mission de service public ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Politique de rémunération, grille salariale et reclassements",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le bilan de l'application de la Convention Collective Nationale Interprofessionnelle sur l'évolution de la masse salariale et les régularisations fiscales (ex. reclassement des indemnités de véhicules) ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment la DCH évalue-t-elle le ratio de la masse salariale par rapport aux recettes de la redevance patrimoine pour maintenir la soutenabilité financière ?",
+        "points": [],
+        "id": "s4q2c2",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "ACCOMPAGNEMENT RH DE LA TRANSFORMATION EN HOLDING ET CONDUITE DU CHANGEMENT (OS 7)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Redéploiement et ingénierie RH pour le projet de Holding (OS 7 / OS 10)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "En application des Termes de Référence du PSD (OS 7), comment la DCH prépare-t-elle l'accompagnement humain de la création des nouvelles filiales (eau minérale, valorisation du patrimoine foncier, exportation de l'ingénierie/conseil) ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quels schémas de mobilité interne, de mise à disposition de personnel ou de contrats d'affectation vers les filiales sont envisagés pour préserver les acquis sociaux des collaborateurs ?",
+        "points": [],
+        "id": "s5q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Organisation RH dans le cadre de la territorialisation (8 Pôles)",
+      "text": "Si la SONES doit structurer des directions ou antennes régionales décentralisées (ex. Pôle Nord, Pôle Sud), quelle est la stratégie de redéploiement des effectifs depuis le siège central vers les régions ?",
+      "children": [],
+      "id": "s5q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTIONS AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Indicateurs de pilotage RH pour le Plan d'Actions Prioritaires (PAP 2026–2030)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels sont les volumes d'investissements et les programmes de renforcement des capacités à inscrire dans la feuille de route 2026–2030 ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs clés de performance (KPIs DCH) pour le Contrat de Performance État–SONES",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels indicateurs chiffrés la DCH propose-t-elle d'inscrire au tableau de bord :",
+        "points": [
+         "Taux de couverture des postes stratégiques soumis à un départ à la retraite (cible = 100 % de tuilage à 6 mois).",
+         "Taux de réalisation du Plan Annuel de Formation.",
+         "Ratio de maîtrise de la masse salariale par rapport aux produits d'exploitation.",
+         "Taux d'absentéisme et indicateurs de climat social / satisfaction du personnel."
+        ],
+        "id": "s6q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
  }
 }

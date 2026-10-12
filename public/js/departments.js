@@ -23,15 +23,15 @@ export const DEPARTMENTS = [
   { slug: 'cpse', group: 'cell', short: 'CPSE', name: 'Programmation et Suivi-Évaluation', lead: 'Responsable du Service', guide: 'cpse' },
 
   // Directions et unités de projet
-  { slug: 'ugp-kms3', group: 'dir', short: 'UGP KMS3', name: 'Unité de Gestion du Projet KMS3', lead: "Coordonnateur de l'UGP", guide: null },
+  { slug: 'ugp-kms3', group: 'dir', short: 'UGP KMS3', name: 'Unité de Gestion du Projet KMS3', lead: "Coordonnateur de l'UGP", guide: 'ugp' },
   { slug: 'ucp-mamelles', group: 'dir', short: 'UCP Mamelles', name: "Unité de Coordination du Projet de Dessalement de l'Eau de mer des Mamelles", lead: "Coordonnateur de l'UCP", guide: null },
-  { slug: 'dpes', group: 'dir', short: 'DPES', name: 'Direction Planification et des Études Stratégiques', lead: 'Directeur', guide: null },
-  { slug: 'dtp', group: 'dir', short: 'DTP', name: 'Direction des Travaux de Production', lead: 'Directeur', guide: null },
-  { slug: 'dtda', group: 'dir', short: 'DTDA', name: "Direction des Travaux de Distribution et d'Accès", lead: 'Directeur', guide: null },
-  { slug: 'dpmg', group: 'dir', short: 'DPMG', name: 'Direction du Patrimoine et des Moyens Généraux', lead: 'Directeur', guide: null },
-  { slug: 'dce', group: 'dir', short: 'DCE', name: "Direction du Contrôle de l'Exploitation", lead: 'Directeur', guide: null },
-  { slug: 'dch', group: 'dir', short: 'DCH', name: 'Direction du Capital Humain', lead: 'Directeur', guide: null },
-  { slug: 'dfc', group: 'dir', short: 'DFC', name: 'Direction des Finances et de la Comptabilité', lead: 'Directeur', guide: null },
+  { slug: 'dpes', group: 'dir', short: 'DPES', name: 'Direction Planification et des Études Stratégiques', lead: 'Directeur', guide: 'dpes' },
+  { slug: 'dtp', group: 'dir', short: 'DTP', name: 'Direction des Travaux de Production', lead: 'Directeur', guide: 'dtp' },
+  { slug: 'dtda', group: 'dir', short: 'DTDA', name: "Direction des Travaux de Distribution et d'Accès", lead: 'Directeur', guide: 'dtda' },
+  { slug: 'dpmg', group: 'dir', short: 'DPMG', name: 'Direction du Patrimoine et des Moyens Généraux', lead: 'Directeur', guide: 'dpmg' },
+  { slug: 'dce', group: 'dir', short: 'DCE', name: "Direction du Contrôle de l'Exploitation", lead: 'Directeur', guide: 'dce' },
+  { slug: 'dch', group: 'dir', short: 'DCH', name: 'Direction du Capital Humain', lead: 'Directeur', guide: 'dch' },
+  { slug: 'dfc', group: 'dir', short: 'DFC', name: 'Direction des Finances et de la Comptabilité', lead: 'Directeur', guide: 'dfc' },
 ];
 
 export const bySlug = Object.fromEntries(DEPARTMENTS.map((d) => [d.slug, d]));
@@ -43,8 +43,13 @@ export const ACTIVE = [
   'dg', 'coordonnateur-technique',
   'secretariat-general', 'ssi', 'qse',
   'cpsm', 'ccp', 'caj', 'ccgb', 'caicp', 'cpse',
+  'ugp-kms3', 'dpes', 'dtp', 'dtda', 'dpmg', 'dce', 'dch', 'dfc',
 ];
 export const isActive = (d) => isInterviewed(d) && ACTIVE.includes(d.slug);
+
+// Entretiens déjà réalisés sans passer par la prise de rendez-vous : affichés « Terminé », non réservables.
+export const DONE = ['cpsm', 'ccp', 'ccgb', 'caicp'];
+export const isDone = (d) => !!d && DONE.includes(d.slug);
 
 // Journées fermées (consultant indisponible) : aucun créneau n'est proposé, la date est grisée.
 export const BLOCKED_DATES = [

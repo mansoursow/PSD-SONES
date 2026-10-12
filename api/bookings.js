@@ -4,7 +4,7 @@
 import { handler, send, readBody, query, checkAccess, fail, siteUrl, isDispatcher } from '../lib/http.js';
 import * as store from '../lib/store.js';
 import { buildIcs, bookingEmail, sendMail, consultantEmails } from '../lib/mail.js';
-import { getDept, sanitizeBooking, slotKey, bookingKey, ccList, newId } from '../lib/bookings.js';
+import { getDept, bookableDept, sanitizeBooking, slotKey, bookingKey, ccList, newId } from '../lib/bookings.js';
 
 const mask = (e) => e.replace(/^(.{2})[^@]*/, (m, a) => a + '•••');
 const publicView = (b) => b && { ...b, email: mask(b.email), participants: b.participants ? '(renseignés)' : '' };
@@ -38,7 +38,7 @@ export default handler(async (req, res) => {
 
   if (req.method === 'POST') {
     const body = await readBody(req);
-    const dept = getDept(body.dept);
+    const dept = bookableDept(body.dept);
     const b = sanitizeBooking(body);
     const prev = await store.get(bookingKey(dept.slug));
     if (prev && !isAdmin(req) && prev.email !== b.email && (body.currentEmail || '').trim().toLowerCase() !== prev.email) {
@@ -76,7 +76,8 @@ export default handler(async (req, res) => {
     }
     await store.del(slotKey(prev.date, prev.time));
     await store.del(bookingKey(dept.slug));
-    const mail = await notify(req, dept, { ...prev, seq: (prev.seq || 0) + 1 }, 'cancel');
+    // Annulation silencieuse (sans e-mail) possible uniquement pour l'organisateur : { silent: true }.
+    const mail = body.silent && isAdmin(req) ? { sent: false, reason: 'Annulation silencieuse' } : await notify(req, dept, { ...prev, seq: (prev.seq || 0) + 1 }, 'cancel');
     return send(res, 200, { ok: true, mail });
   }
 

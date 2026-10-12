@@ -1,4 +1,4 @@
-import { DEPARTMENTS, bySlug, isInterviewed, isActive, SLOTS, BLOCKED_DATES, DURATION_MIN } from './departments.js';
+import { DEPARTMENTS, bySlug, isInterviewed, isActive, isDone, SLOTS, BLOCKED_DATES, DURATION_MIN } from './departments.js';
 
 const app = document.getElementById('app');
 const state = { config: null, guides: null, status: {} };
@@ -145,10 +145,13 @@ function unit(d, cls = '') {
     return `<div class="unit ${cls} is-off" aria-disabled="true" title="Entretien à venir"><span class="unit__name">${esc(d.name)}</span></div>`;
   }
   const b = state.status[d.slug]?.booking;
-  const badge = b
+  const done = isDone(d);
+  const badge = done
+    ? `<span class="unit__done">✓ Terminé</span>`
+    : b
     ? `<span class="unit__done">✓ Terminé · ${esc(utc(b.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', timeZone: 'UTC' }))} ${fmtTime(b.time)}</span>`
     : `<span class="unit__cta">Cliquez ici →</span>`;
-  return `<a class="unit ${cls} is-active${b ? ' is-booked' : ''}" href="#/s/${d.slug}"><span class="unit__name">${esc(d.name)}</span>${badge}</a>`;
+  return `<a class="unit ${cls} is-active${b || done ? ' is-booked' : ''}" href="#/s/${d.slug}"><span class="unit__name">${esc(d.name)}</span>${badge}</a>`;
 }
 
 function orgChart() {
@@ -213,7 +216,7 @@ function renderDept(d) {
       <ul class="teaser-modules">${guide.sections.map((s) => `<li><b>${esc(s.code)}</b> ${esc(cap(s.title))}</li>`).join('')}</ul>
       <p class="muted" style="font-size:.88rem;margin:.8rem 0 1rem">${guide.sections.length} modules · ${ids.length} questions · entretien de 1 h 30 à 2 h${guide.provisional ? ' · trame commune provisoire' : ''}</p>
       <a class="btn btn--cta" href="#/s/${d.slug}/questionnaire">Consulter le guide complet →</a>
-      <p class="muted" style="font-size:.84rem;margin-top:.7rem">Deux possibilités, au choix : fixer la date puis remplir le guide, ou remplir le guide puis fixer la date.</p>
+      ${isDone(d) ? '' : `<p class="muted" style="font-size:.84rem;margin-top:.7rem">Deux possibilités, au choix : fixer la date puis remplir le guide, ou remplir le guide puis fixer la date.</p>`}
     </section>
 
     <section class="step" id="booking"><p class="muted">Chargement…</p></section>
@@ -226,7 +229,7 @@ function renderQuestionnaire(d) {
   const guide = guideFor(d);
   const ids = answerIds(guide);
   const objectif = guide.fiche.find((f) => /objectif/i.test(f.k))?.v;
-  const booked = !!state.status[d.slug]?.booking;
+  const booked = !!state.status[d.slug]?.booking || isDone(d);
   app.innerHTML = `
   <div class="container page">
     <a class="back" href="#/s/${d.slug}">← Retour au pôle</a>
@@ -550,6 +553,14 @@ function setupBooking(d) {
 
   function render() {
     const b = s.booking;
+    if (isDone(d)) {
+      el.innerHTML = `<div class="done">
+          <div class="done__icon">✓</div>
+          <div class="done__title">Terminé</div>
+          <p class="done__text">L'entretien de cette structure a déjà eu lieu. Merci pour votre contribution à l'élaboration du PSD 2026–2030.</p>
+        </div>`;
+      return;
+    }
     if (state.config.storeKind === 'none') {
       el.innerHTML = `<p class="notice">La réservation en ligne n'est pas encore activée (stockage non configuré).</p>`;
       return;
@@ -688,7 +699,7 @@ async function renderDispatch() {
 
   const rows = data.rows.map((r) => ({ ...r, d: bySlug[r.slug] })).filter((r) => r.d);
   const done = rows.filter((r) => r.booking).sort((a, b) => (a.booking.date + a.booking.time).localeCompare(b.booking.date + b.booking.time));
-  const todo = rows.filter((r) => !r.booking);
+  const todo = rows.filter((r) => !r.booking && !isDone(r.d));
   const dayLabel = (x) => ucfirst(fmtLong(x).replace(/ \d{4}$/, ''));
 
   app.innerHTML = `
@@ -812,7 +823,7 @@ async function renderAdmin(sub) {
 
   const rows = data.rows.map((r) => ({ ...r, d: bySlug[r.slug] }));
   rows.sort((a, b) => ((a.booking ? a.booking.date + a.booking.time : 'z') + a.d.name).localeCompare((b.booking ? b.booking.date + b.booking.time : 'z') + b.d.name));
-  const planned = rows.filter((r) => r.booking).length;
+  const planned = rows.filter((r) => r.booking || isDone(r.d)).length;
   const started = rows.filter((r) => r.progress?.filled).length;
   const base = `${location.origin}${location.pathname}`;
 
@@ -841,7 +852,7 @@ async function renderAdmin(sub) {
           const pct = p?.total ? Math.round((p.filled / p.total) * 100) : 0;
           return `<tr>
             <td><a href="#/s/${r.slug}" style="font-weight:600;color:var(--blue)">${esc(r.d.short)}</a><div class="muted" style="font-size:.78rem">${esc(r.d.name)}</div></td>
-            <td class="nowrap">${b ? `${esc(fmtShort(b.date))}<br><b>${fmtTime(b.time)}</b>` : '<span class="chip chip--todo">À planifier</span>'}</td>
+            <td class="nowrap">${b ? `${esc(fmtShort(b.date))}<br><b>${fmtTime(b.time)}</b>` : isDone(r.d) ? '<span class="chip chip--done">Terminé</span>' : '<span class="chip chip--todo">À planifier</span>'}</td>
             <td>${b ? `${esc(b.name)}<div class="muted" style="font-size:.78rem">${esc(b.role)}</div>` : ''}</td>
             <td>${b ? `<a href="mailto:${esc(b.email)}">${esc(b.email)}</a><div class="muted" style="font-size:.78rem">${esc(b.phone)}</div>${b.participants ? `<div class="muted" style="font-size:.78rem">+ ${esc(b.participants)}</div>` : ''}` : ''}</td>
             <td>${b ? (b.mode === 'visio' ? 'Visio' : 'Présentiel') : ''}${b?.notes ? `<div class="muted" style="font-size:.78rem">${esc(b.notes)}</div>` : ''}</td>
