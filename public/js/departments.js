@@ -24,7 +24,7 @@ export const DEPARTMENTS = [
 
   // Directions et unités de projet
   { slug: 'ugp-kms3', group: 'dir', short: 'UGP KMS3', name: 'Unité de Gestion du Projet KMS3', lead: "Coordonnateur de l'UGP", guide: 'ugp' },
-  { slug: 'ucp-mamelles', group: 'dir', short: 'UCP Mamelles', name: "Unité de Coordination du Projet de Dessalement de l'Eau de mer des Mamelles", lead: "Coordonnateur de l'UCP", guide: null },
+  { slug: 'ucp-mamelles', group: 'dir', short: 'UCP Mamelles', name: "Unité de Coordination du Projet de Dessalement de l'Eau de mer des Mamelles", lead: "Coordonnateur de l'UCP", guide: 'ucp' },
   { slug: 'dpes', group: 'dir', short: 'DPES', name: 'Direction Planification et des Études Stratégiques', lead: 'Directeur', guide: 'dpes' },
   { slug: 'dtp', group: 'dir', short: 'DTP', name: 'Direction des Travaux de Production', lead: 'Directeur', guide: 'dtp' },
   { slug: 'dtda', group: 'dir', short: 'DTDA', name: "Direction des Travaux de Distribution et d'Accès", lead: 'Directeur', guide: 'dtda' },
@@ -43,7 +43,7 @@ export const ACTIVE = [
   'dg', 'coordonnateur-technique',
   'secretariat-general', 'ssi', 'qse',
   'cpsm', 'ccp', 'caj', 'ccgb', 'caicp', 'cpse',
-  'ugp-kms3', 'dpes', 'dtp', 'dtda', 'dpmg', 'dce', 'dch', 'dfc',
+  'ugp-kms3', 'ucp-mamelles', 'dpes', 'dtp', 'dtda', 'dpmg', 'dce', 'dch', 'dfc',
 ];
 export const isActive = (d) => isInterviewed(d) && ACTIVE.includes(d.slug);
 

@@ -6229,5 +6229,272 @@
     ]
    }
   ]
+ },
+ "ucp": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – UNITÉ DE COORDINATION DU PROJET DE DESSALEMENT DES MAMELLES (UCP MAMELLES)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Coordonnateur du Projet de Dessalement de l'Eau de Mer des Mamelles (M. Babou NGOM)"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Évaluer l'avancement physique et financier des 6 lots du projet de dessalement des Mamelles, analyser la levée des contraintes administratives, fiscales (DODP) et foncières/sociales à Ouakam, résoudre le risque d'impasse financière JICA/FMI, et définir les modalités de mise en service industrielle de l'usine (50 000 m³/jour)."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "AVANCEMENT DU LOT 1 (USINE DE 50 000 M³/J) ET INFRASTRUCTURES ÉLECTRIQUES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Rattrapage de l'avancement du Lot 1 (81,537 milliards FCFA HT-HD)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "L'avancement physique du Lot 1 (marché de conception, construction et exploitation confié au groupement Toyota Tsusho / Eiffage / Wabag) ayant atteint 85,5 % fin 2025 contre un objectif de 94 % (après 70 % en 2024), quelles sont les actions d'urgence menées sur les différentes zones :",
+        "points": [
+         "Zone 100 (Station de pompage d'eau de mer et travaux maritimes) ?",
+         "Zone 200 (Usine de dessalement par osmose inverse) ?",
+         "Zone 300 (Conduites maritimes d'eau de mer) ?",
+         "Zone 400 (Sous-station électrique haute tension) ?"
+        ],
+        "id": "s1q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s1q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Essais industriels et calendrier d'injection dans le réseau de Dakar",
+      "text": "Quel est le planning ajusté pour le démarrage des premiers essais de pompage d'eau brute, de traitement membranaire et d'injection effective des 50 000 m³/jour dans le réseau métropolitain ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "CLÔTURE DU LOT 2 ET GESTION DE LA FAILLITE PFEIFFER",
+    "items": [
+     {
+      "type": "q",
+      "label": "Liquidation du Lot 2 (Conduite DN700 de 11,4 km - 3,382 milliards FCFA HT-HD)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Les travaux de la conduite principale reliant les réservoirs des Mamelles au Pont de l'Émergence étant achevés à 100 %, quel est l'état de finalisation du Décompte Général Définitif (DGD) et de levée des réserves, freiné par la faillite et le placement sous administration provisoire de l'entreprise PFEIFFER ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment la SONES gère-t-elle le traitement de la caution de retenue de garantie et les avis à tiers détenteur émis sur ce marché ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "EXTENSION ET RENOUVELLEMENT DES RÉSEAUX (LOTS 3 ET 4), TÉLÉGESTION (LOT 5) ET BRANCHEMENTS (LOT 6)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Avancement des chantiers de renouvellement de 316 km de conduites à Dakar (Lots 3 et 4 - 23,548 milliards FCFA HT-HD)",
+      "text": "",
+      "children": [
+       {
+        "label": "Lot 3 (175 km aux Almadies, Parcelles Assainies, Grand-Yoff, Mermoz)",
+        "text": "Comment comptez-vous solder les derniers kilomètres restants, l'avancement physique ayant atteint 80 % (139 km posés et 67 km essayés) ?",
+        "points": [],
+        "id": "s3q1c1",
+        "answer": true
+       },
+       {
+        "label": "Lot 4 (141 km à Grand Dakar, HLM, Dakar Plateau)",
+        "text": "Quel est le plan d'accélération pour rattraper le retard du Lot 4, établi à 65 % d'exécution (92 km posés et 61 km essayés) ?",
+        "points": [],
+        "id": "s3q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s3q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Mise en œuvre de la Télégestion (Lot 5 - 6,329 milliards FCFA HT-HD)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "La notification de démarrage du Lot 5 ayant été différée puis actée avec le paiement de l'avance de démarrage le 4 juin 2024, quel est le calendrier d'installation des équipements de mesure et de télé-transmetteurs, actuellement freiné par le retard des Lots 3 et 4 et la suspension des règlements ?",
+        "points": [],
+        "id": "s3q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q2",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Levée de la suspension du Lot 6 (35 000 branchements confiés à SEN'EAU - 4,252 milliards FCFA HT-HD)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quelles diligences sont menées pour lever les facteurs de blocage du Lot 6, à savoir le faible taux de mise en service des Lots 3 et 4 et le non-enregistrement fiscal du marché dû au retard d'émission du chèque trésor par la DODP ?",
+        "points": [],
+        "id": "s3q3c1",
+        "answer": true
+       }
+      ],
+      "id": "s3q3",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "SÉCURISATION FINANCIÈRE, BLOCAGES DODP ET RISQUES DE CRÉDIT JICA / FMI",
+    "items": [
+     {
+      "type": "q",
+      "label": "Gestion des impayés de taxes et droits de douane par la DODP (18,821 milliards FCFA de retard)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Face aux retards cumulés de la DODP dans l'émission des chèques trésor — atteignant 13,157 milliards FCFA pour la TVA et 5,722 milliards FCFA pour les droits de douane —, quelles sont les conséquences directes sur la trésorerie des groupements constructeurs et le risque de réclamations financières ?",
+        "points": [],
+        "id": "s4q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Gestion de la contrainte budgétaire JICA et conditionnalité FMI",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Le cumul des décaissements sur financement JICA atteignant 95,580 milliards FCFA au 31 décembre 2025 (soit 76 % du financement global), comment l'UCP anticipe-t-elle l'instruction de la requête de financement complémentaire, sachant que la JICA subordonne son traitement à la conclusion d'un accord du Sénégal avec le FMI sous peine de risques de défaut de paiement à partir de mai 2026 ?",
+        "points": [],
+        "id": "s4q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s4q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "MESURES D'ACCOMPAGNEMENT SOCIAL (MAS / RSE) À OUAKAM",
+    "items": [
+     {
+      "type": "q",
+      "label": "Finalisation du Pôle Santé de Ouakam (Zone 500)",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "L'évolution des exigences des populations et du Ministère de la Santé vers une infrastructure de niveau hospitalier générant un dépassement du budget initial (prévu pour 4 bâtiments), quel est le plan d'apurement du gap financier de 237 millions FCFA requis pour achever l'ensemble du complexe ?",
+        "points": [],
+        "id": "s5q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Infrastructures d'appui au Comité Local des Pêcheurs de Ouakam",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "La révision de la demande des pêcheurs (installation d'une usine de fabrique de glace de 10 tonnes et d'un récif artificiel) engendrant une plus-value de 116 millions FCFA, quel est le taux d'exécution physique et le calendrier d'inauguration de ces ouvrages sociaux ?",
+        "points": [],
+        "id": "s5q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s5q2",
+      "answer": false
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTIONS AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Pondération de l'usine des Mamelles dans l'équilibre hydraulique de Dakar",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le volume de production annuel sécurisé (jusqu'à 18,25 millions m³/an) que l'UCP propose d'inscrire dans le modèle d'exploitation du Plan d'Actions Prioritaires (PAP 2026–2030) de la SONES ?",
+        "points": [],
+        "id": "s6q1c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs clés de performance (KPIs UCP Mamelles) pour le Contrat de Performance État–SONES",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quels objectifs chiffrés l'UCP préconise-t-elle d'inscrire dans la matrice du futur Contrat de Performance :",
+        "points": [
+         "Taux d'achèvement et de réception opérationnelle de l'usine (Lot 1 - Cible 100 %).",
+         "Linéaire cumulé de réseaux structurants renouvelés et mis en service à Dakar (Lots 3 et 4 - 316 km).",
+         "Taux d'exécution des mesures d'accompagnement social (Centre de santé, usine à glace, récif).",
+         "Délai de règlement des arriérés fiscaux (DODP) et de clôture administrative des prêts JICA."
+        ],
+        "id": "s6q2c1",
+        "answer": true
+       }
+      ],
+      "id": "s6q2",
+      "answer": false
+     }
+    ]
+   }
+  ]
  }
 }
