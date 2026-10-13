@@ -3701,7 +3701,7 @@
   ]
  },
  "ssi": {
-  "title": "GUIDE D'ENTRETIEN STRATÉGIQUE – SERVICE DES SYSTÈMES D'INFORMATIONS",
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – SERVICE DES SYSTÈMES D'INFORMATIONS",
   "fiche": [
    {
     "k": "Intervenant",
@@ -3713,7 +3713,7 @@
    },
    {
     "k": "Objectif",
-    "v": "Évaluer la maturité technologique et l'infrastructure du Système d'Information (SI) de la SONES, analyser l'état d'avancement du Schéma Directeur des Systèmes d'Information (SDSI), examiner les projets majeurs (acquisition de l'ERP, audit de sécurité informatique, SIG, digitalisation des processus), diagnostiquer l'interopérabilité des données avec l'exploitant (SEN'EAU) et définir l'architecture SI cible pour la future Holding polyvalente."
+    "v": "Faire le point sur la modernisation de l'architecture ERP (remplacement de Chronos), la souveraineté des données et l'interfaçage avec SEN'EAU, la dématérialisation des processus (GED, Sunu Procès, CPSE), les infrastructures et la cybersécurité, l'architecture SI cible de la Holding polyvalente et les contributions du SSI au PSD 2026–2030 et au Contrat de Performance."
    },
    {
     "k": "Durée estimée",
@@ -3723,28 +3723,28 @@
   "sections": [
    {
     "code": "Module 1",
-    "title": "PRÉSENTATION INSTITUTIONNELLE, RÔLE ET ANCRAGE DU SERVICE",
+    "title": "MODERNISATION DE L'ARCHITECTURE ERP ET RUPTURE AVEC L'OBSOLESCENCE (CHRONOS)",
     "items": [
      {
       "type": "q",
-      "label": "Présentation institutionnelle et modèle tripartite",
-      "text": "Pouvez-vous nous présenter la SONES sous l'angle technologique, son cadre créateur (loi n° 95-10), la structure de son capital (99,93 % État, 0,07 % communes) et le fonctionnement du modèle tripartite État / SONES / SEN'EAU concernant la propriété, la gestion et le partage des données numériques ?",
+      "label": "Remplacement du progiciel Chronos (déployé en 1996)",
+      "text": "Face aux vulnérabilités engendrées par l'utilisation de Chronos (1996) et la dépendance envers un consultant historique proche de la retraite, quel est le calendrier d'arbitrage pour le choix d'un Progiciel de Gestion Intégré (ERP) adapté ?",
       "children": [],
       "id": "s1q1",
       "answer": true
      },
      {
       "type": "q",
-      "label": "Ancrage organisationnel",
-      "text": "Comment le Service des Systèmes d'Informations (SSI) s'insère-t-il au sein du Secrétariat Général et quelles sont ses interactions fonctionnelles avec les directions métiers (DPES, DFC, DCE, DTP, DTDA) et la Cellule Informatique de la tutelle (MHA) ?",
+      "label": "Élimination de la gestion palliative sur Excel",
+      "text": "L'absence de centralisation automatique obligeant le contrôle de gestion et la comptabilité à maintenir une batterie de fichiers Excel complexes interconnectés, comment l'ERP cible permettra-t-il d'automatiser l'extraction des données, le suivi budgétaire, la balance analytique et le workflow de validation ?",
       "children": [],
       "id": "s1q2",
       "answer": true
      },
      {
       "type": "q",
-      "label": "Missions principales du SSI",
-      "text": "Quels sont les attributs fondamentaux de votre service (gestion des infrastructures informatiques, sécurité des réseaux, déploiement des logiciels métiers, assistance aux utilisateurs et conduite des projets digitaux) ?",
+      "label": "Assistance à la Maîtrise d'Ouvrage (AMO) et soutenabilité des coûts",
+      "text": "À la suite de l'abandon d'une précédente tentative d'acquisition d'ERP en raison de coûts de maintenance exorbitants, quelles clauses financières et fonctionnelles ont été intégrées dans la nouvelle relance du Schéma Directeur SI (SDSI) pour garantir la pérennité du futur système ?",
       "children": [],
       "id": "s1q3",
       "answer": true
@@ -3753,184 +3753,85 @@
    },
    {
     "code": "Module 2",
-    "title": "DIAGNOSTIC STRATÉGIQUE DU SI ET DES INFRASTRUCTURES (SWOT IT)",
+    "title": "SOUVERAINETÉ DE LA DONNÉE, SIG PATRIMONIAL ET INTERFAÇAGE AVEC LE FERMIER (SEN'EAU)",
     "items": [
      {
-      "type": "sub",
-      "text": "A. Diagnostic interne (Forces et Faiblesses)"
-     },
-     {
       "type": "q",
-      "label": "Infrastructures matérielles et réseaux",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "Quel est l'état d'obsolescence et de conformité des équipements matériels (serveurs, switchs, systèmes de courant ondulé/Inverter du bâtiment C et des Madeleines, réseaux informatiques) ?",
-        "points": [],
-        "id": "s2q1c1",
-        "answer": true
-       },
-       {
-        "label": null,
-        "text": "Quel est le niveau de sécurisation physique et logique de la salle des serveurs ?",
-        "points": [],
-        "id": "s2q1c2",
-        "answer": true
-       }
-      ],
-      "id": "s2q1",
-      "answer": false
-     },
-     {
-      "type": "q",
-      "label": "Gestion du parc applicatif et licences logiciels",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "Pouvez-vous faire le point sur la gestion des licences informatiques récurrentes (redevance Microsoft, Kaspersky, Vmware, Symantec Backup, XRT Cash, AutoCAD, MS Project, Cebelmail, ArcGIS) ?",
-        "points": [],
-        "id": "s2q2c1",
-        "answer": true
-       },
-       {
-        "label": null,
-        "text": "Quel est le niveau de couverture des besoins des directions par les logiciels actuels et les mesures prises pour éliminer les logiciels non homologués ?",
-        "points": [],
-        "id": "s2q2c2",
-        "answer": true
-       }
-      ],
-      "id": "s2q2",
-      "answer": false
-     },
-     {
-      "type": "q",
-      "label": "Digitalisation et gestion documentaire (GED)",
-      "text": "Où en sont les projets d'assistance technique pour la numérisation, l'indexation de la documentation et l'archivage électronique ?",
+      "label": "Accès direct aux bases primaires d'exploitation et de facturation",
+      "text": "La SONES ne disposant actuellement que d'un accès indirect à des données prétraitées par SEN'EAU via la plateforme « Tous sur les services » (4 points focaux), quelle architecture d'interfaçage le SSI préconise-t-il pour obtenir un accès autonome et en temps réel aux bases brutes de facturation, de comptage et d'adresses abonnés ?",
       "children": [],
-      "id": "s2q3",
+      "id": "s2q1",
       "answer": true
      },
      {
-      "type": "sub",
-      "text": "B. Diagnostic externe (Opportunités et Menaces)"
+      "type": "q",
+      "label": "Fiabilisation et complétude du SIG patrimonial",
+      "text": "Face aux lacunes majeures relevées dans le SIG transmis par l'exploitant — notamment un taux de renseignement de l'âge des canalisations plafonnant à 6,02 % et l'absence de transmission complète des modèles hydrauliques (seuls 7 centres fournis) —, quels outils et protocoles de contrôle automatique des données le SSI compte-t-il déployer ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
      },
      {
       "type": "q",
-      "label": "Interfaçage et transmission des données par le Fermier (SEN'EAU)",
-      "text": "",
-      "children": [
-       {
-        "label": "SIG et Cartographie",
-        "text": "Quel est le constat sur la qualité, la complétude et les délais de transmission annuelle de la base SIG et des modèles hydrauliques par SEN'EAU (notamment le faible taux de renseignement de l'âge des conduites à 6,02 % et le géoréférencement des compteurs) ?",
-        "points": [],
-        "id": "s2q4c1",
-        "answer": true
-       },
-       {
-        "label": null,
-        "text": "Quels sont les obstacles techniques pour établir un interfaçage en temps réel ou un accès direct de la SONES aux bases de données d'exploitation (clientèle, comptage, télégestion, fuites) ?",
-        "points": [],
-        "id": "s2q4c2",
-        "answer": true
-       }
-      ],
-      "id": "s2q4",
-      "answer": false
-     },
-     {
-      "type": "q",
-      "label": "Cybersécurité et menaces",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "Quelles sont les principales vulnérabilités identifiées face aux risques de cyberattaques, d'intrusions ou de pertes de données ?",
-        "points": [],
-        "id": "s2q5c1",
-        "answer": true
-       },
-       {
-        "label": null,
-        "text": "Quel est l'état d'avancement de l'audit du système d'information et de la sécurité informatique prévu au budget ?",
-        "points": [],
-        "id": "s2q5c2",
-        "answer": true
-       }
-      ],
-      "id": "s2q5",
-      "answer": false
+      "label": "Intégration de la télégestion (SCADA / VISIO)",
+      "text": "Quel est le plan d'interconnexion entre le centre de supervision de l'exploitant (système VISIO) et un tableau de bord décisionnel dédié à la Direction Générale de la SONES ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
      }
     ]
    },
    {
     "code": "Module 3",
-    "title": "ÉTAT D'AVANCEMENT DU SDSI ET DE L'ACQUISITION DE L'ERP",
+    "title": "DÉMATÉRIALISATION DES PROCESSUS, GED ET ÉVOLUTION DE « SUNU PROCÈS »",
     "items": [
      {
       "type": "q",
-      "label": "Schéma Directeur des Systèmes d'Information (SDSI) de la SONES",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "Quel est le niveau d'actualisation et de mise en œuvre du SDSI de la SONES en articulation avec le SDSI sectoriel du Ministère de l'Hydraulique et de l'Assainissement ?",
-        "points": [],
-        "id": "s3q1c1",
-        "answer": true
-       },
-       {
-        "label": null,
-        "text": "Quelles sont les orientations prioritaires retenues dans le SDSI pour moderniser la gouvernance digitale de l'entreprise ?",
-        "points": [],
-        "id": "s3q1c2",
-        "answer": true
-       }
-      ],
+      "label": "Évolution de la plateforme « Sunu Procès » vers un workflow actif",
+      "text": "L'outil interne « Sunu Procès » fonctionnant actuellement comme un simple espace de stockage partagé de documents pour les auditeurs sans automatisation des validations, quelles évolutions sont prévues pour le transformer en un véritable système collaboratif d'instruction des marchés et de suivi d'exécution ?",
+      "children": [],
       "id": "s3q1",
-      "answer": false
+      "answer": true
      },
      {
       "type": "q",
-      "label": "Projet d'acquisition du Progiciel de Gestion Intégré (ERP)",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "Quel est l'historique et le niveau de relance du projet d'assistance technique (AMO) pour la sélection et la mise en place de l'ERP de la SONES ?",
-        "points": [],
-        "id": "s3q2c1",
-        "answer": true
-       },
-       {
-        "label": null,
-        "text": "Quels sont les modules fonctionnels prioritaires qui doivent être couverts par cet ERP (finances/comptabilité, gestion des actifs/immobilisations, ressources humaines, passation des marchés, contrôle de gestion) ?",
-        "points": [],
-        "id": "s3q2c2",
-        "answer": true
-       }
-      ],
+      "label": "Gestion Électronique des Documents (GED) et workflow du courrier",
+      "text": "Quel est le plan de déploiement d'un outil de GED centralisé intégrant un workflow de traitement du courrier avec traçabilité des délais par agent, alertes hiérarchiques et archivage numérique à valeur probante ?",
+      "children": [],
       "id": "s3q2",
-      "answer": false
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Développement de l'application web de Suivi-Évaluation (CPSE)",
+      "text": "Face à la persistance d'outils bureautiques pour le suivi des projets, quelles sont les spécifications techniques retenues avec le service Suivi-Évaluation pour développer l'application métier web intégrée de saisie et de reporting en temps réel ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
      }
     ]
    },
    {
     "code": "Module 4",
-    "title": "ALIGNEMENT SUR LA DIGITALISATION SECTORIELLE (MHA ET SÉNÉGAL 2050)",
+    "title": "INFRASTRUCTURES, CYBERSÉCURITÉ ET ALIGNEMENT SUR LE SDSI SECTORIEL (MHA / SÉNÉGAL 2050)",
     "items": [
      {
       "type": "q",
-      "label": "Convergence avec la stratégie de digitalisation du MHA",
+      "label": "Sécurisation physique, logique et budget de maintenance",
       "text": "",
       "children": [
        {
         "label": null,
-        "text": "Comment le SI de la SONES s'intègre-t-il dans les initiatives transversales du secteur (projet de Mini-Data Center centralisé, plateforme de convergence PENC'EAU, intégration de la Business Intelligence) ?",
+        "text": "Quel est le bilan des travaux de mise aux normes de la salle des serveurs et de l'installation du courant ondulé (inverters du Bâtiment C) ?",
         "points": [],
         "id": "s4q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Comment s'articule l'exécution des crédits budgétaires dédiés aux renouvellements de licences (126 millions FCFA pour Microsoft, Kaspersky, VMware, Symantec, XRT, AutoCAD, ArcGIS) et au renouvellement du parc matériel ?",
+        "points": [],
+        "id": "s4q1c2",
         "answer": true
        }
       ],
@@ -3939,101 +3840,70 @@
      },
      {
       "type": "q",
-      "label": "Ancrage dans la Vision Sénégal 2050 et la SND 2025–2029",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "De quelle manière la feuille de route du SSI répond-elle aux exigences du « New Deal Technologique » et de l'Agenda National de Transformation (souveraineté des données, gouvernance orientée usagers, numérisation des registres) ?",
-        "points": [],
-        "id": "s4q2c1",
-        "answer": true
-       }
-      ],
+      "label": "Audit de sécurité informatique et Plan de Continuité d'Activité (PCA / PRA)",
+      "text": "Quels sont les résultats ou le calendrier de réalisation de l'audit du système d'information et de la sécurité informatique, et quel est le niveau de préparation du Plan de Reprise d'Activité en cas de sinistre majeur ?",
+      "children": [],
       "id": "s4q2",
-      "answer": false
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Alignement sur le SDSI du MHA et la Vision Sénégal 2050",
+      "text": "Comment le SSI s'articule-t-il avec la stratégie de digitalisation de la tutelle (Mini-Data Center centralisé, plateforme PENC'EAU, intégration de la Business Intelligence) et les orientations du « New Deal Technologique » national ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
      }
     ]
    },
    {
     "code": "Module 5",
-    "title": "ARCHITECTURE SI CIBLE POUR LA HOLDING POLYVALENTE ET SÉCURITÉ",
+    "title": "ARCHITECTURE CIBLE DU SI POUR LA HOLDING POLYVALENTE ET FILIALES (OS 10)",
     "items": [
      {
       "type": "q",
-      "label": "Transformation en Holding et gouvernance multi-filiales (OS 10)",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "Comment le SSI anticipe-t-il l'architecture SI cible nécessaire pour gérer le futur groupe Holding polyvalent et ses filiales (eau minérale, valorisation du patrimoine foncier, ingénierie) ?",
-        "points": [],
-        "id": "s5q1c1",
-        "answer": true
-       },
-       {
-        "label": null,
-        "text": "Quel modèle de gestion des infrastructures et des bases de données préconisez-vous (centralisation au siège Holding vs autonomie des filiales) ?",
-        "points": [],
-        "id": "s5q1c2",
-        "answer": true
-       }
-      ],
+      "label": "Schéma directeur SI pour le groupe Holding",
+      "text": "Dans la perspective de la transformation de la SONES en Holding polyvalente, quelle architecture informatique cible le SSI envisage-t-il pour gérer le multi-filiales (eau minérale, valorisation foncière, ingénierie) ?",
+      "children": [],
       "id": "s5q1",
-      "answer": false
+      "answer": true
      },
      {
       "type": "q",
-      "label": "Plan de Continuité et de Reprise d'Activité (PCA / PRA)",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "Quels dispositifs de sauvegarde distante, de redondance et de plan de secours (réseau, pare-feux ASA, serveurs de backup) sont en place pour garantir zéro perte de données critiques en cas de sinistre majeur ?",
-        "points": [],
-        "id": "s5q2c1",
-        "answer": true
-       }
-      ],
+      "label": "Gouvernance et consolidation des données multi-entités",
+      "text": "Préconisez-vous une centralisation des infrastructures au siège de la Holding (cloud souverain/privé) ou une autonomie applicative des filiales interconnectée via des passerelles de consolidation ?",
+      "children": [],
       "id": "s5q2",
-      "answer": false
+      "answer": true
      }
     ]
    },
    {
     "code": "Module 6",
-    "title": "CONTRIBUTION AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "title": "CONTRIBUTIONS AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
     "items": [
      {
       "type": "q",
-      "label": "Feuille de route des investissements informatiques (2026–2030)",
-      "text": "",
-      "children": [
-       {
-        "label": null,
-        "text": "Quels sont les projets technologiques majeurs et le volume d'investissement prévisionnel que le SSI propose d'inscrire dans le Plan d'Actions Prioritaires (PAP) du PSD ?",
-        "points": [],
-        "id": "s6q1c1",
-        "answer": true
-       }
-      ],
+      "label": "Feuille de route budgétaire des investissements SI (2026–2030)",
+      "text": "Quels sont les grands projets d'investissements logiciels et matériels à inscrire dans le Plan d'Actions Prioritaires (PAP 2026–2030) du PSD ?",
+      "children": [],
       "id": "s6q1",
-      "answer": false
+      "answer": true
      },
      {
       "type": "q",
-      "label": "Indicateurs de performance (KPIs IT) pour le Contrat de Performance",
+      "label": "Indicateurs clés de performance (KPIs IT) pour le Contrat de Performance État–SONES",
       "text": "",
       "children": [
        {
         "label": null,
-        "text": "Quels indicateurs chiffrés proposez-vous pour mesurer l'efficacité du système d'information dans le futur Contrat de Performance État–SONES :",
+        "text": "Quels objectifs chiffrés le SSI propose-t-il d'inscrire au tableau de bord :",
         "points": [
-         "Taux de disponibilité des réseaux et applications critiques.",
-         "Taux d'avancement du déploiement de l'ERP.",
-         "Taux de digitalisation et dématérialisation des procédures internes.",
-         "Niveau de conformité aux audits de sécurité informatique.",
-         "Taux d'intégration des données du SIG patrimonial."
+         "Taux de déploiement et de couverture fonctionnelle du futur ERP.",
+         "Taux de disponibilité opérationnelle des réseaux, serveurs et applications critiques (> 99 %).",
+         "Taux de complétude et de géoréférencement des données d'attributs du SIG patrimonial.",
+         "Taux de dématérialisation des procédures administratives et des circuits de validation interne.",
+         "Niveau de conformité aux recommandations de l'audit de sécurité informatique."
         ],
         "id": "s6q2c1",
         "answer": true
