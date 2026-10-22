@@ -34,6 +34,20 @@ export const DEPARTMENTS = [
   { slug: 'dfc', group: 'dir', short: 'DFC', name: 'Direction des Finances et de la Comptabilité', lead: 'Directeur', guide: 'dfc' },
 ];
 
+// Chefs de projet : hors organigramme. Chaque chef de projet a son propre espace (guide, réponses, rendez-vous),
+// identifié par `cp-<empreinte de l'e-mail>`. Le modèle ci-dessous n'est jamais affiché dans l'organigramme.
+export const CP_TEMPLATE = { slug: 'chefs-projet', group: 'projet', short: 'Chef de projet', name: 'Chef de projet', lead: 'Chef de projet', guide: 'cp' };
+export const CP_RE = /^cp-[a-f0-9]{10}$/;
+export const isCp = (slug) => CP_RE.test(slug || '');
+// `profile` = { name, project } enregistrés lors de l'inscription du chef de projet.
+export const cpDept = (slug, profile = {}) => ({
+  ...CP_TEMPLATE,
+  slug,
+  cp: true,
+  short: profile.name || CP_TEMPLATE.short,
+  name: `Chef de projet${profile.project ? ` — ${profile.project}` : profile.name ? ` — ${profile.name}` : ''}`,
+});
+
 export const bySlug = Object.fromEntries(DEPARTMENTS.map((d) => [d.slug, d]));
 export const isInterviewed = (d) => d && d.interview !== false;
 

@@ -10,13 +10,13 @@ export default handler(async (req, res) => {
   checkAccess(req);
 
   if (req.method === 'GET') {
-    const dept = getDept(query(req).dept);
+    const dept = await getDept(query(req).dept);
     return send(res, 200, await store.getFields(answersKey(dept.slug)));
   }
 
   if (req.method === 'PUT') {
     const body = await readBody(req);
-    const dept = getDept(body.dept);
+    const dept = await getDept(body.dept);
     const answers = {};
     for (const [k, v] of Object.entries(body.answers || {})) {
       if (!/^s\d+q\d+(c\d+)?$/.test(k)) continue;

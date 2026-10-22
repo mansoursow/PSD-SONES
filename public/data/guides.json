@@ -6366,5 +6366,295 @@
     ]
    }
   ]
+ },
+ "cp": {
+  "title": "GUIDE D'ENTRETIEN CIBLÉ – CHEFS DE PROJET",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet (ou responsable de projet) de la SONES, hors organigramme de la Direction Générale"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du PSD 2026–2030 et du Contrat de Performance État–SONES."
+   },
+   {
+    "k": "Objectif",
+    "v": "Faire le point sur l'exécution technique, financière et comptable des projets conduits par les chefs de projet, identifier les difficultés de pilotage et d'outillage (saisie, interconnexion des systèmes, comptabilisation des immobilisations, suivi budgétaire), et recueillir leurs recommandations pour le PSD 2026–2030 et le Contrat de Performance."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Module 1",
+    "title": "PRÉSENTATION DU PROJET ET DU RÔLE DE CHEF DE PROJET",
+    "items": [
+     {
+      "type": "q",
+      "label": "Votre projet",
+      "text": "Pouvez-vous présenter le projet dont vous avez la charge : objet, localisation, financement (État, bailleurs, fonds propres), montant, calendrier et phase actuelle (étude, travaux, réception, clôture) ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Mandat et rattachement",
+      "text": "Quelle est votre lettre de mission et quel est votre rattachement hiérarchique et fonctionnel (Direction Générale, Coordonnateur Technique, direction technique, unité de projet) ? Disposez-vous d'une équipe dédiée ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Interfaces",
+      "text": "Avec quelles structures et quels acteurs interagissez-vous au quotidien (DPES, DTP, DTDA, DFC, CPSM, DCE, CAJ, SEN'EAU, SENELEC, bailleurs, entreprises, bureaux de contrôle) et comment qualifiez-vous la fluidité de ces échanges ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Positionnement dans l'organisation",
+      "text": "Quelle est la place des chefs de projet dans l'organisation actuelle de la SONES ? Quels sont les effets de leur absence de l'organigramme sur votre autorité, vos moyens et la reconnaissance de votre fonction ?",
+      "children": [],
+      "id": "s1q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 2",
+    "title": "PILOTAGE TECHNIQUE, PLANNING ET MARCHÉS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Avancement physique et respect des délais",
+      "text": "",
+      "children": [
+       {
+        "label": null,
+        "text": "Quel est le taux d'avancement physique de votre projet par rapport au planning de référence, et quels sont les principaux retards constatés ?",
+        "points": [],
+        "id": "s2q1c1",
+        "answer": true
+       },
+       {
+        "label": null,
+        "text": "Quelles en sont les causes principales (libération des emprises, interfaces externes, procédures de passation, défaillances de prestataires, décaissements) ?",
+        "points": [],
+        "id": "s2q1c2",
+        "answer": true
+       }
+      ],
+      "id": "s2q1",
+      "answer": false
+     },
+     {
+      "type": "q",
+      "label": "Passation, exécution et suivi des marchés",
+      "text": "Comment se déroule la collaboration avec la Cellule Passation et Suivi des Marchés et avec la DFC (délais de passation, avenants, décomptes, paiements) et quels sont les marchés en difficulté ou en souffrance ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Gestion des risques",
+      "text": "Quels sont les principaux risques (techniques, financiers, juridiques, environnementaux et sociaux) identifiés sur votre projet et quel dispositif de suivi et de traitement existe-t-il ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Réception et transfert des ouvrages",
+      "text": "Comment s'organisent la réception des ouvrages, la levée des réserves et leur remise à la DCE et au Fermier ? Quels sont les points de blocage ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 3",
+    "title": "GESTION FINANCIÈRE, BUDGÉTAIRE ET COMPTABLE DES PROJETS",
+    "items": [
+     {
+      "type": "sub",
+      "text": "A. Suivi budgétaire et financement"
+     },
+     {
+      "type": "q",
+      "label": "Programmation et suivi budgétaire",
+      "text": "Comment le budget de votre projet est-il programmé, suivi et réalisé (budget initial, révisions, engagements, paiements) ? Quelle est votre interaction avec la Cellule Contrôle de Gestion et Budget ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Décaissements et justification auprès des bailleurs",
+      "text": "Quelles difficultés rencontrez-vous dans les demandes de décaissement, les justifications de dépenses et les délais de remboursement des bailleurs ? Constatez-vous des redondances dans le suivi de la trésorerie du projet ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "B. Comptabilité et immobilisations"
+     },
+     {
+      "type": "q",
+      "label": "Comptabilisation et immobilisations",
+      "text": "Comment les dépenses du projet sont-elles comptabilisées au fur et à mesure (immobilisations en cours, transfert en immobilisations définitives) ? Les écritures remontent-elles correctement dans la comptabilité, et dans quels délais ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Pièces justificatives et rapprochements",
+      "text": "Comment accédez-vous aux écritures et aux pièces justificatives (facture, décompte, ordre de paiement) ? Quelles difficultés rencontrez-vous sur les écritures manuelles, le caractère chronophage des rapprochements bancaires et les alertes de déséquilibre de la balance ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Comptabilité des matières et achats",
+      "text": "Comment sont suivis les stocks, les matériels et les achats liés au projet (fichiers Excel, service achats, comptabilité des matières) ? Les informations sont-elles consolidées avec la comptabilité générale ?",
+      "children": [],
+      "id": "s3q5",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 4",
+    "title": "OUTILS, SYSTÈMES D'INFORMATIONS ET INTERCONNEXIONS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Outils de pilotage de projet",
+      "text": "Quels outils utilisez-vous pour la planification, le suivi et le reporting de votre projet (TOMPRO, fichiers Excel, autres) ? Répondent-ils à vos besoins et sont-ils partagés avec les directions concernées ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Double saisie et interconnexion avec la comptabilité",
+      "text": "L'expérience du projet KMS3 a montré que des données saisies dans TOMPRO devaient ensuite être reprises dans le système comptable (Chronos). Confirmez-vous cette double saisie ? Quels en sont les effets (erreurs, retards, charge de travail) et quel risque pour les nouveaux projets ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Systèmes financiers et de trésorerie",
+      "text": "Quels dysfonctionnements constatez-vous dans l'enchaînement des outils financiers (déversement des données de XRT vers Chronos, contrôle budgétaire sous Excel, comptabilité des matières) ? Quelles interconnexions jugez-vous prioritaires ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Formation et appropriation",
+      "text": "Quelle formation avez-vous reçue sur les outils (Chronos, TOMPRO, etc.) ? Quels sont vos besoins en formation, en assistance et en documentation (guides, procédures) ?",
+      "children": [],
+      "id": "s4q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Fiabilité et gouvernance des données",
+      "text": "Les données de votre projet sont-elles fiables, à jour et accessibles (tableau de bord, GED, archivage) ? Qui est responsable de la qualité des données ?",
+      "children": [],
+      "id": "s4q5",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 5",
+    "title": "DIAGNOSTIC ET CAPITALISATION D'EXPÉRIENCE (SWOT)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Forces et réussites",
+      "text": "Quels sont les principaux acquis et bonnes pratiques de votre expérience de chef de projet à valoriser et à reproduire dans les prochains projets ?",
+      "children": [],
+      "id": "s5q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Faiblesses et contraintes internes",
+      "text": "Quelles sont les principales faiblesses internes (organisation, moyens humains et matériels, procédures, circuit de validation, outils) qui freinent la conduite des projets ?",
+      "children": [],
+      "id": "s5q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Opportunités et menaces externes",
+      "text": "Quelles opportunités (financements, partenariats, innovations technologiques, appui des bailleurs) et quelles menaces (contraintes budgétaires, retards de décaissement, aléas fonciers, hausse des coûts) identifiez-vous à l'horizon 2030 ?",
+      "children": [],
+      "id": "s5q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Leçons apprises",
+      "text": "Quelles leçons majeures tirez-vous de KMS3 et des autres projets structurants pour améliorer la préparation, l'exécution et la clôture des projets de la SONES ?",
+      "children": [],
+      "id": "s5q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Module 6",
+    "title": "CONTRIBUTIONS AU PSD 2026–2030 ET AU CONTRAT DE PERFORMANCE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Projets à intégrer au PSD",
+      "text": "Quels projets, nouveaux ou en cours, doivent figurer dans le Plan d'Actions Prioritaires 2026–2030, avec quels besoins en financement, moyens et calendrier prévisionnel ?",
+      "children": [],
+      "id": "s6q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Organisation de la fonction projet",
+      "text": "Quelle organisation de la fonction « chef de projet » recommandez-vous pour la SONES (statut, rattachement, unités de gestion de projet, programme de formation, intégration à l'organigramme) ?",
+      "children": [],
+      "id": "s6q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs pour le Contrat de Performance",
+      "text": "Quels indicateurs de pilotage et de résultat proposez-vous pour suivre les projets dans le Contrat de Performance (respect des délais, taux de décaissement, maîtrise des coûts, délai de comptabilisation des immobilisations, qualité des données) ?",
+      "children": [],
+      "id": "s6q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Recommandations prioritaires",
+      "text": "Quelles sont vos trois recommandations prioritaires pour améliorer la conduite et le suivi des projets de la SONES sur 2026–2030 ?",
+      "children": [],
+      "id": "s6q4",
+      "answer": true
+     }
+    ]
+   }
+  ]
  }
 }

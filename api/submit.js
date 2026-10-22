@@ -31,7 +31,7 @@ export default handler(async (req, res) => {
   checkAccess(req);
   if (req.method !== 'POST') throw fail(405, 'Méthode non autorisée');
   const body = await readBody(req);
-  const dept = getDept(body.dept);
+  const dept = await getDept(body.dept);
   const guide = guides[dept.guide || 'generic'];
   const [{ answers }, booking] = await Promise.all([store.getFields(answersKey(dept.slug)), store.get(bookingKey(dept.slug))]);
 

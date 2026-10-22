@@ -9,6 +9,8 @@ Site de prise de rendez-vous et de préparation des entretiens stratégiques, or
 - **Guide d'entretien** de la structure, avec un champ de réponse par question, enregistré automatiquement. Il est aussi imprimable en PDF.
 - **Espace consultant** (`/#/admin`) : tous les rendez-vous et contacts, avancement des réponses, export CSV, compilation imprimable de toutes les réponses, annulation.
 
+- **Chefs de projet (hors organigramme)** : un encart sous l'organigramme mène à `/#/chefs-projet`. Chaque chef de projet s'inscrit (nom, e-mail, projet) et obtient son propre espace `/#/s/cp-xxxxxxxxxx` (identifiant dérivé de l'e-mail : le même e-mail retrouve ses réponses et son rendez-vous) avec le guide `cp` de `guides.json`, la réservation et l'envoi du questionnaire. Les créneaux restent partagés avec les autres structures. Les inscrits apparaissent dans l'espace consultant et la répartition (`api/chefs-projet.js`, clés `cp:*`).
+
 20 structures ont leur guide dédié. Le Conseiller Spécial n'est pas ouvert et utiliserait la **trame commune provisoire**.
 
 **Entretiens terminés sans rendez-vous** : la liste `DONE` de `public/js/departments.js` (actuellement CPSM, CCP, CCGB, CAICP) affiche la structure « ✓ Terminé » dans l'organigramme et bloque toute réservation.

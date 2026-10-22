@@ -32,13 +32,13 @@ export default handler(async (req, res) => {
   const q = query(req);
 
   if (req.method === 'GET') {
-    const dept = getDept(q.dept);
+    const dept = await getDept(q.dept);
     return send(res, 200, { booking: publicView(await store.get(bookingKey(dept.slug))) });
   }
 
   if (req.method === 'POST') {
     const body = await readBody(req);
-    const dept = bookableDept(body.dept);
+    const dept = await bookableDept(body.dept);
     const b = sanitizeBooking(body);
     const prev = await store.get(bookingKey(dept.slug));
     if (prev && !isAdmin(req) && prev.email !== b.email && (body.currentEmail || '').trim().toLowerCase() !== prev.email) {
@@ -67,7 +67,7 @@ export default handler(async (req, res) => {
   }
 
   if (req.method === 'DELETE') {
-    const dept = getDept(q.dept);
+    const dept = await getDept(q.dept);
     const body = await readBody(req).catch(() => ({}));
     const prev = await store.get(bookingKey(dept.slug));
     if (!prev) return send(res, 200, { ok: true });

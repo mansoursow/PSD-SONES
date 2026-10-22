@@ -1,4 +1,4 @@
-import { DEPARTMENTS, bySlug, isInterviewed, isActive, isDone, SLOTS, BLOCKED_DATES, DURATION_MIN } from './departments.js';
+import { DEPARTMENTS, bySlug, isInterviewed, isActive, isDone, isCp, cpDept, SLOTS, BLOCKED_DATES, DURATION_MIN } from './departments.js';
 
 const app = document.getElementById('app');
 const state = { config: null, guides: null, status: {} };
@@ -68,6 +68,16 @@ async function loadGuides() {
 }
 const guideFor = (d) => state.guides[d.guide || 'generic'];
 
+// Structure de l'organigramme, ou espace d'un chef de projet (profil lu côté serveur, mis en cache).
+const cpCache = {};
+async function cpFor(slug) {
+  if (!cpCache[slug]) cpCache[slug] = cpDept(slug, await api(`/api/chefs-projet?slug=${slug}`));
+  return cpCache[slug];
+}
+// Ligne de l'API admin → structure (les chefs de projet portent leur profil).
+const deptOf = (r) => (r.profile ? cpDept(r.slug, r.profile) : bySlug[r.slug]);
+const myCp = () => { try { return JSON.parse(store.get('psd-cp') || 'null'); } catch { return null; } };
+
 function answerIds(guide) {
   const ids = [];
   for (const s of guide.sections) for (const it of s.items) {
@@ -121,6 +131,12 @@ async function route() {
     if (page === 'admin') return renderAdmin(arg);
     if (page === 'dispatch') return renderDispatch();
     if (state.config.locked) await accessGate();
+    if (page === 'chefs-projet') return renderCpEntry();
+    if (page === 's' && isCp(arg)) {
+      let d;
+      try { d = await cpFor(arg); } catch { location.hash = '#/chefs-projet'; return; }
+      return sub === 'questionnaire' ? renderQuestionnaire(d) : renderDept(d);
+    }
     if (page === 's' && isActive(bySlug[arg])) return sub === 'questionnaire' ? renderQuestionnaire(bySlug[arg]) : renderDept(bySlug[arg]);
     if (hash !== '/') { history.replaceState(null, '', '#/'); }
     return renderHome();
@@ -192,12 +208,71 @@ function renderHome() {
     <p class="home__lead">Cliquez sur votre pôle pour consulter le guide d'entretien et choisir la date.</p>
     ${state.config.storeKind === 'none' ? `<p class="notice" style="margin-bottom:1rem">La réservation en ligne n'est pas encore activée.</p>` : ''}
     ${orgChart()}
+    <div class="cp-card">
+      <div>
+        <b>Vous êtes chef de projet ?</b>
+        <p class="muted">Votre fonction ne figure pas dans l'organigramme ci-dessus : accédez à votre guide d'entretien et prenez rendez-vous ici.</p>
+      </div>
+      <a class="btn btn--cta" href="#/chefs-projet">Espace chefs de projet →</a>
+    </div>
   </section>`;
   placeTrunk();
   const onResize = () => placeTrunk();
   window.addEventListener('resize', onResize);
   document.fonts?.ready.then(placeTrunk);
   cleanup = () => window.removeEventListener('resize', onResize);
+}
+
+/* ------------------------------------------------------------ chefs de projet (hors organigramme) */
+function renderCpEntry() {
+  const me = myCp() || {};
+  const guide = state.guides.cp;
+  const ids = answerIds(guide);
+  app.innerHTML = `
+  <div class="container page">
+    <a class="back" href="#/">← Organigramme</a>
+    <h1 class="page__title">Espace chefs de projet</h1>
+    <section class="step">
+      <p class="muted step__intro">Ce guide s'adresse à tous les chefs de projet de la SONES, y compris ceux qui ne figurent pas dans l'organigramme. Chacun dispose de son propre espace : guide d'entretien et rendez-vous. Renseignez votre identité ci-dessous ; en revenant avec la même adresse e-mail, vous retrouverez vos réponses et votre rendez-vous.</p>
+      <form class="booking-form" id="cpform" novalidate>
+        <label class="field">Votre nom *<input name="name" required autocomplete="name" value="${esc(me.name || '')}"></label>
+        <div class="grid-2">
+          <label class="field">E-mail *<input name="email" type="email" required autocomplete="email" placeholder="prenom.nom@sones.sn" value="${esc(me.email || '')}"></label>
+          <label class="field">Téléphone (facultatif)<input name="phone" type="tel" autocomplete="tel" value="${esc(me.phone || '')}"></label>
+        </div>
+        <label class="field">Projet dont vous avez la charge *<input name="project" required placeholder="Ex. : Programme d'urgence Diogo/Khombole" value="${esc(me.project || '')}"></label>
+        <p class="notice hidden" data-err></p>
+        <button class="btn btn--cta" type="submit">Accéder à mon guide et à mon rendez-vous →</button>
+      </form>
+    </section>
+    <section class="step guide-teaser">
+      <div class="step__head"><h2>Le guide d'entretien</h2></div>
+      <ul class="teaser-modules">${guide.sections.map((s) => `<li><b>${esc(s.code)}</b> ${esc(cap(s.title))}</li>`).join('')}</ul>
+      <p class="muted" style="font-size:.88rem;margin-top:.8rem">${guide.sections.length} modules · ${ids.length} questions · entretien de 1 h 30 à 2 h</p>
+    </section>
+  </div>`;
+  $('#cpform').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const f = e.target;
+    const data = Object.fromEntries(new FormData(f));
+    const err = $('[data-err]', f);
+    const show = (m) => { err.textContent = m; err.classList.remove('hidden'); };
+    if (!data.name.trim()) return show('Indiquez votre nom.');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email.trim())) return show('Indiquez une adresse e-mail valide.');
+    if (!data.project.trim()) return show('Indiquez le projet dont vous avez la charge.');
+    const btn = $('button[type=submit]', f);
+    btn.disabled = true;
+    try {
+      const r = await api('/api/chefs-projet', { method: 'POST', body: data });
+      store.set('psd-cp', JSON.stringify({ slug: r.slug, name: r.name, email: r.email, project: r.project, phone: data.phone.trim() }));
+      delete cpCache[r.slug];
+      await loadConfig();
+      location.hash = `#/s/${r.slug}`;
+    } catch (ex) {
+      show(ex.message);
+      btn.disabled = false;
+    }
+  });
 }
 
 /* ------------------------------------------------------------ page rendez-vous */
@@ -533,14 +608,15 @@ function setupBooking(d) {
   function form() {
     if (!s.date || !s.time) return `<div class="pick-hint">${s.date ? 'Choisissez maintenant une heure.' : 'Choisissez un jour dans le calendrier.'}</div>`;
     const b = s.booking;
+    const me = d.cp && myCp()?.slug === d.slug ? myCp() : null;
     const needEmail = b && s.editing;
     return `<form class="booking-form" id="bform" novalidate>
       <div class="picked">Créneau choisi : <b>${esc(fmtLong(s.date))}</b> à <b>${fmtTime(s.time)}</b></div>
       ${needEmail ? `<label class="field">E-mail utilisé lors de la réservation<input name="currentEmail" type="email" required placeholder="${esc(b.email)}"><small>Nécessaire pour modifier un rendez-vous existant.</small></label>` : ''}
-      <label class="field">Votre nom *<input name="name" required value="${esc(b?.name || '')}" autocomplete="name"></label>
+      <label class="field">Votre nom *<input name="name" required value="${esc(b?.name || me?.name || '')}" autocomplete="name"></label>
       <div class="grid-2">
-        <label class="field">E-mail *<input name="email" type="email" required autocomplete="email" placeholder="prenom.nom@sones.sn"></label>
-        <label class="field">Téléphone (facultatif)<input name="phone" type="tel" value="${esc(b?.phone || '')}" autocomplete="tel"></label>
+        <label class="field">E-mail *<input name="email" type="email" required autocomplete="email" placeholder="prenom.nom@sones.sn" value="${esc(me?.email || '')}"></label>
+        <label class="field">Téléphone (facultatif)<input name="phone" type="tel" value="${esc(b?.phone || me?.phone || '')}" autocomplete="tel"></label>
       </div>
       <div class="field">Modalité
         <div class="seg"><label><input type="radio" name="mode" value="presentiel" ${b?.mode !== 'visio' ? 'checked' : ''}>Présentiel</label><label><input type="radio" name="mode" value="visio" ${b?.mode === 'visio' ? 'checked' : ''}>Visioconférence</label></div>
@@ -697,7 +773,7 @@ async function renderDispatch() {
   }
   const freeTimes = (date) => (SLOTS[utc(date).getUTCDay()] || []).filter((t) => !taken.has(`${date}T${t}`));
 
-  const rows = data.rows.map((r) => ({ ...r, d: bySlug[r.slug] })).filter((r) => r.d);
+  const rows = data.rows.map((r) => ({ ...r, d: deptOf(r) })).filter((r) => r.d);
   const done = rows.filter((r) => r.booking).sort((a, b) => (a.booking.date + a.booking.time).localeCompare(b.booking.date + b.booking.time));
   const todo = rows.filter((r) => !r.booking && !isDone(r.d));
   const dayLabel = (x) => ucfirst(fmtLong(x).replace(/ \d{4}$/, ''));
@@ -719,9 +795,9 @@ async function renderDispatch() {
               ${openDays.map((x) => `<option value="${x}">${esc(dayLabel(x))}</option>`).join('')}
             </select></label>
             <label class="field">Heure<select name="time" required disabled><option value="">—</option></select></label>
-            <label class="field">Personne à interviewer *<input name="name" required placeholder="Prénom et nom"></label>
-            <label class="field">E-mail *<input name="email" type="email" required placeholder="prenom.nom@sones.sn"></label>
-            <label class="field">Téléphone<input name="phone" type="tel"></label>
+            <label class="field">Personne à interviewer *<input name="name" required placeholder="Prénom et nom" value="${esc(r.profile?.name || '')}"></label>
+            <label class="field">E-mail *<input name="email" type="email" required placeholder="prenom.nom@sones.sn" value="${esc(r.profile?.email || '')}"></label>
+            <label class="field">Téléphone<input name="phone" type="tel" value="${esc(r.profile?.phone || '')}"></label>
             <label class="field">Modalité<select name="mode"><option value="presentiel">Présentiel</option><option value="visio">Visioconférence</option></select></label>
           </div>
           <p class="notice hidden" data-err></p>
@@ -776,10 +852,11 @@ async function renderDispatch() {
     }
   };
 
+  const nameOf = (slug) => rows.find((r) => r.slug === slug).d.name;
   const onClick = async (e) => {
     const t = e.target.closest('[data-cancel]');
     if (!t) return;
-    if (!confirm(`Annuler l'entretien de ${bySlug[t.dataset.cancel].name} ? Un e-mail d'annulation sera envoyé.`)) return;
+    if (!confirm(`Annuler l'entretien de ${nameOf(t.dataset.cancel)} ? Un e-mail d'annulation sera envoyé.`)) return;
     try {
       await api(`/api/bookings?dept=${t.dataset.cancel}`, { method: 'DELETE', body: {} });
       await loadConfig();
@@ -821,7 +898,7 @@ async function renderAdmin(sub) {
   }
   if (sub === 'compilation') return renderCompilation(data);
 
-  const rows = data.rows.map((r) => ({ ...r, d: bySlug[r.slug] }));
+  const rows = data.rows.map((r) => ({ ...r, d: deptOf(r) }));
   rows.sort((a, b) => ((a.booking ? a.booking.date + a.booking.time : 'z') + a.d.name).localeCompare((b.booking ? b.booking.date + b.booking.time : 'z') + b.d.name));
   const planned = rows.filter((r) => r.booking || isDone(r.d)).length;
   const started = rows.filter((r) => r.progress?.filled).length;
@@ -862,12 +939,13 @@ async function renderAdmin(sub) {
         }).join('')}</tbody></table></div>
     </div>`;
 
+  const nameOf = (slug) => rows.find((r) => r.slug === slug).d.name;
   app.onclick = async (e) => {
     const t = e.target.closest('button');
     if (!t) return;
     if (t.dataset.copy) { await navigator.clipboard?.writeText(t.dataset.copy).catch(() => {}); return toast('Lien copié.'); }
     if (t.dataset.cancel) {
-      if (!confirm(`Annuler l'entretien de ${bySlug[t.dataset.cancel].name} ? Un e-mail d'annulation sera envoyé.`)) return;
+      if (!confirm(`Annuler l'entretien de ${nameOf(t.dataset.cancel)} ? Un e-mail d'annulation sera envoyé.`)) return;
       try { await api(`/api/bookings?dept=${t.dataset.cancel}`, { method: 'DELETE', body: {} }); await loadConfig(); toast('Entretien annulé.'); renderAdmin(); } catch (err) { toast(err.message, true); }
       return;
     }
@@ -903,7 +981,7 @@ function adminLogin(err = '') {
 function renderCompilation(data) {
   const rows = [...data.rows].sort((a, b) => (b.progress?.filled || 0) - (a.progress?.filled || 0));
   const blocks = rows.map((r) => {
-    const d = bySlug[r.slug];
+    const d = deptOf(r);
     const g = guideFor(d);
     const a = r.answers?.answers || {};
     const qa = [];
