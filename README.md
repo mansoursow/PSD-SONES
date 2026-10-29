@@ -2,7 +2,7 @@
 
 Site de prise de rendez-vous et de préparation des entretiens stratégiques, organisé autour de l'organigramme de la Direction Générale de la SONES.
 
-- **Accueil = l'organigramme seul**, aux couleurs ADOC. Seuls les pôles listés dans `ACTIVE` (`public/js/departments.js`) sont cliquables et clignotent : actuellement les **20 pôles qui ont un guide dédié** (DG, Coordonnateur Technique, SG, SSI, QSE, CPSM, CCP, CAJ, CCGB, CAICP, CPSE, UGP KMS3, UCP Mamelles, DPES, DTP, DTDA, DPMG, DCE, DCH, DFC). Le Conseiller Spécial (sans guide) est grisé et ne peuvent pas être réservés, même via l'URL. Pour ouvrir un pôle, ajoutez son identifiant dans `ACTIVE`.
+- **Accueil = l'organigramme seul**, aux couleurs ADOC. Seuls les pôles listés dans `ACTIVE` (`public/js/departments.js`) sont cliquables et clignotent : actuellement les **20 pôles qui ont un guide dédié** (DG, Coordonnateur Technique, SG, SSI, QSE, CPSM, CCP, CAJ, CCGB, CAICP, CPSE, UGP KMS3, UCP Mamelles, DPES, DTP, CAJ, DTDA, DPMG, DCE, DCH, DFC). Le Conseiller Spécial (sans guide) est grisé et ne peuvent pas être réservés, même via l'URL. Pour ouvrir un pôle, ajoutez son identifiant dans `ACTIVE`.
 - **Parcours** : clic sur le pôle → choix de la date (`/#/s/<pôle>`) → écran « Terminé » avec le bouton « Consulter le questionnaire » → questionnaire (`/#/s/<pôle>/questionnaire`). Le lien de l'e-mail de confirmation mène directement au questionnaire.
 - **Réservation** : calendrier, créneaux (lun.–jeu. 09h00 · 11h30 · 15h00, ven. 09h00 · 11h00 · 15h30, heure de Dakar), présentiel ou visio. Un créneau réservé n'est plus proposé aux autres structures.
 - **E-mail de confirmation** avec invitation calendrier (.ics) envoyé à l'interviewé(e), avec le consultant en copie. Des e-mails partent aussi en cas de report ou d'annulation.
@@ -14,7 +14,7 @@ Site de prise de rendez-vous et de préparation des entretiens stratégiques, or
 
 20 structures ont leur guide dédié. Le Conseiller Spécial n'est pas ouvert et utiliserait la **trame commune provisoire**.
 
-**Entretiens terminés sans rendez-vous** : la liste `DONE` de `public/js/departments.js` (actuellement DG, CPSM, CCP, CCGB, CAICP, UGP KMS3, UCP Mamelles, DPES, DTP) affiche la structure « ✓ Terminé » dans l'organigramme et bloque toute réservation.
+**Entretiens terminés sans rendez-vous** : la liste `DONE` de `public/js/departments.js` (actuellement DG, CPSM, CCP, CCGB, CAICP, UGP KMS3, UCP Mamelles, DPES, DTP, CAJ) affiche la structure « ✓ Terminé » dans l'organigramme et bloque toute réservation.
 
 ## Mettre à jour les guides
 
