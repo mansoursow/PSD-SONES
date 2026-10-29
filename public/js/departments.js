@@ -86,7 +86,7 @@ export const isActive = (d) => isInterviewed(d) && ACTIVE.includes(d.slug);
 
 // Entretiens déjà réalisés : affichés « Terminé », non réservables et NON OUVRABLES (page, guide et réponses fermés aux visiteurs).
 // Seul le consultant peut en rouvrir un en retirant son slug de cette liste.
-export const DONE = ['cpsm', 'ccp', 'ccgb', 'caicp', 'dg', 'ugp-kms3', 'ucp-mamelles', 'dpes', 'dtp', 'caj'];
+export const DONE = ['cpsm', 'ccp', 'ccgb', 'caicp', 'dg', 'ugp-kms3', 'ucp-mamelles', 'dpes', 'dtp', 'caj', 'qse', 'ssi', 'coordonnateur-technique', 'secretariat-general', 'cpse', 'dpmg', 'dce', 'dch', 'dfc', 'dtda'];
 export const isDone = (d) => !!d && DONE.includes(d.slug);
 
 // Journées fermées (consultant indisponible) : aucun créneau n'est proposé, la date est grisée.
