@@ -48,6 +48,29 @@ export const cpDept = (slug, profile = {}) => ({
   name: `Chef de projet${profile.project ? ` — ${profile.project}` : profile.name ? ` — ${profile.name}` : ''}`,
 });
 
+// Projets des chefs de projet : un espace par projet (guide dédié `proj-<clé>` dans guides.json), sans rendez-vous.
+// Le chef de projet y entre depuis /#/chefs-projet, renseigne son guide et le soumet.
+const PROJECT_LIST = [
+  { key: 'bs-extension', short: 'BS & Extension', name: 'Branchements sociaux et extension de réseaux', desc: 'Programme de 137 000 branchements sociaux et extension des réseaux tertiaires' },
+  { key: '4cf', short: '4CF', name: 'AEP des Centres Fluviaux du Nord (4CF)', desc: 'Richard-Toll, Dagana, Podor et Matam' },
+  { key: 'grande-cote', short: 'Grande Côte', name: 'Dessalement de la Grande Côte', desc: "Usine de 400 000 m³/j, PPP ACWA Power et transition énergétique" },
+  { key: 'diogo-fandene', short: 'Diogo–Fandène', name: 'Système Diogo – Tivaouane/Pire – Fandène', desc: 'Forages, réservoirs et adduction' },
+  { key: 'diourbel-tamba-touba', short: 'Diourbel · Tambacounda · Touba', name: 'AEP de Diourbel, Tambacounda et MOD de Touba', desc: "Maîtrise d'ouvrage déléguée de Touba" },
+  { key: 'gte', short: 'GTE', name: "Grand Transfert d'Eau (GTE)", desc: 'Grand Transfert Bleu, montage PPP et schémas directeurs' },
+  { key: 'insulaires-rse-solaire', short: 'Insulaires · RSE · Solaire', name: 'Projets insulaires, RSE et solaires', desc: 'Gorée, Diender, centrales PV KMS et Méouane' },
+  { key: 'khombole', short: 'Khombole', name: 'Système Khombole', desc: 'Transfert d’eau douce Khombole – Fandène' },
+  { key: 'pisea', short: 'PISEA', name: "Projet intégré de sécurité de l'eau et de l'assainissement (PISEA)", desc: 'Financement Banque mondiale, réduction des pertes et comptage' },
+  { key: 'sep-covid-bei', short: 'SEP & COVID-19 (BEI)', name: 'Programme SEP et COVID-19 (BEI)', desc: 'Financement BEI : Saint-Louis, Kaolack, Kolda' },
+  { key: 'malicounda', short: 'Malicounda', name: 'Transfert de Malicounda et AEP de la Petite Côte', desc: 'Conduite DN700, réservoirs et surpresseurs' },
+];
+export const PROJECTS = PROJECT_LIST.map((p) => ({
+  slug: `projet-${p.key}`, group: 'projet', project: true, short: p.short, name: p.name, desc: p.desc, lead: 'Chef de projet', guide: `proj-${p.key}`,
+}));
+export const projectBySlug = Object.fromEntries(PROJECTS.map((p) => [p.slug, p]));
+export const isProject = (slug) => slug in projectBySlug;
+// Chemin de l'espace d'une structure, d'un projet ou d'un chef de projet « autre projet ».
+export const deptPath = (d) => (d.project ? `#/p/${d.slug}` : `#/s/${d.slug}`);
+
 export const bySlug = Object.fromEntries(DEPARTMENTS.map((d) => [d.slug, d]));
 export const isInterviewed = (d) => d && d.interview !== false;
 

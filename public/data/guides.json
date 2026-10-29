@@ -6656,5 +6656,1867 @@
     ]
    }
   ]
+ },
+ "proj-bs-extension": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – PROGRAMMES DE BRANCHEMENTS SOCIAUX ET EXTENSION DE RÉSEAUX",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DE LA SONES & ALIGNEMENT STRATÉGIQUE DU PROGRAMME",
+    "items": [
+     {
+      "type": "q",
+      "label": "Rôle institutionnel de la SONES",
+      "text": "Comment le programme de 137 000 Branchements Sociaux (BS) incarne-t-il la mission de service public de la SONES et l'équité sociale en matière d'accès à l'eau potable ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Alignement avec la Vision Sénégal 2050 & LPSD 2025–2029",
+      "text": "En quoi ce programme répond-il aux orientations stratégiques du ministère de l’Hydraulique et de l'Assainissement (MHA) pour réduire les disparités d'accès entre centres urbains et zones périphériques ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Objectifs quinquennaux 2026–2030",
+      "text": "Quelle est la feuille de route annuelle de pose de branchements et d'extension de réseaux (répartition des 1 354 km par région/périmètre) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC STRATÉGIQUE & MODÈLE SOCIAL / ÉCONOMIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Critères d'éligibilité & ciblage des ménages",
+      "text": "Comment la SONES et le fermier SEN'EAU sélectionnent-ils les bénéficiaires des branchements sociaux pour garantir que les ménages vulnérables soient effectivement touchés ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Modèle financier & subventions",
+      "text": "Quel est le coût unitaire d'un branchement social, le montant de la subvention accordée par la SONES/Bailleurs et la part restant à la charge du ménage (redevance d'accès) ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Équilibre pression/débit dans les extensions",
+      "text": "Comment s'assurer que l'extension de 1 354 km de réseaux tertiaires ne dégrade pas les niveaux de pression pour les abonnés existants en bout de réseau ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "ÉTAT DES LIEUX OPÉRATIONNEL & EXÉCUTION DES MARCHÉS",
+    "items": [
+     {
+      "type": "q",
+      "label": "Avancement des marchés de fournitures & pose",
+      "text": "Où en est la passation des marchés de compteurs, de tuyaux PEHD/PVC et de prestations de terrassement/pose pour la première tranche 2026 ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Gouvernance & relation avec SEN'EAU",
+      "text": "Quel est le schéma opérationnel de validation des branchements posés par SEN'EAU et de remboursement/compensation par la SONES ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Gestion des contraintes urbaines & voirie",
+      "text": "Quelles sont les difficultés rencontrées pour l'obtention des autorisations de voirie (traversées de routes, remblayage) auprès des communes et de l'AGEROUTE ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION PROSPECTIVE PSD (2026–2030) & TRANSFORMATION EN HOLDING",
+    "items": [
+     {
+      "type": "q",
+      "label": "Digitalisation & Compteurs Intelligents",
+      "text": "Quelle est la part prévue de compteurs intelligents ou prépayés dans les nouveaux programmes de branchements sociaux sous le PSD 2026–2030 ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Contribution aux revenus de redevance",
+      "text": "Quel impact l'ajout de 137 000 nouveaux abonnés aura-t-il sur les volumes vendus et la redevance patrimoine perçue par la SONES Holding ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Inclusion des zones périurbaines sous MOD",
+      "text": "Comment le programme s'articulera-t-il avec d'éventuels mandats de Maîtrise d'Ouvrage Déléguée (MOD) pour des cités religieuses ou extensions spécifiques ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-4cf": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – PROGRAMME AEP DES CENTRES FLUVIAUX DU NORD (4CF)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Contexte",
+    "v": "Entretien individuel de cadrage et diagnostic stratégique avec le Chef de Projet (Chef de Projet AEP Centres Fluviaux (4CF) / DTXP - DTXDA) dans le cadre de la formulation du Plan Stratégique de Développement (PSD) et du Contrat de Performance 2026-2030 de la SONES."
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DE LA SONES & ALIGNEMENT STRATÉGIQUE DU PROGRAMME",
+    "items": [
+     {
+      "type": "q",
+      "label": "Rôle institutionnel de la SONES",
+      "text": "Comment le programme AEP des centres fluviaux du nord (4CF)) incarne-t-il la mission de service public de la SONES ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Alignement avec la Vision Sénégal 2050 & LPSD 2025–2029",
+      "text": "En quoi ce programme répond-il aux orientations stratégiques du ministère de l’Hydraulique et de l'Assainissement (MHA) en matière de résorption des disparités régionales et la garantie d'une eau potable conforme aux normes de l'OMS dans les villes secondaires du Nord et du Nord-Est du pays ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC STRATÉGIQUE & SUIVI-ÉVALUATION",
+    "items": [
+     {
+      "type": "sub",
+      "text": "II.1 : Analyse des causes des retards critiques et gouvernance des marchés"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Le tableau de bord de la Direction des Travaux révélant 6 marchés en retard critique sur le programme 4CF, quelles sont les causes profondes de ces décalages (entreprises, logistique, circuits de paiement) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment s'articule le suivi opérationnel entre les ingénieurs de la SONES basés sur le terrain et la mission de contrôle/supervision recrutée ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles pénalités de retard ou mises en demeure ont été signifiées aux entreprises défaillantes pour les inciter à remobiliser leurs moyens ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "II.2 : Gestion des interfaces institutionnelles et environnementales"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment a évolué la résolution du blocage technique avec l'AGEROUTE concernant la traversée de la RN à Richard-Toll (dispositif de centrage des fourreaux bloqué depuis plus de 16 semaines) ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Où en est le recrutement du cabinet de suivi-évaluation environnemental et social financé sur le projet et la régularisation des avis DCMP ?",
+      "children": [],
+      "id": "s2q5",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment sont gérées les indemnisations des PAP sur les emprises de pose de canalisations dans les communes traversées ?",
+      "children": [],
+      "id": "s2q6",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "ÉTAT DES LIEUX COMPLET DE LA SITUATION DU PROJET",
+    "items": [
+     {
+      "type": "sub",
+      "text": "III.1 : Situation du Centre de Richard-Toll (Usine 14 000 m³/j & Château d'eau 2 500 m³)"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "L'usine de Richard-Toll étant réalisée à 40 % (génie civil à 75,9 %), quel est le planning détaillé de livraison des équipements (pompes, filtres, électrochloration) et d'essais pour une mise en service au T1 2027 ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles solutions ont été apportées pour surmonter le blocage de la grue du château d'eau de 2 500 m³ (cuve à 80 %) et accélérer la fourniture des canalisations d'adduction ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le plan de densification du réseau secondaire à Richard-Toll et dans la zone de Rosso ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "III.2 : Situation des Centres de Dagana, Podor et Matam"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles mesures d'urgence ont été arrêtées pour sortir le Lot de Dagana (Station 4 000 m³/j et château d'eau) de son état de quasi-stagnation (4 % d'avancement) ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Où en sont les travaux de génie civil du château d'eau de 2 000 m³ et de la station de traitement de 5 000 m³/j de Podor (22 % d'avancement) ?",
+      "children": [],
+      "id": "s3q5",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "À Matam, quel est le chronogramme d'équipement des forages et d'érection du château d'eau de 1 500 m³ pour traiter le problème récurrent de teneur en fer ?",
+      "children": [],
+      "id": "s3q6",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION PROSPECTIVE À 5 ANS (PSD 2026-2030) & RECOMMANDATIONS",
+    "items": [
+     {
+      "type": "sub",
+      "text": "IV.1 : Transfert des ouvrages à SEN'EAU, exploitation & pérennité de la qualité"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles dispositions contractuelles et techniques sont prévues avec SEN'EAU pour la prise en main des 3 nouvelles usines de traitement d'eau de surface (Richard-Toll, Dagana, Podor) ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment la SONES assurera-t-elle le suivi de la qualité bactériologique et physico-chimique de l'eau distribuée via les laboratoires de contrôle (Bio Ndar) ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le plan de maintenance préventive des stations de traitement d'eau de surface pour éviter la dégradation rapide des membranes et équipements électromécaniques ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "IV.2 : Recommandations stratégiques pour le PSD 2026-2030"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles réformes de suivi des chantiers déconcentrés proposez-vous d'inscrire au PSD pour éviter la répétition des décalages constatés sur le programme 4CF ?",
+      "children": [],
+      "id": "s4q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment intégrer les programmes d'extension de réseaux et de branchements sociaux (ex: 2 000 à 4 000 BS) dans ces centres pour maximiser le taux d'accès ?",
+      "children": [],
+      "id": "s4q5",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont vos préconisations pour renforcer le rôle des directions régionales de la SONES dans le contrôle d'avancement des travaux ?",
+      "children": [],
+      "id": "s4q6",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-grande-cote": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – USINE DE DESSALEMENT D'EAU DE MER DE LA GRANDE CÔTE",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du Plan Stratégique de Développement (PSD 2026–2030) et de la Transformation en Holding"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION GÉNÉRALE, ALIGNEMENT STRATÉGIQUE ET MISSIONS",
+    "items": [
+     {
+      "type": "sub",
+      "text": "I.1 : Comment le projet de dessalement de la Grande Côte s'articule-t-il avec la vision stratégique globale de la SONES et les nouvelles orientations de la Vision Sénégal 2050 ?"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le rôle pivot attribué à cette usine de 400 000 m³/j dans la sécurisation à long terme de l'AEP de l'axe Dakar-Thiès-Petite Côte (DMT) et du bassin arachidier ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "En quoi ce projet contribue-t-il à la préservation environnementale en réduisant la pression de prélèvement sur les nappes phréatiques (Maastrichtien, Pout Nord/Sud) surexploitées ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment s'opère la complémentarité entre l'usine de la Grande Côte, le projet KMS3, l'usine des Mamelles et le futur Grand Transfert d'Eau (GTE) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "I.2 : Quelles sont les spécificités institutionnelles et juridiques du Partenariat Public-Privé (PPP) conclu avec le consortium saoudien ACWA Power ?"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment la loi n° 2021-23 du 2 mars 2021 relative aux contrats de PPP encadre-t-elle l'offre d'initiative privée de préparation soumise par ACWA Power ?",
+      "children": [],
+      "id": "s1q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles ont été les étapes clés du processus de renégociation et de révision contractuelle engagé par les nouvelles autorités de l'État en 2024 ?",
+      "children": [],
+      "id": "s1q5",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment s'organise la répartition des risques techniques, financiers et d'exploitation entre l'État du Sénégal, la SONES et l’opérateur privé ?",
+      "children": [],
+      "id": "s1q6",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC STRATÉGIQUE DU PROJET (ANALYSE SWOT & GOUVERNANCE)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "II.1 : Quels sont les atouts majeurs (Forces) et les leviers d'innovation technique développés dans le montage de la Grande Côte ?"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "En quoi le montage 'Nexus Eau-Énergie' (centrale solaire IPP de 300 MW adossée) constitue-t-il une réponse innovante au poids de l'électricité (~30 % des charges d'exploitation) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment le tarif d'électricité préférentiel (~30 FCFA/kWh) obtenu grâce à la revente du surplus de 250 MW à la SENELEC permet-il de garantir un coût du mètre cube dessalé très compétitif ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les compétences internes mobilisées par la SONES (DPES, CAJ, Cellule PPP) pour piloter un projet de cette envergure ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "II.2 : Quelles sont les faiblesses, contraintes financières et vulnérabilités identifiées dans le pilotage du projet ?"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont les défis financiers liés à la mobilisation de la dette privée et au bouclage des prêts concessionnels auprès des bailleurs (Fonds saoudiens, Fonds nordiques, BADEA, SFD) ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment la SONES prévoit-elle d'assurer le financement de sa prise de participation de 30 % au capital de la société de projet sans altérer sa soutenabilité financière ?",
+      "children": [],
+      "id": "s2q5",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont les risques d'exécution technique liés à l'ingénierie lourde des prises d'eau de mer et desémissaires de rejet de saumure sur la Grande Côte ?",
+      "children": [],
+      "id": "s2q6",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "II.3 : Quelles opportunités stratégiques et quelles menaces environnementales ou sociales entourent ce projet ?"
+     },
+     {
+      "type": "q",
+      "label": "Opportunités",
+      "text": "En quoi ce projet préfigure-t-il le nouveau modèle de la SONES en Holding polyvalente (création de filiales et gouvernance d'actifs mixtes) ?",
+      "children": [],
+      "id": "s2q7",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Menaces sociales",
+      "text": "Comment sont gérées les démarches d'acquisition foncière et de concertation auprès des populations locales de Keur Marème Mbengue et Benoba ?",
+      "children": [],
+      "id": "s2q8",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Menaces environnementales",
+      "text": "Quelles dispositions du Plan de Gestion Environnementale et Sociale (PGES) et de l'EIES protègent les écosystèmes marins et côtiers du rejet de saumure ?",
+      "children": [],
+      "id": "s2q9",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "ÉTAT DES LIEUX COMPLET DE LA SITUATION DU PROJET (TECHNIQUE, FINANCIER & FONCIER)",
+    "items": [
+     {
+      "type": "sub",
+      "text": "III.1 : Où en est exactement le processus d'actualisation de l'offre d'ACWA Power et la finalisation des contrats de partenariat ?"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont les résultats concrets des négociations menées sur l'offre actualisée du 14 octobre 2024 concernant la baisse du tarif de cession de l'eau et l'optimisation EPC ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le calendrier prévisionnel pour la signature finale du contrat PPP amendé et le bouclage financier avec le syndicat de prêteurs ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Où en est le recrutement de l'assistance technique juridique, financière et environnementale (financée dans le cadre du projet PISEA) ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "III.2 : Comment le projet s'articule-t-il avec l'actualisation du Schéma Directeur Dakar-Thiès-Petite Côte et le Programme Intermédiaire (2024–2028) ?"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "En quoi la suspension temporaire des missions M4 et M5 du Schéma Directeur (août 2024–avril 2025) a-t-elle permis d'aligner la modélisation hydraulique sur les nouvelles hypothèses de la Grande Côte ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment le Programme Intermédiaire de transfert (champs captants de Diogo et Ndiayène Sirakh) assure-t-il la jonction hydraulique d'urgence avant la mise en service effective du dessalement Grande Côte ?",
+      "children": [],
+      "id": "s3q5",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les infrastructures de transport et d'adduction en aval (réservoirs, conduites de grand diamètre) requises pour évacuer les 400 000 m³/j vers Dakar et Thiès ?",
+      "children": [],
+      "id": "s3q6",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION PROSPECTIVE À 5 ANS DANS LE CADRE DU PSD (2026–2030) ET MODÈLE HOLDING",
+    "items": [
+     {
+      "type": "sub",
+      "text": "IV.1 : Comment le projet de la Grande Côte s'intègrera-t-il dans l'architecture institutionnelle et financière de la SONES Holding à l'horizon 2030 ?"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel sera le statut exact de la filiale ou de la société de projet dans laquelle la SONES détiendra 30 % des actions ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment la gouvernance des dividendes générés par cette participation contribuera-t-elle à diversifier les recettes de la SONES et à compenser l'érosion de la redevance patrimoine ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles compétences de supervision de contrats PPP complexes la SONES doit-elle développer en interne d'ici 2030 ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     },
+     {
+      "type": "sub",
+      "text": "IV.2 : Quels sont les objectifs clés et les jalons de performance à inscrire pour le projet dans le PSD 2026–2030 et le Contrat de Performance associé ?"
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels jalons précis (bouclage financier, pose de la première pierre, essais, mise en service industrielle) devez-vous valider pour le contrat de performance 2026–2030 de la SONES ?",
+      "children": [],
+      "id": "s4q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment la mise en service de ces 400 000 m³/j reconfigurera-t-elle l'équilibre offre-demande et la tarification de l'eau dans le périmètre affermé de SEN'EAU ?",
+      "children": [],
+      "id": "s4q5",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles leçons tirées du projet de la Grande Côte recommandez-vous d'intégrer dans la préparation des futurs grands projets comme le Grand Transfert d'Eau (GTE 2034) ?",
+      "children": [],
+      "id": "s4q6",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-diogo-fandene": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – SYSTÈME DIOGO – TIVAOUANE / PIRE – FANDÈNE",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Contexte",
+    "v": "Élaboration du Plan Stratégique de Développement (PSD 2026–2030) & Diagnostic de la Maîtrise d'Ouvrage"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DU PROJET, MISSIONS & ALIGNEMENT STRATÉGIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Vision & Cadrage",
+      "text": "Comment le Système Diogo–Tivaouane/Pire–Fandène s'insère-t-il spécifiquement dans la réponse d'urgence de la SONES face au déficit de Dakar-Thiès-Mbour ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Alignement LPSD & Vision 2050",
+      "text": "En quoi ce projet contribue-t-il aux orientations stratégiques de la Lettre de Politique Sectorielle de Développement (LPSD 2025-2029) et aux ambitions de souveraineté hydraulique à l'horizon 2050 ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Missions de Maîtrise d'Ouvrage",
+      "text": "Quels sont les rôles respectifs de la SONES (DPT/DPES) et des consultants/bureaux de contrôle dans la gouvernance technique de ce projet ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "ÉTAT DES LIEUX COMPLET DE LA SITUATION DU PROJET (AVANCEMENT & CONTRAINTES)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Avancement Physique & Forages",
+      "text": "Quel est le niveau de réalisation effectif des 25 forages dans le Maastrichtien à Diogo ? Les débits d'exhaure testés correspondent-ils aux projections hydrogéologiques initiales ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Ouvrages de Stockage & Adduction",
+      "text": "Où en est la construction des deux réservoirs de 15 000 m³ à Fandène et le pose de la conduite DN1800 sur les 33 km jusqu'à Diamniadio ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Gestion des Marchés & ANO",
+      "text": "Quels ont été les délais d'attribution des marchés et l'obtention des Avis de Non-Objection (ANO) auprès de la Banque Mondiale et des services du Ministère ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Foncier, PAP & Environnement",
+      "text": "Comment se déroule la libération des emprises le long du tracé Diogo-Tivaouane-Fandène ? Les indemnisations des Personnes Affectées par le Projet (PAP) sont-elles intégralement soldées ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Facture Énergétique & SENELEC",
+      "text": "Quelles sont les dispositions prises pour le raccordement électrique des forages et des stations de pompage ? Une composante solaire est-elle envisagée pour réduire les coûts d'exploitation ?",
+      "children": [],
+      "id": "s2q5",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "DIAGNOSTIC DE LA GOUVERNANCE & RELATIONS INSTITUTIONNELLES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Interface avec le Fermier SEN'EAU",
+      "text": "Comment s'organise la réception technique des forages et réservoirs avec SEN'EAU pour assurer une mise en service commerciale sans rupture de charge ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Coordination avec les Projets Connexes",
+      "text": "Comment le système Diogo-Fandène s'articule-t-il avec le système Khombole, la conduite de Malicounda et les arrivées futures du Dessalement Grande Côte ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Suivi-Évaluation & Qualité (SMQ)",
+      "text": "Quels indicateurs de performance clés (KPI) sont utilisés par la Direction des Projets pour mesurer l'efficience d'exécution et le respect des coûts ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION PROSPECTIVE À 5 ANS (PSD 2026–2030 & TRANSFORMATION HOLDING)",
+    "items": [
+     {
+      "type": "q",
+      "label": "Feuille de Route Quinquennale (2026-2030)",
+      "text": "Quelles sont les priorités d'extension ou de consolidation du système Diogo-Fandène dans le cadre du PSD 2026-2030 ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Intégration dans le Grand Transfert d'Eau (GTE)",
+      "text": "À terme, comment la conduite DN1800 et le nœud stratégique de Fandène seront-ils intégrés dans l'architecture globale du GTE (Transfert Bleu) ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Transformation de la SONES en Holding",
+      "text": "Quel sera l'impact de la restructuration institutionnelle de la SONES (Holding avec filiales de patrimoine/travaux) sur la gestion et le renouvellement de ces actifs de captage et de transfert ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-diourbel-tamba-touba": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – AEP DE DIOURBEL, TAMBACOUNDA ET MOD DE TOUBA",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "ALIGNEMENT STRATÉGIQUE ET VISION INSTITUTIONNELLE",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment le mandat de Maîtrise d'Ouvrage Déléguée (MOD) confié à la SONES pour la ville de Touba s'articule-t-il avec la Lettre de Politique Sectorielle de Développement (LPSD 2025-2029) et la Vision Sénégal 2050 ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les orientations stratégiques retenues pour passer d'un schéma informel/communautaire d'AEP à Touba vers un modèle de gestion industrielle pérenne régi par la SONES ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Pour les villes de Diourbel et Tambacounda, quelles sont les priorités d'investissement définies dans le Plan Quinquennal d'Investissement (PQI) 2026-2030 pour résorber les déficits de production et traiter la salinité/duré de l'eau ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "ÉTAT DES LIEUX OPÉRATIONNEL ET AVANCEMENT DES TRAVAUX",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Où en est l'audit technique et patrimonial du réseau d'eau de Touba ? Quels sont les premiers constats concernant l'état du réseau, les pertes en eau et le nombre de forages en exploitation ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le taux de réalisation des travaux d'urgence et des unités de traitement (adoucissement/déferrisation) à Diourbel ? Quels sont les blocages techniques ou fonciers identifiés ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Où en est le programme de renforcement de la production et de sécurisation du stockage à Tambacounda ? Quel est le calendrier de livraison des châteaux d'eau et extensions ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est l'état d'avancement des décaissements des financements Banque Mondiale (PISEA) et de la contrepartie État/SONES pour ces trois périmètres ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "GOUVERNANCE, FACTEUR HUMAIN ET ACCEPTABILITÉ SOCIALE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Acceptabilité à Touba",
+      "text": "Quelle stratégie de concertation sociale et d'engagement communautaire la SONES déploie-t-elle avec les autorités religieuses et les comités locaux de Touba pour instaurer le comptage et le principe du service public de l'eau ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Relations avec SEN'EAU",
+      "text": "Comment s'organisera le transfert progressif de l'exploitation de Touba à l'affermataire SEN'EAU une fois les ouvrages remis aux normes par la SONES ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Branchements Sociaux",
+      "text": "Comment le programme général des 137 000 Branchements Sociaux (BS) est-il décliné dans les régions de Diourbel et Tambacounda pour cibler les ménages vulnérables ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "PROJECTIONS PROSPECTIVES (PSD 2026-2030) ET SCHÉMA HOLDING",
+    "items": [
+     {
+      "type": "q",
+      "label": "Horizon GTE 2030-2034",
+      "text": "Comment le raccordement de Touba et Diourbel au Grand Transfert d'Eau (GTE) modifiera-t-il la dépendance vis-à-vis des forages locaux et le coût de revient du m³ produit ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Schéma Holding",
+      "text": "Dans le cadre de la transformation de la SONES en Holding, est-il envisagé de créer une filiale régionale ou une entité dédiée à la gestion du périmètre spécial de Touba/Diourbel ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Indicateurs CDP",
+      "text": "Quels indicateurs clés de performance (taux de comptage, rendement de réseau, continuité de service) recommandez-vous d'intégrer dans le Contrat de Performance 2026-2030 de la SONES pour ces trois centres ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-gte": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – GRAND TRANSFERT D'EAU (GTE)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Contexte",
+    "v": "Diagnostic Opérationnel, Cadrage Stratégique, Modèle PPP & Projections Quinquennales"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DU PROJET, MISSIONS ET ALIGNEMENT STRATÉGIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Alignement stratégique",
+      "text": "Comment le projet de Grand Transfert d'Eau s'inscrit-il dans la nouvelle Vision Sénégal 2050 et la LPSD 2025–2029 du MHA ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Articulation avec les infrastructures existantes",
+      "text": "Quelle est la complémentarité entre le GTE, le système KMS3 et les usines de dessalement (Mamelles et Grande Côte) dans la sécurisation à long terme de Dakar et des régions ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Gouvernance interne",
+      "text": "Comment l'équipe projet GTE est-elle structurée au sein de la SONES pour piloter la phase d'études, de négociation PPP et de développement ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC TECHNIQUE, SCHÉMA DIRECTEUR ET RECHERCHE-DÉVELOPPEMENT",
+    "items": [
+     {
+      "type": "q",
+      "label": "Schémas directeurs 2040–2050",
+      "text": "Où en est l'actualisation des schémas directeurs d'AEP intégrant les hypothèses de prélèvement du GTE (2 à 2,7 millions m³/j) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Option eau brute vs eau traitée",
+      "text": "Quelles sont les conclusions arbitrage entre le transfert d'eau brute (avec traitement à l'arrivée) et le traitement de tête au Lac de Guiers/Fleuve ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Nexus Eau-Énergie-Agriculture",
+      "text": "De quelle manière les composantes d'irrigation agricole et les besoins en énergie de pompage sont-ils modélisés dans le projet ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "MONTAGE FINANCIER, PARTENARIAT PUBLIC-PRIVÉ (PPP) ET FONCIER",
+    "items": [
+     {
+      "type": "q",
+      "label": "Modèle de financement PPP",
+      "text": "Quel est l'état d'avancement des discussions avec les partenaires (FONSIS, Banque Mondiale, investisseurs privés comme ACWA Power) pour le cadrage du contrat BOO/BOOT ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Impact tarifaire et équilibre de la redevance",
+      "text": "Comment la SONES anticipe-t-elle l'impact de l'achat d'eau au m³ dans le cadre du GTE sur le modèle financier et le contrat d'affermage avec SEN'EAU ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Emprises, EIES et libération de la voie",
+      "text": "Quelles sont les dispositions arrêtées pour la sécurisation du corridor d'adduction et l'indemnisation des personnes affectées (PAP) ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "PROJECTIONS PSD (2026–2030), TRANSFORMATION HOLDING ET PROSPECTIVE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Jalons du PSD 2026–2030",
+      "text": "Quels sont les livrables clés et jalons d'avancement du GTE programmés d'ici 2030 dans le Plan Général d'Investissements (PGI) ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Rôle dans la future Holding SONES",
+      "text": "Comment le projet GTE contribuera-t-il à la constitution des filiales spécialisées de la SONES (patrimoine, ingénierie, gestion d'eau brute) ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Recommandations stratégiques",
+      "text": "Quelles sont les mesures prioritaires à inscrire dans le PSD pour sécuriser le démarrage opérationnel du GTE ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-insulaires-rse-solaire": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – PROJETS INSULAIRES, RSE ET SOLAIRES",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DU PROJET ET ALIGNEMENT STRATÉGIQUE (SONES, RSE & SOLAIRES)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment les projets insulaires (Gorée), RSE (Diender) et solaires (KMS & Méouane) contribuent-ils aux orientations de la Lettre de Politique Sectorielle de Développement (LPSD 2025–2029) et aux axes d'équité sociale et de souveraineté énergétique de la Vision Sénégal 2050 ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont les objectifs de production, d'économies d'énergie et d'impact social assignés à chacune des trois composantes (Gorée, Diender, Centrales PV KMS/Méouane) ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC STRATÉGIQUE ET MODÈLE ÉCONOMIQUE (NEXUS EAU-ÉNERGIE)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le gain financier attendu sur la facture d'électricité globale de la SONES grâce à l'autoconsommation des centrales solaires de KMS et Méouane ? Quel est le modèle de valorisation de l'énergie produite ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment le volet RSE de Diender est-il perçu par les populations locales ? Quel est le bilan des réalisations en matière de branchements sociaux et d'extensions de réseaux dans la zone d'impact de KMS3 ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "ÉTAT DES LIEUX COMPLET ET EXÉCUTION DU PROJET",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est l'état d'avancement physique des travaux sur le site de Gorée (usine monobloc) et sur les sites solaires de Keur Momar Sarr et Méouane ? Quels sont les taux d'exécution budgétaire à ce jour ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les difficultés majeures rencontrées (logistique maritime à Gorée, sécurisation du foncier à Méouane/KMS, conventions d'interconnexion/autoconsommation avec SENELEC) et quels dispositifs correctifs ont été déployés ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment s'organise la réception technique, la gestion du patrimoine et le transfert de l'exploitation de l'unité de Gorée et des centrales solaires à l'affermataire SEN'EAU ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION PROSPECTIVE DANS LE PSD (2026–2030) ET RESTRUCTURATION HOLDING",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment ces projets alimentent-ils la trajectoire stratégique 2026–2030 de la SONES en matière d'autonomie énergétique, de durabilité environnementale et d'équité sociale ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Dans la perspective de transformation de la SONES en Holding polyvalente, envisagez-vous la création d'une filiale dédiée aux Énergies Renouvelables et aux Services Environnementaux ? Quel rôle le Chef de Projet jouera-t-il dans cette transition ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-khombole": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – SYSTÈME KHOMBOLE",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DE LA SONES ET DU PROJET KHOMBOLE",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment s'articule le mandat de maîtrise d'ouvrage de la SONES sur le projet de transfert de Khombole au regard de la convention de concession et du contrat d'affermage d'eau potable ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "En quoi le transfert d'eau douce de Khombole répond-il aux orientations stratégiques de la Vision Sénégal 2050 et de la LPSD 2025–2029 concernant la souveraineté hydrique et l'accès équitable à une eau de qualité ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le rôle du projet Khombole dans le rétablissement de la qualité de l'eau distribuée (dilution du calcaire, des nitrates et des fluorures dans les réseaux de Thiès et du littoral) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Pouvez-vous détailler l'architecture technique retenue entre les champs captants de Ndiayène Sirakh, Ngoundiane, Séwekhaye-Thiénaba et le nœud de répartition de Fandène ?",
+      "children": [],
+      "id": "s1q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les caractéristiques hydrogéologiques clés des 22 forages prévus (debits unitaires, profondeurs de captage maastrichtien/continental terminal, qualité de l'eau brute) ?",
+      "children": [],
+      "id": "s1q5",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment les ouvrages de stockage (réservoir de 8 000 m³ et château d'eau de 3 000 m³ à Diamniadio) s'interconnectent-ils avec le réseau structurant de refoulement DN1000 vers Rufisque et Dakar ?",
+      "children": [],
+      "id": "s1q6",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC STRATÉGIQUE DU PROJET (MATRICE SWOT & GOUVERNANCE)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelle est l'avancement exact des démarches auprès de l'AFD pour le financement de la requête globale de 127 Mrds FCFA transmise en 2025 ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment la SONES gère-t-elle la pré-mobilisation des fonds propres pour les impenses et indemnisation des 228 PAP répertoriées dans le périmètre de Khombole ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les mesures de cadrage financier prises pour garantir l'équilibre de la redevance patrimoine face à ce volume d'investissement massif ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles solutions techniques sont prévues pour sécuriser l'alimentation électrique HTA (30 kV sur 41.6 km) et éviter les coupures récurrentes notées sur le forage F3 actuel ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment s'organise la coordination avec le fermier SEN'EAU pour la maintenance préventive et la régulation des débits sur les champs de Ngoundiane et Ndiayène Sirakh ?",
+      "children": [],
+      "id": "s2q5",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "ÉTAT DES LIEUX COMPLET DE LA SITUATION DU PROJET KHOMBOLE",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Où en est la finalisation de l'EIES réalisée par le groupement HPR ANKH CONSULTANT / E2S / INFOGES et quelle est la date d'approbation finale du Plan d'Action de Réinstallation (PAR) ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le statut administratif des délibérations foncières pour les 20 sites de forages et les emprises des réservoirs à Ngoundiane, Ndiayène Sirakh et Thiénaba ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est l'état de préparation des Dossiers d'Appel d'Offres (DAO) pour la passation des marchés de forages et de fourniture/pose des conduites de transfert ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles leçons ont été tirées des suspensions de travaux observées pendant l'hivernage dans la zone de Khombole pour adapter le planning d'exécution 2026-2028 ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment s'articule le calendrier de déploiement des 77 680 branchements sociaux dans les départements de Rufisque et Thiès ?",
+      "children": [],
+      "id": "s3q5",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION PROSPECTIVE À 5 ANS DANS LE CADRE DU PSD (2026–2030)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment le volume additionnel mobilisé par Khombole contribuera-t-il à résorber définitivement le déficit de production du Triangle Dakar-Thiès-Mbour d'ici 2028 ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel sera l'impact du projet sur les indicateurs de performance patrimoniale de la SONES (taux de desserte, qualité de l'eau, rendement de réseau) ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment le schéma d'adduction de Khombole s'articulera-t-il avec l'arrivée progressive des eaux dessalées de la Grande Côte et du Grand Transfert d'Eau (GTE) à l'horizon 2030-2035 ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Dans la perspective de la filialisation de la SONES en Holding polyvalente, quelle filiale ou direction aura la charge de la gestion et de la maintenance du patrimoine d'adduction Khombole-Fandène ?",
+      "children": [],
+      "id": "s4q4",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles compétences techniques et technologiques (SCADA, télégestion des forages) doivent être renforcées au sein de l'équipe projet pour garantir un pilotage optimal des infrastructures à l'ère de la Holding ?",
+      "children": [],
+      "id": "s4q5",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-pisea": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – PROJET INTÉGRÉ DE SÉCURITÉ DE L'EAU ET DE L'ASSAINISSEMENT (PISEA)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Contexte",
+    "v": "Elaboration du Plan Stratégique de Développement (PSD 2026–2030) & Diagnostic de la Maîtrise d'Ouvrage"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DE LA SONES, DU PROJET PISEA & ALIGNEMENT STRATÉGIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": "Vision & Rôle Institutionnel",
+      "text": "En quoi le projet PISEA incarne-t-il la vision stratégique de la SONES en matière d'efficience des réseaux et de protection du patrimoine public hydraulique ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Alignement Sectoriel",
+      "text": "Comment le projet s'articule-t-il avec la Lettre de Politique Sectorielle de Développement (LPSD 2025–2029) du ministère de l’Hydraulique et la Vision Sénégal 2050 ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Objectifs Spécifiques",
+      "text": "Quels sont les engagements de performance clés (KPIs) souscrits auprès de la Banque Mondiale au titre du crédit IDA pour le PISEA ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC STRATÉGIQUE, RÉDUCTION DES PERTES (ENF) & MODÈLE FINANCIER",
+    "items": [
+     {
+      "type": "q",
+      "label": "Réduction des Pertes d'Eau",
+      "text": "Quelle est la feuille de route exacte pour abaisser le taux d'Eau Non Facturée (ENF) en dessous des seuils contractuels sur le périmètre Dakar-Thiès-Mbour ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Comptage Intelligent & Télégestion",
+      "text": "Quel est le bilan d'étape du déploiement des compteurs intelligents et de la télégestion du réseau ? Quels sont les gains attendus pour la redevance patrimoine de la SONES ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Sécurité Sanitaire (Électrochloration)",
+      "text": "Où en est l'installation des équipements d'électrochloration pour la désinfection de l'eau et quelle est la stratégie de pérennisation opérationnelle ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "ÉTAT DES LIEUX OPÉRATIONNEL, PASSATION DE MARCHÉS & RISQUES",
+    "items": [
+     {
+      "type": "q",
+      "label": "Passation de Marchés & ANO",
+      "text": "Quels sont les principaux goulots d'étranglement rencontrés dans l'obtention des Avis de Non-Objection (ANO) auprès de la Banque Mondiale ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Relations avec le Fermier SEN'EAU",
+      "text": "Comment s'organisent la coordination technique et le partage de données avec SEN'EAU pour les travaux de sectorisation et de remplacement de conduites ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Gestion des Risques & Environnement",
+      "text": "Quelle est la situation des études environnementales et sociales (EIES/PGES) et de l'indemnisation des personnes affectées (PAP) le long des réseaux cibles ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION QUINQUENNALE PSD (2026–2030) & TRANSFORMATION EN HOLDING",
+    "items": [
+     {
+      "type": "q",
+      "label": "Consolidation PSD 2026–2030",
+      "text": "Quelles sont les composantes du PISEA à inscrire en priorité dans le Plan Quinquennal d'Investissement (PQI 2026–2030) de la SONES ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Transformation Holding & Digitalisation",
+      "text": "Dans le cadre de la transformation de la SONES en Holding, comment le projet PISEA préfigure-t-il la création d'une entité dédiée à l'ingénierie, au SIG et au contrôle des réseaux ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": "Recommandations pour la Direction",
+      "text": "Quelles mesures conservatoires ou arbitrages stratégiques recommandez-vous à la Direction Générale pour accélérer le taux de décaissement du projet PISEA ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-sep-covid-bei": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – PROGRAMME SEP ET COVID-19 (FINANCEMENT BEI)",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Contexte",
+    "v": "Elaboration du Plan Stratégique de Développement (PSD 2026-2030) & Diagnostic de Performance de la Maitrise d'Ouvrage"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DE LA SONES & ALIGNEMENT STRATÉGIQUE DU PROGRAMME",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment le Programme BEI s'insère-t-il dans les orientations stratégiques de la LPSD 2025-2029 et la Vision Sénégal 2050 en matière d'équité territoriale de l'accès à l'eau potable ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels étaient les objectifs initiaux du programme (capacités de production à ajouter, kilomètres de conduite, branchements sociaux) et en quoi la crise COVID-19 a-t-elle redéfini les priorités opérationnelles ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelle est la structure de gouvernance interne à la SONES (DTX, DPES, CPM) mise en place pour piloter ce programme multi-villes (Saint-Louis, Kaolack, Kolda) ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC STRATÉGIQUE & DE PERFORMANCE DE MAÎTRISE D'OUVRAGE",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les principales forces d'exécution observées sur les chantiers achevés (ex: usine de Khor à Saint-Louis de 15 000 m³/j) ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels ont été les principaux freins organisationnels, administratifs et financiers rencontrés lors de l'exécution du programme ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment évaluez-vous la gestion de la passation des marchés et la conformité des procédures par rapport aux exigences de la BEI et du Code des marchés publics du Sénégal ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont les impacts des blocages liés aux attestations d'exonération douanière (APIX / DODP) sur les délais et coûts du projet ?",
+      "children": [],
+      "id": "s2q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "ÉTAT DES LIEUX COMPLET DE LA SITUATION DU PROJET (SITUATION AU 4T 2026)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le bilan d'exploitation de la station de Khor (15 000 m³/j) après sa mise en service et son transfert à l'exploitant SEN'EAU ? Quels sont les derniers ajustements requis ?",
+      "children": [],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Où en sont les travaux de construction de la station de déferrisation, la réalisation des forages et du château d'eau à Kolda (avancement physique évalué à ~77%) ? Quel est le planning de clôture ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelle est la situation actuelle du schéma d'alimentation de Kaolack et des études/travaux associés au transfert à partir de Malem Hodar ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Sur l'objectif des 39 000 branchements sociaux, 28 265 ont été posés. Quel est le calendrier de déploiement pour le reliquat et quelles sont les contraintes de ciblage des ménages vulnérables ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION PROSPECTIVE À 5 ANS DANS LE CADRE DU PSD (2026-2030)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles sont les leçons tirées du Programme BEI qui doivent être intégrées dans le Plan Général d'Investissement (PGI/PQI) du PSD 2026-2030 ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment anticipez-vous la transformation organisationnelle de la SONES en Holding et le rôle des filiales régionales ou techniques dans la gestion future des ouvrages de l'intérieur ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont les besoins complémentaires identifiés dans les villes de Saint-Louis, Kaolack et Kolda à l'horizon 2030 pour pérenniser les acquis du programme BEI ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelles recommandations formulez-vous pour optimiser la relation triangulaire SONES - Bailleur (BEI) - Exploitant (SEN'EAU) lors de la réception définitive des ouvrages ?",
+      "children": [],
+      "id": "s4q4",
+      "answer": true
+     }
+    ]
+   }
+  ]
+ },
+ "proj-malicounda": {
+  "title": "GUIDE D'ENTRETIEN – CHEF DE PROJET – PROJET DE TRANSFERT DE MALICOUNDA ET AEP DE LA PETITE CÔTE",
+  "fiche": [
+   {
+    "k": "Intervenant",
+    "v": "Chef de projet de la SONES en charge du projet"
+   },
+   {
+    "k": "Durée estimée",
+    "v": "1 h 30 à 2 h"
+   }
+  ],
+  "sections": [
+   {
+    "code": "Partie I",
+    "title": "PRÉSENTATION DE LA SONES, DU PROJET ET ALIGNEMENT STRATÉGIQUE",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment le Projet de Transfert de Malicounda s'insère-t-il dans la politique de sécurisation de l'AEP de la Petite Côte ? En quoi répond-il aux orientations du ministère de l’Hydraulique et de l'Assainissement (MHA) ?",
+      "children": [],
+      "id": "s1q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le rôle spécifique de la SONES dans le pilotage, la maîtrise d'ouvrage et le suivi de la qualité des infrastructures réalisées à Malicounda/Mbour ? Comment la SONES garantit-elle la conformité patrimoniale de ces équipements ?",
+      "children": [],
+      "id": "s1q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quels sont les objectifs cibles en termes de volumes transférés, d'amélioration des pressions dans les réseaux de Mbour, Saly et Somone, et de réduction du taux de salinité/fluorose ?",
+      "children": [],
+      "id": "s1q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie II",
+    "title": "DIAGNOSTIC STRATÉGIQUE & MODÈLE TECHNICO-FINANCIER",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quelle est la répartition effective des financements entre la Banque Mondiale (PEAMU/PISEA), l'État et les fonds propres de la SONES ? Les décaissements sont-ils en phase avec le rythme des travaux ?",
+      "children": [],
+      "id": "s2q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment les nouveaux actifs créés (conduite DN700, réservoirs, surpresseurs) sont-ils intégrés dans le registre du patrimoine de la SONES ? Quel est leur impact prévisionnel sur la redevance patrimoine à percevoir du fermier SEN'EAU ?",
+      "children": [],
+      "id": "s2q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "A-t-on constaté des dépassements de coûts ou des avenants budgétaires sur les marchés de conduites et de génie civil ? Quelles mesures de contrôle des coûts ont été appliquées ?",
+      "children": [],
+      "id": "s2q3",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie III",
+    "title": "ÉTAT DES LIEUX COMPLET DU PROJET (TECHNIQUE, FONCIER & MARCHÉS)",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est le taux de réalisation physique à ce jour concernant :",
+      "children": [],
+      "points": [
+       "a) La pose de la conduite d'adduction DN700 Mbour–Mbodiène / Malicounda ?",
+       "b) La construction et le raccordement des réservoirs de stockage et des stations de surpression ?",
+       "c) L'installation des unités de déferrisation/adoucissement le cas échéant ?"
+      ],
+      "id": "s3q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Quel est l'état d'exécution des marchés de travaux ? Des difficultés ont-elles été enregistrées quant à la conformité des garanties bancaires/cautions ou au respect des délais contractuels par les entreprises adjudicataires ?",
+      "children": [],
+      "id": "s3q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment s'est déroulée la libération des emprises le long des tracés de conduites sur la Petite Côte ? L'ensemble des Personnes Affectées par le Projet (PAP) a-t-il été indemnisé conformément aux exigences EIES/PAR de la Banque Mondiale ?",
+      "children": [],
+      "id": "s3q3",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Les essais de mise en eau et de désinfection ont-ils été validés ? Quel est le schéma de transfert formel des ouvrages à l'exploitant SEN'EAU, et quelles sont les réserves techniques éventuelles signalées lors des réceptions provisoires ?",
+      "children": [],
+      "id": "s3q4",
+      "answer": true
+     }
+    ]
+   },
+   {
+    "code": "Partie IV",
+    "title": "VISION PROSPECTIVE À 5 ANS (PSD 2026–2030) & TRANSFORMATION HOLDING",
+    "items": [
+     {
+      "type": "q",
+      "label": null,
+      "text": "De quelle manière le Système de Malicounda contribuera-t-il à l'objectif stratégique de déploiement des 137 000 branchements sociaux et des 1 354 km d'extensions de réseaux d'ici 2030 sur l'axe Petite Côte ?",
+      "children": [],
+      "id": "s4q1",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Comment les ouvrages de Malicounda s'interconnecteront-ils à terme avec les apports de la future Usine de Dessalement de la Grande Côte (400 000 m³/j) et du Grand Transfert d'Eau (GTE) ?",
+      "children": [],
+      "id": "s4q2",
+      "answer": true
+     },
+     {
+      "type": "q",
+      "label": null,
+      "text": "Dans le cadre de la filialisation future de la SONES (Holding avec filiales Patrimoine, Exploitation/Ingénierie), quelle sera la structure de gestion et de maintenance recommandée pour le patrimoine hydraulique de la Petite Côte ?",
+      "children": [],
+      "id": "s4q3",
+      "answer": true
+     }
+    ]
+   }
+  ]
  }
 }

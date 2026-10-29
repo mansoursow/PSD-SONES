@@ -459,3 +459,16 @@ table.tbl{width:100%;border-collapse:collapse;font-size:.86rem}
 .cp-card{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;margin-top:2rem;background:rgba(230,69,1,.07);border:1px solid rgba(230,69,1,.25);border-radius:16px;padding:1rem 1.2rem}
 .cp-card b{color:var(--navy-2);font-family:var(--font-head)}
 .cp-card p{margin:.2rem 0 0;font-size:.9rem}
+
+/* ---------- Espace chefs de projet : une carte par projet ---------- */
+.proj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin:1.2rem 0 0}
+.proj{display:flex;flex-direction:column;gap:.35rem;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:1rem 1.1rem;box-shadow:var(--shadow-sm);transition:.15s}
+.proj:hover,.proj:focus-visible{border-color:var(--blue);box-shadow:var(--shadow-md);transform:translateY(-2px);outline:none}
+.proj__name{font-family:var(--font-head);font-weight:700;color:var(--navy-2);font-size:1.02rem;line-height:1.25}
+.proj__desc{font-size:.86rem;color:var(--ink-soft);flex:1}
+.proj__foot{display:flex;align-items:center;justify-content:space-between;gap:.6rem;margin-top:.4rem;font-size:.82rem;color:var(--ink-mute)}
+.proj__go{font-weight:600;color:var(--orange)}
+.proj .bar{flex:1}
+.ident{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;background:var(--paper-2);border-radius:var(--radius-sm);padding:.9rem 1rem;margin-bottom:1rem}
+@media (max-width:620px){.ident{grid-template-columns:1fr}}
+@media print{.ident{display:none}}

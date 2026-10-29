@@ -27,7 +27,8 @@ export default handler(async (req, res) => {
     await store.mergeFields(answersKey(dept.slug), answers, { updatedAt: now, updatedBy: by });
     const total = Number(body.total) || 0;
     const filled = Math.min(Number(body.filled) || 0, total);
-    await store.set(progressKey(dept.slug), { filled, total, updatedAt: now });
+    const prev = await store.get(progressKey(dept.slug));
+    await store.set(progressKey(dept.slug), { ...prev, filled, total, updatedAt: now, ...(by ? { by } : {}) });
     return send(res, 200, { ok: true, updatedAt: now });
   }
 

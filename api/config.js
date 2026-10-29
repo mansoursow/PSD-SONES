@@ -24,7 +24,7 @@ export default handler(async (req, res) => {
     status: all.map(({ slug, booking, progress }) => ({
       slug,
       booking: booking ? { date: booking.date, time: booking.time, mode: booking.mode } : null,
-      progress: progress ? { filled: progress.filled, total: progress.total, updatedAt: progress.updatedAt } : null,
+      progress: progress ? { filled: progress.filled, total: progress.total, updatedAt: progress.updatedAt, submittedAt: progress.submittedAt } : null,
     })),
   });
 });

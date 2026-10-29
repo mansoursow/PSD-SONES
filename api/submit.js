@@ -1,10 +1,12 @@
 // POST /api/submit {dept} → marque le questionnaire comme soumis et envoie les réponses par e-mail
 // (à la personne qui a réservé l'entretien, copie aux consultants).
+// Espaces « projet » (chefs de projet, sans rendez-vous) : {dept, name, email} → le récapitulatif part à l'e-mail indiqué.
 import { createRequire } from 'node:module';
 import { handler, send, readBody, checkAccess, fail, siteUrl } from '../lib/http.js';
 import * as store from '../lib/store.js';
 import { sendMail, consultantEmails, formatWhen } from '../lib/mail.js';
 import { getDept, answersKey, bookingKey, progressKey } from '../lib/bookings.js';
+import { deptPath } from '../public/js/departments.js';
 
 const guides = createRequire(import.meta.url)('../public/data/guides.json');
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -32,6 +34,9 @@ export default handler(async (req, res) => {
   if (req.method !== 'POST') throw fail(405, 'Méthode non autorisée');
   const body = await readBody(req);
   const dept = await getDept(body.dept);
+  const who = dept.project ? { name: String(body.name ?? '').trim().slice(0, 120), email: String(body.email ?? '').trim().toLowerCase().slice(0, 160) } : null;
+  if (who && !who.name) throw fail(400, 'Indiquez votre nom avant de soumettre le guide.');
+  if (who?.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(who.email)) throw fail(400, 'Adresse e-mail invalide');
   const guide = guides[dept.guide || 'generic'];
   const [{ answers }, booking] = await Promise.all([store.getFields(answersKey(dept.slug)), store.get(bookingKey(dept.slug))]);
 
@@ -45,10 +50,11 @@ export default handler(async (req, res) => {
   if (!filled) throw fail(400, 'Renseignez au moins une réponse avant de soumettre le questionnaire.');
 
   const now = new Date().toISOString();
-  await store.mergeFields(answersKey(dept.slug), {}, { submittedAt: now });
-  await store.set(progressKey(dept.slug), { filled, total: ids.length, updatedAt: now, submittedAt: now });
+  await store.mergeFields(answersKey(dept.slug), {}, { submittedAt: now, ...(who ? { updatedBy: who.name } : {}) });
+  const prevProgress = await store.get(progressKey(dept.slug));
+  await store.set(progressKey(dept.slug), { ...prevProgress, filled, total: ids.length, updatedAt: now, submittedAt: now, ...(who ? { by: who.name, byEmail: who.email } : {}) });
 
-  const link = `${siteUrl(req)}/#/s/${dept.slug}/questionnaire`;
+  const link = `${siteUrl(req)}/${dept.project ? deptPath(dept) : `#/s/${dept.slug}/questionnaire`}`;
   const html = `<!doctype html><html><body style="margin:0;background:#f5f7fb;font-family:Inter,Segoe UI,Arial,sans-serif;color:#0a1f44">
   <div style="max-width:680px;margin:0 auto;padding:28px 18px">
     <div style="background:linear-gradient(150deg,#061f4d,#0a2f73);border-radius:18px 18px 0 0;padding:26px 28px;color:#fff">
@@ -56,18 +62,18 @@ export default handler(async (req, res) => {
       <div style="font-size:22px;font-weight:700;margin-top:8px">Questionnaire soumis — ${esc(dept.name)}</div>
     </div>
     <div style="background:#fff;border-radius:0 0 18px 18px;padding:26px 28px;line-height:1.55;font-size:15px">
-      <p>${booking ? `Bonjour ${esc(booking.name)},` : 'Bonjour,'}</p>
+      <p>${booking || who ? `Bonjour ${esc(booking?.name || who.name)},` : 'Bonjour,'}</p>
       <p>Merci : les réponses préliminaires de la structure <b>${esc(dept.name)}</b> ont bien été transmises à l'équipe du consultant
       (<b>${filled} question${filled > 1 ? 's' : ''} renseignée${filled > 1 ? 's' : ''} sur ${ids.length}</b>).
       ${booking ? `Elles serviront de base à l'entretien du <b>${esc(formatWhen(booking))}</b>.` : ''}</p>
-      <p>Vous pouvez encore compléter ou modifier vos réponses jusqu'à l'entretien :</p>
+      <p>${dept.project ? 'Vous pouvez encore compléter ou modifier vos réponses :' : "Vous pouvez encore compléter ou modifier vos réponses jusqu'à l'entretien :"}</p>
       <p style="margin:18px 0"><a href="${esc(link)}" style="background:#e64501;color:#fff;text-decoration:none;padding:12px 22px;border-radius:999px;font-weight:600;display:inline-block">Revoir le questionnaire</a></p>
       <div style="margin-top:10px">${answersHtml(guide, answers)}</div>
       <p style="margin-top:22px">Cordialement,<br>L'équipe du consultant — PSD SONES 2026–2030</p>
     </div>
   </div></body></html>`;
 
-  const to = booking?.email || consultantEmails()[0];
+  const to = booking?.email || who?.email || consultantEmails()[0];
   let mail = { sent: false, reason: 'Aucun destinataire' };
   if (to) {
     try {
@@ -77,5 +83,5 @@ export default handler(async (req, res) => {
       mail = { sent: false, reason: e.message };
     }
   }
-  send(res, 200, { ok: true, submittedAt: now, filled, total: ids.length, mail, to: booking ? 'interviewee' : 'consultant' });
+  send(res, 200, { ok: true, submittedAt: now, filled, total: ids.length, mail, to: booking || who?.email ? 'interviewee' : 'consultant' });
 });

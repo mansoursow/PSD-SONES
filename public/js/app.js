@@ -1,4 +1,4 @@
-import { DEPARTMENTS, bySlug, isInterviewed, isActive, isDone, isCp, cpDept, SLOTS, BLOCKED_DATES, DURATION_MIN } from './departments.js';
+import { DEPARTMENTS, PROJECTS, projectBySlug, isProject, deptPath, bySlug, isInterviewed, isActive, isDone, isCp, cpDept, SLOTS, BLOCKED_DATES, DURATION_MIN } from './departments.js';
 
 const app = document.getElementById('app');
 const state = { config: null, guides: null, status: {} };
@@ -75,7 +75,7 @@ async function cpFor(slug) {
   return cpCache[slug];
 }
 // Ligne de l'API admin → structure (les chefs de projet portent leur profil).
-const deptOf = (r) => (r.profile ? cpDept(r.slug, r.profile) : bySlug[r.slug]);
+const deptOf = (r) => (r.profile ? cpDept(r.slug, r.profile) : projectBySlug[r.slug] || bySlug[r.slug]);
 const myCp = () => { try { return JSON.parse(store.get('psd-cp') || 'null'); } catch { return null; } };
 
 function answerIds(guide) {
@@ -131,7 +131,8 @@ async function route() {
     if (page === 'admin') return renderAdmin(arg);
     if (page === 'dispatch') return renderDispatch();
     if (state.config.locked) await accessGate();
-    if (page === 'chefs-projet') return renderCpEntry();
+    if (page === 'chefs-projet') return arg === 'autre' ? renderCpEntry() : renderProjects();
+    if (page === 'p' && isProject(arg)) return renderQuestionnaire(projectBySlug[arg]);
     if (page === 's' && isCp(arg)) {
       let d;
       try { d = await cpFor(arg); } catch { location.hash = '#/chefs-projet'; return; }
@@ -211,7 +212,7 @@ function renderHome() {
     <div class="cp-card">
       <div>
         <b>Vous êtes chef de projet ?</b>
-        <p class="muted">Votre fonction ne figure pas dans l'organigramme ci-dessus : accédez à votre guide d'entretien et prenez rendez-vous ici.</p>
+        <p class="muted">Votre fonction ne figure pas dans l'organigramme ci-dessus : choisissez votre projet et renseignez son guide d'entretien directement en ligne. Aucun rendez-vous à prendre.</p>
       </div>
       <a class="btn btn--cta" href="#/chefs-projet">Espace chefs de projet →</a>
     </div>
@@ -224,14 +225,44 @@ function renderHome() {
 }
 
 /* ------------------------------------------------------------ chefs de projet (hors organigramme) */
+// Un guide par projet, sans rendez-vous : le chef de projet choisit son projet et renseigne le guide.
+async function renderProjects() {
+  await loadConfig(); // avancement à jour (réponses saisies ou soumises depuis le chargement de la page)
+  const card = (p) => {
+    const total = answerIds(state.guides[p.guide]).length;
+    const pr = state.status[p.slug]?.progress;
+    const filled = pr?.filled || 0;
+    const foot = pr?.submittedAt
+      ? `<span class="chip chip--done">Soumis</span><span class="proj__go">Ouvrir →</span>`
+      : filled
+      ? `<div class="bar"><i style="width:${Math.round((filled / total) * 100)}%"></i></div><span class="bar-label">${filled}/${total}</span><span class="proj__go">Continuer →</span>`
+      : `<span>${total} questions</span><span class="proj__go">Renseigner →</span>`;
+    return `<a class="proj" href="${deptPath(p)}"><span class="proj__name">${esc(p.name)}</span><span class="proj__desc">${esc(p.desc)}</span><span class="proj__foot">${foot}</span></a>`;
+  };
+  app.innerHTML = `
+  <div class="container page" style="max-width:1100px">
+    <a class="back" href="#/">← Organigramme</a>
+    <h1 class="page__title">Espace chefs de projet</h1>
+    <p class="muted step__intro">Choisissez votre projet pour accéder à son guide d'entretien et le renseigner. <b>Aucun rendez-vous à prendre</b> : vos réponses sont enregistrées automatiquement, vous pouvez les compléter à tout moment, puis soumettre le guide à l'équipe du consultant.</p>
+    <div class="proj-grid">${PROJECTS.map(card).join('')}</div>
+    <div class="cp-card">
+      <div>
+        <b>Votre projet ne figure pas dans la liste ?</b>
+        <p class="muted">Utilisez le guide général des chefs de projet : renseignez votre identité, puis votre guide et, si besoin, un rendez-vous.</p>
+      </div>
+      <a class="btn btn--ghost" href="#/chefs-projet/autre">Guide général →</a>
+    </div>
+  </div>`;
+}
+
 function renderCpEntry() {
   const me = myCp() || {};
   const guide = state.guides.cp;
   const ids = answerIds(guide);
   app.innerHTML = `
   <div class="container page">
-    <a class="back" href="#/">← Organigramme</a>
-    <h1 class="page__title">Espace chefs de projet</h1>
+    <a class="back" href="#/chefs-projet">← Les projets</a>
+    <h1 class="page__title">Guide général des chefs de projet</h1>
     <section class="step">
       <p class="muted step__intro">Ce guide s'adresse à tous les chefs de projet de la SONES, y compris ceux qui ne figurent pas dans l'organigramme. Chacun dispose de son propre espace : guide d'entretien et rendez-vous. Renseignez votre identité ci-dessous ; en revenant avec la même adresse e-mail, vous retrouverez vos réponses et votre rendez-vous.</p>
       <form class="booking-form" id="cpform" novalidate>
@@ -304,13 +335,20 @@ function renderQuestionnaire(d) {
   const guide = guideFor(d);
   const ids = answerIds(guide);
   const objectif = guide.fiche.find((f) => /objectif/i.test(f.k))?.v;
-  const booked = !!state.status[d.slug]?.booking || isDone(d);
+  const booked = !!state.status[d.slug]?.booking || isDone(d) || !!d.project;
+  const ident = (() => { try { return JSON.parse(store.get('psd-ident') || '{}'); } catch { return {}; } })();
   app.innerHTML = `
   <div class="container page">
-    <a class="back" href="#/s/${d.slug}">← Retour au pôle</a>
+    ${d.project ? `<a class="back" href="#/chefs-projet">← Les projets</a>` : `<a class="back" href="#/s/${d.slug}">← Retour au pôle</a>`}
     <h1 class="page__title">Guide d'entretien — ${esc(d.name)}</h1>
     <section class="step">
-      <p class="muted step__intro">${objectif ? esc(objectif) + ' ' : ''}Apportez des premiers éléments de réponse avant l'entretien : quelques lignes par question suffisent, tout est enregistré automatiquement.</p>
+      <p class="muted step__intro">${d.project
+        ? "Renseignez ce guide à votre rythme : quelques lignes par question suffisent, tout est enregistré automatiquement et vous pouvez revenir le compléter à tout moment. Aucun rendez-vous n'est à prendre : une fois prêt, soumettez le guide à l'équipe du consultant. Les réponses sont communes à tout le projet ; si plusieurs personnes le renseignent, elles complètent le même guide."
+        : `${objectif ? esc(objectif) + ' ' : ''}Apportez des premiers éléments de réponse avant l'entretien : quelques lignes par question suffisent, tout est enregistré automatiquement.`}</p>
+      ${d.project ? `<div class="ident no-print" id="ident">
+        <label class="field">Votre nom *<input name="name" autocomplete="name" placeholder="Prénom et nom" value="${esc(ident.name || '')}"></label>
+        <label class="field">E-mail (facultatif)<input name="email" type="email" autocomplete="email" placeholder="prenom.nom@sones.sn" value="${esc(ident.email || '')}"><small>Pour recevoir une copie de vos réponses à la soumission.</small></label>
+      </div>` : ''}
       <div class="guide-bar">
         <span class="save-state" id="save"><i></i><span>À jour</span></span>
         <span class="muted" id="pcttxt">0 / ${ids.length} questions</span>
@@ -327,6 +365,8 @@ function renderQuestionnaire(d) {
   </div>`;
   $('#print').addEventListener('click', () => window.print());
   const ctl = setupAnswers(d, guide, ids);
+  const who = () => ({ name: ($('#ident [name=name]')?.value || '').trim(), email: ($('#ident [name=email]')?.value || '').trim() });
+  $('#ident')?.addEventListener('input', () => store.set('psd-ident', JSON.stringify(who())));
 
   const showNextStep = () => {
     $('#next-step').innerHTML = booked ? '' : `<div class="book-invite">
@@ -354,7 +394,7 @@ function renderQuestionnaire(d) {
     modal(`<div class="done" style="padding:.4rem 0 0">
       <div class="done__icon" style="width:60px;height:60px;font-size:1.7rem">💾</div>
       <div class="done__title" style="font-size:1.4rem">Réponses enregistrées</div>
-      <p class="done__text">Vous pouvez fermer cette page et reprendre plus tard : vos réponses vous attendront. Pour revenir, utilisez le bouton <b>« Consulter le questionnaire »</b> de l'e-mail de confirmation, ou ce lien :</p>
+      <p class="done__text">Vous pouvez fermer cette page et reprendre plus tard : vos réponses vous attendront. ${d.project ? 'Pour revenir, utilisez ce lien ou la page « Espace chefs de projet » du site :' : "Pour revenir, utilisez le bouton <b>« Consulter le questionnaire »</b> de l'e-mail de confirmation, ou ce lien :"}</p>
       <p style="word-break:break-all;font-size:.85rem;background:var(--paper-2);border-radius:10px;padding:.6rem .8rem;margin-bottom:1rem">${esc(location.href)}</p>
       <div class="row-actions" style="justify-content:center"><button class="btn btn--ghost btn--sm" data-copy>Copier le lien</button><button class="btn btn--primary btn--sm" data-close>Continuer à répondre</button></div>
     </div>`, (m) => {
@@ -369,6 +409,11 @@ function renderQuestionnaire(d) {
     if (!ok) { btn.disabled = false; return toast("L'enregistrement a échoué. Vérifiez votre connexion et réessayez.", true); }
     const filled = ctl.filled();
     if (!filled) { btn.disabled = false; return toast('Renseignez au moins une réponse avant de soumettre.', true); }
+    if (d.project) {
+      const w = who();
+      if (!w.name) { btn.disabled = false; $('#ident [name=name]').focus(); return toast('Indiquez votre nom avant de soumettre le guide.', true); }
+      if (w.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(w.email)) { btn.disabled = false; $('#ident [name=email]').focus(); return toast('Adresse e-mail invalide.', true); }
+    }
     const missing = ctl.total - filled;
     const go = await confirmBox(
       'Soumettre le questionnaire ?',
@@ -379,7 +424,7 @@ function renderQuestionnaire(d) {
     if (!go) { btn.disabled = false; return; }
     btn.textContent = 'Envoi…';
     try {
-      const r = await api('/api/submit', { method: 'POST', body: { dept: d.slug } });
+      const r = await api('/api/submit', { method: 'POST', body: { dept: d.slug, ...(d.project ? who() : {}) } });
       showSubmitted(r.submittedAt);
       window.scrollTo({ top: 0, behavior: 'smooth' });
       modal(`<div class="done" style="padding:.4rem 0 0">
@@ -387,7 +432,7 @@ function renderQuestionnaire(d) {
         <div class="done__title">Questionnaire soumis</div>
         <p class="done__text">Merci ! ${r.filled} réponse${r.filled > 1 ? 's ont' : ' a'} été transmise${r.filled > 1 ? 's' : ''} à l'équipe du consultant.${r.mail?.sent ? (r.to === 'interviewee' ? ' Un récapitulatif vous a été envoyé par e-mail.' : '') : " (L'e-mail récapitulatif n'a pas pu être envoyé, mais vos réponses sont bien enregistrées.)"}</p>
         ${booked
-          ? `<div class="row-actions" style="justify-content:center"><a class="btn btn--ghost btn--sm" href="#/" data-close>Retour à l'organigramme</a><button class="btn btn--primary btn--sm" data-close>Fermer</button></div>`
+          ? `<div class="row-actions" style="justify-content:center"><a class="btn btn--ghost btn--sm" href="${d.project ? '#/chefs-projet' : '#/'}" data-close>${d.project ? 'Retour aux projets' : "Retour à l'organigramme"}</a><button class="btn btn--primary btn--sm" data-close>Fermer</button></div>`
           : `<p class="done__text" style="margin-bottom:1rem"><b>Il reste à fixer la date de votre entretien.</b></p>
              <a class="btn btn--cta btn--pulse" href="#/s/${d.slug}" data-close>Choisir la date →</a>
              <div class="done__links"><a href="#" data-close>Plus tard</a></div>`}
@@ -468,7 +513,7 @@ function setupAnswers(d, guide, ids) {
     dirty.clear();
     setSave('is-pending', 'Enregistrement…');
     try {
-      await api('/api/answers', { method: 'PUT', body: { dept: d.slug, answers: batch, filled: refresh(), total: ids.length, by: '' } });
+      await api('/api/answers', { method: 'PUT', body: { dept: d.slug, answers: batch, filled: refresh(), total: ids.length, by: ($('#ident [name=name]')?.value || '').trim() } });
       setSave('', `Enregistré à ${new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}`);
       if (!dirty.size) store.del(draftKey);
       const st = state.status[d.slug] ||= { slug: d.slug };
@@ -775,7 +820,7 @@ async function renderDispatch() {
 
   const rows = data.rows.map((r) => ({ ...r, d: deptOf(r) })).filter((r) => r.d);
   const done = rows.filter((r) => r.booking).sort((a, b) => (a.booking.date + a.booking.time).localeCompare(b.booking.date + b.booking.time));
-  const todo = rows.filter((r) => !r.booking && !isDone(r.d));
+  const todo = rows.filter((r) => !r.booking && !isDone(r.d) && !r.d.project);
   const dayLabel = (x) => ucfirst(fmtLong(x).replace(/ \d{4}$/, ''));
 
   app.innerHTML = `
@@ -900,8 +945,12 @@ async function renderAdmin(sub) {
 
   const rows = data.rows.map((r) => ({ ...r, d: deptOf(r) }));
   rows.sort((a, b) => ((a.booking ? a.booking.date + a.booking.time : 'z') + a.d.name).localeCompare((b.booking ? b.booking.date + b.booking.time : 'z') + b.d.name));
-  const planned = rows.filter((r) => r.booking || isDone(r.d)).length;
-  const started = rows.filter((r) => r.progress?.filled).length;
+  const structs = rows.filter((r) => !r.d.project);
+  const planned = structs.filter((r) => r.booking || isDone(r.d)).length;
+  const started = structs.filter((r) => r.progress?.filled).length;
+  const projects = rows.filter((r) => r.d.project);
+  const projStarted = projects.filter((r) => r.progress?.filled).length;
+  const projSubmitted = projects.filter((r) => r.progress?.submittedAt).length;
   const base = `${location.origin}${location.pathname}`;
 
   app.innerHTML = `<section class="dhead"><div class="container">
@@ -911,8 +960,9 @@ async function renderAdmin(sub) {
     </div></section>
     <div class="container section" style="padding-top:28px">
       <div class="kpis">
-        <div class="kpi"><b>${planned} / ${rows.length}</b><span>entretiens planifiés</span></div>
+        <div class="kpi"><b>${planned} / ${structs.length}</b><span>entretiens planifiés</span></div>
         <div class="kpi"><b>${started}</b><span>structures ayant commencé leurs réponses</span></div>
+        <div class="kpi"><b>${projStarted} / ${projects.length}</b><span>guides de projet commencés · ${projSubmitted} soumis</span></div>
         <div class="kpi"><b>${data.mailKind === 'none' ? 'Non configuré' : data.mailKind.toUpperCase()}</b><span>envoi des e-mails${data.consultant ? ` · copie à ${esc(data.consultant)}` : ''}</span></div>
         <div class="kpi"><b>${data.storeKind === 'redis' ? 'Redis' : data.storeKind === 'file' ? 'Fichier local' : 'Non configuré'}</b><span>stockage</span></div>
       </div>
@@ -928,13 +978,13 @@ async function renderAdmin(sub) {
           const b = r.booking, p = r.progress;
           const pct = p?.total ? Math.round((p.filled / p.total) * 100) : 0;
           return `<tr>
-            <td><a href="#/s/${r.slug}" style="font-weight:600;color:var(--blue)">${esc(r.d.short)}</a><div class="muted" style="font-size:.78rem">${esc(r.d.name)}</div></td>
-            <td class="nowrap">${b ? `${esc(fmtShort(b.date))}<br><b>${fmtTime(b.time)}</b>` : isDone(r.d) ? '<span class="chip chip--done">Terminé</span>' : '<span class="chip chip--todo">À planifier</span>'}</td>
-            <td>${b ? `${esc(b.name)}<div class="muted" style="font-size:.78rem">${esc(b.role)}</div>` : ''}</td>
-            <td>${b ? `<a href="mailto:${esc(b.email)}">${esc(b.email)}</a><div class="muted" style="font-size:.78rem">${esc(b.phone)}</div>${b.participants ? `<div class="muted" style="font-size:.78rem">+ ${esc(b.participants)}</div>` : ''}` : ''}</td>
+            <td><a href="${deptPath(r.d)}" style="font-weight:600;color:var(--blue)">${esc(r.d.short)}</a><div class="muted" style="font-size:.78rem">${esc(r.d.name)}</div></td>
+            <td class="nowrap">${b ? `${esc(fmtShort(b.date))}<br><b>${fmtTime(b.time)}</b>` : isDone(r.d) ? '<span class="chip chip--done">Terminé</span>' : r.d.project ? '<span class="chip chip--none">Sans rendez-vous</span>' : '<span class="chip chip--todo">À planifier</span>'}</td>
+            <td>${b ? `${esc(b.name)}<div class="muted" style="font-size:.78rem">${esc(b.role)}</div>` : esc(p?.by || '')}</td>
+            <td>${b ? `<a href="mailto:${esc(b.email)}">${esc(b.email)}</a><div class="muted" style="font-size:.78rem">${esc(b.phone)}</div>${b.participants ? `<div class="muted" style="font-size:.78rem">+ ${esc(b.participants)}</div>` : ''}` : p?.byEmail ? `<a href="mailto:${esc(p.byEmail)}">${esc(p.byEmail)}</a>` : ''}</td>
             <td>${b ? (b.mode === 'visio' ? 'Visio' : 'Présentiel') : ''}${b?.notes ? `<div class="muted" style="font-size:.78rem">${esc(b.notes)}</div>` : ''}</td>
-            <td style="min-width:110px"><div class="bar"><i style="width:${pct}%"></i></div><span class="bar-label">${p ? `${p.filled}/${p.total}` : '—'}</span></td>
-            <td class="nowrap"><button class="btn btn--ghost btn--sm" data-copy="${esc(base + '#/s/' + r.slug)}">Lien</button>${b ? ` <button class="btn btn--danger btn--sm" data-cancel="${r.slug}">Annuler</button>` : ''}</td>
+            <td style="min-width:110px"><div class="bar"><i style="width:${pct}%"></i></div><span class="bar-label">${p ? `${p.filled}/${p.total}` : '—'}${p?.submittedAt ? ' · soumis' : ''}</span></td>
+            <td class="nowrap"><button class="btn btn--ghost btn--sm" data-copy="${esc(base + deptPath(r.d))}">Lien</button>${b ? ` <button class="btn btn--danger btn--sm" data-cancel="${r.slug}">Annuler</button>` : ''}</td>
           </tr>`;
         }).join('')}</tbody></table></div>
     </div>`;
@@ -952,14 +1002,14 @@ async function renderAdmin(sub) {
     const act = t.dataset.act;
     if (act === 'logout') { session.del('psd-admin'); location.hash = '#/'; }
     if (act === 'links') {
-      const txt = rows.map((r) => `${r.d.name} : ${base}#/s/${r.slug}`).join('\n');
+      const txt = rows.map((r) => `${r.d.name} : ${base}${deptPath(r.d)}`).join('\n');
       await navigator.clipboard?.writeText(txt).catch(() => {});
       toast('Liste des liens copiée.');
     }
     if (act === 'csv') {
       const head = ['Structure', 'Sigle', 'Date', 'Heure', 'Interviewé', 'Fonction', 'Email', 'Téléphone', 'Participants', 'Modalité', 'Remarques', 'Réponses', 'Total questions'];
       const q = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
-      const lines = rows.map((r) => { const b = r.booking || {}; return [r.d.name, r.d.short, b.date, b.time, b.name, b.role, b.email, b.phone, b.participants, b.mode, b.notes, r.progress?.filled, r.progress?.total].map(q).join(';'); });
+      const lines = rows.map((r) => { const b = r.booking || {}; return [r.d.name, r.d.short, b.date, b.time, b.name || r.progress?.by, b.role, b.email || r.progress?.byEmail, b.phone, b.participants, b.mode, b.notes, r.progress?.filled, r.progress?.total].map(q).join(';'); });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(new Blob(['﻿' + [head.map(q).join(';'), ...lines].join('\r\n')], { type: 'text/csv' }));
       a.download = 'entretiens-psd-sones.csv';
@@ -997,7 +1047,7 @@ function renderCompilation(data) {
     }
     const b = r.booking;
     return `<section class="module"><div class="module__head"><span class="module__code">${esc(d.short)}</span><h3>${esc(d.name)}</h3></div>
-      <div class="module__body"><p class="muted" style="margin-top:.8rem;font-size:.85rem">${b ? `Entretien : ${esc(fmtLong(b.date))} à ${fmtTime(b.time)} — ${esc(b.name)}` : 'Entretien non planifié'}${r.answers?.meta?.updatedBy ? ` · Réponses : ${esc(r.answers.meta.updatedBy)}` : ''}</p>
+      <div class="module__body"><p class="muted" style="margin-top:.8rem;font-size:.85rem">${b ? `Entretien : ${esc(fmtLong(b.date))} à ${fmtTime(b.time)} — ${esc(b.name)}` : d.project ? 'Guide de projet (sans rendez-vous)' : 'Entretien non planifié'}${r.answers?.meta?.updatedBy ? ` · Réponses : ${esc(r.answers.meta.updatedBy)}` : ''}</p>
       ${qa.join('') || '<p class="muted" style="padding:.8rem 0">Aucune réponse préliminaire.</p>'}</div></section>`;
   });
   app.innerHTML = `<section class="dhead"><div class="container">
