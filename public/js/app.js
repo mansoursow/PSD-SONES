@@ -138,7 +138,7 @@ async function route() {
       try { d = await cpFor(arg); } catch { location.hash = '#/chefs-projet'; return; }
       return sub === 'questionnaire' ? renderQuestionnaire(d) : renderDept(d);
     }
-    if (page === 's' && isActive(bySlug[arg])) return sub === 'questionnaire' ? renderQuestionnaire(bySlug[arg]) : renderDept(bySlug[arg]);
+    if (page === 's' && isActive(bySlug[arg]) && !isDone(bySlug[arg])) return sub === 'questionnaire' ? renderQuestionnaire(bySlug[arg]) : renderDept(bySlug[arg]);
     if (hash !== '/') { history.replaceState(null, '', '#/'); }
     return renderHome();
   } catch (e) {
@@ -163,6 +163,8 @@ function unit(d, cls = '') {
   }
   const b = state.status[d.slug]?.booking;
   const done = isDone(d);
+  // Entretien terminé : confidentialité, la structure n'est plus ouvrable (réponses incluses).
+  if (done) return `<div class="unit ${cls} is-active is-booked is-locked"><span class="unit__name">${esc(d.name)}</span><span class="unit__done">✓ Terminé</span></div>`;
   const badge = done
     ? `<span class="unit__done">✓ Terminé</span>`
     : b

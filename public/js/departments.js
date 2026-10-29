@@ -84,7 +84,8 @@ export const ACTIVE = [
 ];
 export const isActive = (d) => isInterviewed(d) && ACTIVE.includes(d.slug);
 
-// Entretiens déjà réalisés sans passer par la prise de rendez-vous : affichés « Terminé », non réservables.
+// Entretiens déjà réalisés : affichés « Terminé », non réservables et NON OUVRABLES (page, guide et réponses fermés aux visiteurs).
+// Seul le consultant peut en rouvrir un en retirant son slug de cette liste.
 export const DONE = ['cpsm', 'ccp', 'ccgb', 'caicp', 'dg', 'ugp-kms3', 'ucp-mamelles', 'dpes', 'dtp', 'caj'];
 export const isDone = (d) => !!d && DONE.includes(d.slug);
 

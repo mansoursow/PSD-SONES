@@ -406,6 +406,7 @@ table.tbl{width:100%;border-collapse:collapse;font-size:.86rem}
 /* Pôles fermés : grisés, non cliquables */
 .unit.is-off{background:#f1f2f4!important;color:#a3a9b3!important;border-color:#e3e5e9!important;border-left-color:#e3e5e9!important;border-top-color:#e3e5e9!important;box-shadow:none;cursor:not-allowed;filter:grayscale(1)}
 .unit.is-off:hover{transform:none;box-shadow:none}
+.unit.is-locked{cursor:default;pointer-events:none}
 
 /* Pôles ouverts : clignotent pour inviter au clic */
 .unit.is-active{position:relative;z-index:2;animation:adocPulse 1.6s ease-in-out infinite}
