@@ -14,7 +14,7 @@ Site de prise de rendez-vous et de préparation des entretiens stratégiques, or
 
 20 structures ont leur guide dédié. Le Conseiller Spécial n'est pas ouvert et utiliserait la **trame commune provisoire**.
 
-**Entretiens terminés sans rendez-vous** : la liste `DONE` de `public/js/departments.js` (actuellement CPSM, CCP, CCGB, CAICP) affiche la structure « ✓ Terminé » dans l'organigramme et bloque toute réservation.
+**Entretiens terminés sans rendez-vous** : la liste `DONE` de `public/js/departments.js` (actuellement DG, CPSM, CCP, CCGB, CAICP, UGP KMS3, UCP Mamelles, DPES, DTP) affiche la structure « ✓ Terminé » dans l'organigramme et bloque toute réservation.
 
 ## Mettre à jour les guides
 

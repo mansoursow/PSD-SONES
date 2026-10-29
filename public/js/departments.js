@@ -85,7 +85,7 @@ export const ACTIVE = [
 export const isActive = (d) => isInterviewed(d) && ACTIVE.includes(d.slug);
 
 // Entretiens déjà réalisés sans passer par la prise de rendez-vous : affichés « Terminé », non réservables.
-export const DONE = ['cpsm', 'ccp', 'ccgb', 'caicp'];
+export const DONE = ['cpsm', 'ccp', 'ccgb', 'caicp', 'dg', 'ugp-kms3', 'ucp-mamelles', 'dpes', 'dtp'];
 export const isDone = (d) => !!d && DONE.includes(d.slug);
 
 // Journées fermées (consultant indisponible) : aucun créneau n'est proposé, la date est grisée.
